@@ -1,0 +1,13 @@
+# Files excluded from the Cloudflare upload.
+#
+# The camera masters are archive copies: 4-33 MB each, and Cloudflare caps a
+# single asset at 25 MiB (one master is 31.8 MiB), so the build fails while any
+# of them are in the output directory. They are also not needed at runtime --
+# every photo is served from its WebP derivative under assets/opt/.
+#
+# Kept in this file as well as .gitignore so the deploy stays correct even if
+# the masters are ever committed again.
+assets/photos
+
+# Build tooling, not part of the site.
+scripts

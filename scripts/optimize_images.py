@@ -1,37 +1,39 @@
 #!/usr/bin/env python3
-"""Generate web-optimised WebP derivatives for the Thomas pics photo library.
+"""Generate the web-optimised WebP library and the photo data file.
 
 Why this exists
 ---------------
-The originals under ``assets/photos/`` are a mix of two very different things:
+``assets/photos/`` holds the camera masters: a mix of Lightroom exports
+(4-33 MB each) and already-compressed small JPEGs (~200-700 KB). They are the
+archive, and they are **not deployed** -- Cloudflare and Netlify both cap a
+single asset at 25 MiB, and several masters are 15-33 MB. So the published site
+must be able to run entirely from ``assets/opt/``.
 
-* camera masters exported straight from Lightroom (4-33 MB each)
-* already-compressed small JPEGs (~200-700 KB, ~1200-1800 px)
-
-Serving them raw means a 30 MB hero image on first paint. This script produces
-WebP derivatives on demand, and only when the derivative is actually smaller
-than the original:
+This script produces, for every master:
 
 * ``thumb``  max width  800 px, q 74  -> hero collage, collection tiles, grids
 * ``large``  max width 1600 px, q 78  -> lightbox / full-screen viewing
 
-For a source that is already small and already narrower than the target width,
-no derivative is produced and the front end falls back to the original file --
-so the library never gets *bigger* just because it was processed.
+Both are always generated, for every photo. An earlier revision skipped a
+variant when the master was small enough and let the front end fall back to it,
+which made the whole site depend on the masters -- that is exactly what broke
+the deploy. Never upscales: a source narrower than the target is re-encoded at
+its own size.
 
 Output goes to ``assets/opt/`` mirroring the source tree. EXIF (including GPS)
 is stripped: the readable camera metadata already lives in ``photo-data.js``,
 so keeping binary EXIF would only bloat files and leak shooting locations.
 
-The script then rewrites ``photo-data.js``, adding ``thumb`` / ``large`` fields
-to every photo entry while leaving ``src`` untouched, so the masters remain the
-single source of truth.
+The script then rewrites ``photo-data.js``, attaching ``thumb`` / ``large`` to
+every photo entry. ``src`` is kept purely as a record of which master a photo
+came from -- no page may use it at runtime.
 
 Usage
 -----
     python scripts/optimize_images.py               # generate + rewrite data file
     python scripts/optimize_images.py --report      # report only, no writes
     python scripts/optimize_images.py --data-only   # regenerate data file only
+    python scripts/optimize_images.py --verify      # assert every photo has both sizes
 """
 
 from __future__ import annotations
@@ -51,16 +53,18 @@ SRC_ROOT = ROOT / "assets" / "photos"
 OUT_ROOT = ROOT / "assets" / "opt"
 DATA_FILE = ROOT / "photo-data.js"
 LIBRARY_PREFIX = "window.PHOTO_LIBRARY ="
-SRC_PREFIX = "assets/photos/"
+# Archive-only master files. Named `master` rather than `src` in the data file
+# precisely so nobody is tempted to use it as an image URL again -- it is not
+# part of the deployed tree.
+MASTER_PREFIX = "assets/photos/"
 DERIVED_PREFIX = "assets/opt/"
 
 # (name, max width in px, webp quality)
 VARIANTS = (("thumb", 800, 74), ("large", 1600, 78))
-# Recompress even when the source is already narrow enough, as long as it is
-# this heavy -- a 600 KB 1200 px JPEG still gets meaningfully smaller as WebP.
-HEAVY_BYTES = 1_200_000
 WEBP_METHOD = 5  # 0-6, higher is slower but produces smaller files
 JPEG_SUFFIXES = (".jpg", ".jpeg", ".JPG", ".JPEG")
+# Static hosts reject any single deployed asset above this size.
+HOST_ASSET_LIMIT_BYTES = 25 * 1024 * 1024
 
 # Hand-written copy for collections. Kept here rather than in photo-data.js so
 # the data file stays fully generated -- edit the wording here, then re-run.
@@ -85,12 +89,16 @@ def variant_path(rel: Path, name: str) -> Path:
 
 
 def planned_variants(width: int, nbytes: int) -> list[tuple[str, int, int]]:
-    """Only build a derivative when it can actually beat the source."""
-    planned = []
-    for name, max_width, quality in VARIANTS:
-        if width > max_width or nbytes > HEAVY_BYTES:
-            planned.append((name, max_width, quality))
-    return planned
+    """Both derivatives are always produced.
+
+    An earlier revision skipped a variant when the master was already small or
+    already narrow, and let the front end fall back to the master. That made
+    every page depend on 4-33 MB camera files, which static hosts reject
+    (Cloudflare and Netlify both cap a single asset at 25 MiB) -- so the
+    masters can no longer be deployed and nothing may reference them. Building
+    both sizes unconditionally keeps the deployed tree self-contained.
+    """
+    return list(VARIANTS)
 
 
 def process_one(rel: Path, prune: bool = False) -> tuple[str, int, bool]:
@@ -135,16 +143,10 @@ def process_one(rel: Path, prune: bool = False) -> tuple[str, int, bool]:
             # No exif= argument -> metadata is dropped on purpose.
             image.save(target, "WEBP", quality=quality, method=WEBP_METHOD)
 
-        # A derivative that grew is worse than useless: remove it. The data
-        # writer independently refuses to link such a file, so this is only
-        # housekeeping -- hence best-effort.
-        if target.stat().st_size >= nbytes:
-            try:
-                target.unlink()
-            except OSError:
-                pass
-        else:
-            changed = True
+        # Keep the derivative even when it came out larger than the master.
+        # The master is an archive copy that no longer ships, so a slightly
+        # heavier WebP still beats a missing image.
+        changed = True
 
     return str(rel), nbytes, changed
 
@@ -183,10 +185,14 @@ def prune_orphans(known: set[str]) -> int:
 
 
 def load_library() -> dict:
-    raw = DATA_FILE.read_text(encoding="utf-8-sig").strip()
-    if not raw.startswith(LIBRARY_PREFIX):
-        sys.exit(f"unexpected format in {DATA_FILE.name}")
-    return json.loads(raw[len(LIBRARY_PREFIX):].rstrip(";").strip())
+    raw = DATA_FILE.read_text(encoding="utf-8-sig")
+    # The generated file opens with a "do not edit by hand" banner, so locate
+    # the assignment instead of requiring it to be the first thing in the file.
+    index = raw.find(LIBRARY_PREFIX)
+    if index == -1:
+        sys.exit(f"unexpected format in {DATA_FILE.name}: {LIBRARY_PREFIX!r} not found")
+    body = raw[index + len(LIBRARY_PREFIX):].strip().rstrip(";").strip()
+    return json.loads(body)
 
 
 def iter_photos(library: dict):
@@ -198,16 +204,18 @@ def iter_photos(library: dict):
 
 
 def best_source(photo: dict, name: str) -> str | None:
-    """Prefer the derivative, but never when it is heavier than the original."""
-    src = photo.get("src")
-    if not src or not src.startswith(SRC_PREFIX):
+    """Return the derivative path for this photo, if it was generated.
+
+    Size is no longer a reason to reject a derivative: the masters are archive
+    copies that are excluded from the deployed tree, so referencing one would
+    be a broken image rather than a smaller download.
+    """
+    master = photo.get("master")
+    if not master or not master.startswith(MASTER_PREFIX):
         return None
-    derivative = ROOT / DERIVED_PREFIX / Path(src[len(SRC_PREFIX):])
-    derivative = derivative.parent / f"{derivative.stem}-{name}.webp"
-    original = ROOT / src
+    rel = Path(master[len(MASTER_PREFIX):])
+    derivative = variant_path(rel, name)
     if not derivative.exists():
-        return None
-    if original.exists() and derivative.stat().st_size >= original.stat().st_size:
         return None
     return derivative.relative_to(ROOT).as_posix()
 
@@ -216,6 +224,11 @@ def patch_library(library: dict) -> tuple[int, int, int]:
     """Attach thumb/large paths and recompute counts. Returns (patched, orig, missing)."""
     patched = fallback = missing = 0
     for photo in iter_photos(library):
+        # `src` was the old name for the archive path; rename it so it can no
+        # longer be mistaken for a usable image URL.
+        if "src" in photo:
+            photo["master"] = photo.pop("src")
+
         for name, _, _ in VARIANTS:
             chosen = best_source(photo, name)
             if chosen:
@@ -235,10 +248,18 @@ def patch_library(library: dict) -> tuple[int, int, int]:
         topic["count"] = len(topic.get("photos", []))
         if copy := CURATED["topics"].get(topic.get("key")):
             topic["intro"] = copy
+
     for project in library.get("projects", {}).values():
-        project["count"] = len(project.get("photos", []))
+        photos = project.get("photos", [])
+        project["count"] = len(photos)
         if copy := CURATED["projects"].get(project.get("key")):
             project["intro"] = copy
+        if photos:
+            # `coverId` is the identity used by the front end; `cover` is a
+            # derived URL so the data file holds no archive-only paths.
+            cover = photos[0]
+            project["coverId"] = cover.get("id")
+            project["cover"] = cover.get("large") or cover.get("thumb") or ""
 
     return patched, fallback, missing
 
@@ -252,10 +273,60 @@ def write_library(library: dict) -> None:
     )
 
 
+def verify_publishable(library: dict) -> int:
+    """Check the deployed photo set can actually be served by a static host."""
+    problems = []
+    sizes = []
+    total = 0
+    count = 0
+    for photo in iter_photos(library):
+        for name, _, _ in VARIANTS:
+            value = photo.get(name)
+            if not value:
+                problems.append(f"{photo.get('id')}: missing {name}")
+                continue
+            if not value.startswith(DERIVED_PREFIX):
+                problems.append(f"{photo.get('id')}: {name} points at a master ({value})")
+                continue
+            path = ROOT / value
+            if not path.exists():
+                problems.append(f"{photo.get('id')}: {name} file not found ({value})")
+                continue
+            size = path.stat().st_size
+            sizes.append((size, value))
+            total += size
+            count += 1
+            if size > HOST_ASSET_LIMIT_BYTES:
+                problems.append(f"{value}: {size / 1048576:.1f} MiB exceeds the host limit")
+
+    for project in library.get("projects", {}).values():
+        cover = project.get("cover")
+        if cover and not cover.startswith(DERIVED_PREFIX):
+            problems.append(f"{project.get('id')}: cover points at a master ({cover})")
+        if project.get("photos") and not project.get("coverId"):
+            problems.append(f"{project.get('id')}: missing coverId")
+
+    sizes.sort(reverse=True)
+    print(f"photos referenced : {len(list(iter_photos(library)))}")
+    print(f"deployed images   : {count} files, {total / 1048576:.1f} MB")
+    if sizes:
+        print(f"largest           : {sizes[0][1]} ({sizes[0][0] / 1024:.0f} KB)")
+
+    if problems:
+        print(f"\n{len(problems)} problem(s):")
+        for item in problems[:30]:
+            print("  -", item)
+        return 1
+
+    print("\nevery photo has a servable thumb and large; nothing points at a master")
+    return 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--report", action="store_true", help="report only, no writes")
     parser.add_argument("--data-only", action="store_true", help="skip image generation")
+    parser.add_argument("--verify", action="store_true", help="check the deployed set only")
     parser.add_argument("--jobs", type=int, default=min(8, os.cpu_count() or 4))
     parser.add_argument(
         "--prune",
@@ -263,6 +334,9 @@ def main() -> None:
         help="delete derivative files that are no longer wanted (best-effort)",
     )
     args = parser.parse_args()
+
+    if args.verify:
+        sys.exit(verify_publishable(load_library()))
 
     sources = collect_sources()
     print(f"source images: {len(sources)}")

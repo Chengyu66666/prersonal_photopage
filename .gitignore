@@ -4,3 +4,20 @@
 /skills-lock.json
 *.tmp
 *.log
+
+# Throwaway pages produced by the local headless-verification harness. They are
+# derived from the real pages and must never be published.
+_verify_*.html
+
+# Camera masters: archive only, never deployed.
+#
+# They run 4-33 MB each, which static hosts reject -- Cloudflare and Netlify
+# both cap a single asset at 25 MiB, and one master is 31.8 MiB. The published
+# site never references them either: every photo in photo-data.js carries a
+# `thumb` and a `large` derivative under assets/opt/, and `master` exists only
+# as a record of where the file came from.
+#
+# Kept on disk here, and still retrievable from git history:
+#   git log --diff-filter=D -- assets/photos | head
+#   git checkout <sha>^ -- assets/photos
+/assets/photos/

@@ -42,13 +42,14 @@ function getPhotoLibrary() {
 }
 
 /** Grids and hero tiles want the small derivative; masters are 4-33 MB. */
+/** Grids and hero tiles want the small derivative. */
 function gridSource(photo) {
-  return photo?.thumb || photo?.src || "";
+  return photo?.thumb || photo?.large || "";
 }
 
-/** The lightbox wants the big derivative, falling back to the master. */
+/** The lightbox wants the big derivative. */
 function largeSource(photo) {
-  return photo?.large || photo?.src || "";
+  return photo?.large || photo?.thumb || "";
 }
 
 function pickRandomPhoto(items) {
@@ -66,14 +67,19 @@ function topicToWork(topic) {
     count: `${topic.count} 张`,
     thumb: gridSource(cover),
     large: largeSource(cover),
-    src: cover?.src || "",
     alt: cover?.title || topic.title || topic.label,
     story: topic.intro || PLACEHOLDER_COPY[topic.key] || `${topic.label}，共 ${topic.count} 张作品。`,
   };
 }
 
+/** Cover photos are matched by id; a master path is an identifier, not a URL. */
+function findCover(photos, coverId) {
+  if (!photos?.length) return null;
+  return photos.find((photo) => photo.id === coverId) || photos[0];
+}
+
 function projectToWork(project) {
-  const cover = project.photos?.find((photo) => photo.src === project.cover) || pickRandomPhoto(project.photos);
+  const cover = findCover(project.photos, project.coverId);
   return {
     id: project.id || project.key,
     title: project.title || project.label,
@@ -83,7 +89,6 @@ function projectToWork(project) {
     count: `${project.count} 张`,
     thumb: gridSource(cover),
     large: largeSource(cover),
-    src: cover?.src || "",
     alt: cover?.title || project.title || project.label,
     story: project.intro || `${project.label || project.title}，共 ${project.count} 张作品。`,
   };
@@ -215,7 +220,7 @@ function renderProjects() {
   projectBoard.innerHTML = projects
     .slice(0, 3)
     .map((project, index) => {
-      const cover = project.photos.find((photo) => photo.src === project.cover) || project.photos[0];
+      const cover = findCover(project.photos, project.coverId);
       const chapters = project.chapters?.length ? project.chapters.join(" · ") : `${project.count} 张作品`;
       return `
         <a class="project-card" href="portfolio.html?project=${encodeURIComponent(project.id || project.key)}">

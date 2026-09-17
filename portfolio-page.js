@@ -40,12 +40,14 @@
   let projects = [];
   let photos = [];
 
+  // Never fall back to `src`: the masters are archive copies that are excluded
+  // from the deployed tree, so referencing one would be a broken image.
   function gridSource(photo) {
-    return photo?.thumb || photo?.src || "";
+    return photo?.thumb || photo?.large || "";
   }
 
   function largeSource(photo) {
-    return photo?.large || photo?.src || "";
+    return photo?.large || photo?.thumb || "";
   }
 
   function hydratePortfolioFromPhotoLibrary() {
@@ -86,22 +88,29 @@
     if (libraryProjects) {
       projects = Object.values(libraryProjects)
         .filter((project) => project.photos?.length)
-        .map((project) => ({
-          id: project.id || project.key,
-          title: project.title || project.label,
-          category: project.id || project.key,
-          location: project.chapters?.length ? project.chapters.join(" / ") : "本地项目",
-          count: `${project.count} 张`,
-          description: project.intro || `${project.label || project.title}，共 ${project.count} 张作品。`,
-          cover: project.cover || gridSource(project.photos[0]),
-          photos: project.photos.map((photo) => ({
-            ...photo,
+        .map((project) => {
+          // Match the cover by photo id. The generated `cover` field is a
+          // master path used only as an identifier, never as a usable URL.
+          const coverPhoto =
+            project.photos.find((photo) => photo.id === project.coverId) || project.photos[0];
+          return {
+            id: project.id || project.key,
+            title: project.title || project.label,
             category: project.id || project.key,
-            categoryLabel: project.label || project.title,
-            title: photo.title || photo.filename,
-          })),
-          groupLabel: "沉浸式作品集",
-        }));
+            location: project.chapters?.length ? project.chapters.join(" / ") : "本地项目",
+            count: `${project.count} 张`,
+            description: project.intro || `${project.label || project.title}，共 ${project.count} 张作品。`,
+            coverId: coverPhoto.id,
+            cover: gridSource(coverPhoto),
+            photos: project.photos.map((photo) => ({
+              ...photo,
+              category: project.id || project.key,
+              categoryLabel: project.label || project.title,
+              title: photo.title || photo.filename,
+            })),
+            groupLabel: "沉浸式作品集",
+          };
+        });
     }
   }
 
@@ -164,7 +173,7 @@
   }
 
   function getPhotoStorageKey(photo) {
-    return `thomas-pics-rating:${photo.id || photo.src || photo.title}`;
+    return `thomas-pics-rating:${photo.id || photo.master || photo.title}`;
   }
 
   /** Only the visitor's own rating is shown — no fabricated community score. */
@@ -339,7 +348,7 @@
   function renderPage() {
     visiblePhotos = getVisiblePhotos();
     const heroPhoto = selectedProject
-      ? visiblePhotos.find((photo) => photo.src === selectedProject.cover) || visiblePhotos[0]
+      ? visiblePhotos.find((photo) => photo.id === selectedProject.coverId) || visiblePhotos[0]
       : visiblePhotos[Math.floor(Math.random() * visiblePhotos.length)];
     const heroImage = heroPhoto ? largeSource(heroPhoto) : activeCategory.hero;
     const projectGroup = selectedProject ? getProjectGroup(selectedProject) : null;

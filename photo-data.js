@@ -14,7 +14,6 @@ window.PHOTO_LIBRARY = {
           "title": "_DSC0095",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-001-_DSC0095.jpg",
           "filename": "_DSC0095.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -26,14 +25,15 @@ window.PHOTO_LIBRARY = {
           "iso": null,
           "focalLength": null,
           "location": null,
-          "thumb": "assets/opt/nature/nature-001-_DSC0095-thumb.webp"
+          "thumb": "assets/opt/nature/nature-001-_DSC0095-thumb.webp",
+          "large": "assets/opt/nature/nature-001-_DSC0095-large.webp",
+          "master": "assets/photos/nature/nature-001-_DSC0095.jpg"
         },
         {
           "id": "nature-2",
           "title": "_DSC0240",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-002-_DSC0240.jpg",
           "filename": "_DSC0240.jpg",
           "ratio": "wide",
           "width": 5781,
@@ -46,14 +46,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-002-_DSC0240-thumb.webp",
-          "large": "assets/opt/nature/nature-002-_DSC0240-large.webp"
+          "large": "assets/opt/nature/nature-002-_DSC0240-large.webp",
+          "master": "assets/photos/nature/nature-002-_DSC0240.jpg"
         },
         {
           "id": "nature-3",
           "title": "_DSC0295",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-003-_DSC0295.jpg",
           "filename": "_DSC0295.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -66,14 +66,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-003-_DSC0295-thumb.webp",
-          "large": "assets/opt/nature/nature-003-_DSC0295-large.webp"
+          "large": "assets/opt/nature/nature-003-_DSC0295-large.webp",
+          "master": "assets/photos/nature/nature-003-_DSC0295.jpg"
         },
         {
           "id": "nature-4",
           "title": "_DSC0432",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-004-_DSC0432.jpg",
           "filename": "_DSC0432.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -86,14 +86,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-004-_DSC0432-thumb.webp",
-          "large": "assets/opt/nature/nature-004-_DSC0432-large.webp"
+          "large": "assets/opt/nature/nature-004-_DSC0432-large.webp",
+          "master": "assets/photos/nature/nature-004-_DSC0432.jpg"
         },
         {
           "id": "nature-5",
           "title": "_DSC0443",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-005-_DSC0443.jpg",
           "filename": "_DSC0443.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -106,14 +106,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-005-_DSC0443-thumb.webp",
-          "large": "assets/opt/nature/nature-005-_DSC0443-large.webp"
+          "large": "assets/opt/nature/nature-005-_DSC0443-large.webp",
+          "master": "assets/photos/nature/nature-005-_DSC0443.jpg"
         },
         {
           "id": "nature-6",
           "title": "_DSC0457",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-006-_DSC0457.jpg",
           "filename": "_DSC0457.jpg",
           "ratio": "tall",
           "width": 3667,
@@ -125,14 +125,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 1000",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/nature/nature-006-_DSC0457-thumb.webp"
+          "thumb": "assets/opt/nature/nature-006-_DSC0457-thumb.webp",
+          "large": "assets/opt/nature/nature-006-_DSC0457-large.webp",
+          "master": "assets/photos/nature/nature-006-_DSC0457.jpg"
         },
         {
           "id": "nature-7",
           "title": "_DSC0478",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-007-_DSC0478.jpg",
           "filename": "_DSC0478.jpg",
           "ratio": "tall",
           "width": 2624,
@@ -144,14 +145,15 @@ window.PHOTO_LIBRARY = {
           "iso": null,
           "focalLength": null,
           "location": null,
-          "thumb": "assets/opt/nature/nature-007-_DSC0478-thumb.webp"
+          "thumb": "assets/opt/nature/nature-007-_DSC0478-thumb.webp",
+          "large": "assets/opt/nature/nature-007-_DSC0478-large.webp",
+          "master": "assets/photos/nature/nature-007-_DSC0478.jpg"
         },
         {
           "id": "nature-8",
           "title": "_DSC0489",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-008-_DSC0489.jpg",
           "filename": "_DSC0489.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -163,14 +165,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 2000",
           "focalLength": "28mm",
           "location": null,
-          "thumb": "assets/opt/nature/nature-008-_DSC0489-thumb.webp"
+          "thumb": "assets/opt/nature/nature-008-_DSC0489-thumb.webp",
+          "large": "assets/opt/nature/nature-008-_DSC0489-large.webp",
+          "master": "assets/photos/nature/nature-008-_DSC0489.jpg"
         },
         {
           "id": "nature-9",
           "title": "_DSC0504",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-009-_DSC0504.jpg",
           "filename": "_DSC0504.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -183,14 +186,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-009-_DSC0504-thumb.webp",
-          "large": "assets/opt/nature/nature-009-_DSC0504-large.webp"
+          "large": "assets/opt/nature/nature-009-_DSC0504-large.webp",
+          "master": "assets/photos/nature/nature-009-_DSC0504.jpg"
         },
         {
           "id": "nature-10",
           "title": "_DSC0536",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-010-_DSC0536.jpg",
           "filename": "_DSC0536.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -203,14 +206,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-010-_DSC0536-thumb.webp",
-          "large": "assets/opt/nature/nature-010-_DSC0536-large.webp"
+          "large": "assets/opt/nature/nature-010-_DSC0536-large.webp",
+          "master": "assets/photos/nature/nature-010-_DSC0536.jpg"
         },
         {
           "id": "nature-11",
           "title": "_DSC0680",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-011-_DSC0680.jpg",
           "filename": "_DSC0680.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -223,14 +226,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-011-_DSC0680-thumb.webp",
-          "large": "assets/opt/nature/nature-011-_DSC0680-large.webp"
+          "large": "assets/opt/nature/nature-011-_DSC0680-large.webp",
+          "master": "assets/photos/nature/nature-011-_DSC0680.jpg"
         },
         {
           "id": "nature-12",
           "title": "_DSC0704",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-012-_DSC0704.jpg",
           "filename": "_DSC0704.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -243,14 +246,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-012-_DSC0704-thumb.webp",
-          "large": "assets/opt/nature/nature-012-_DSC0704-large.webp"
+          "large": "assets/opt/nature/nature-012-_DSC0704-large.webp",
+          "master": "assets/photos/nature/nature-012-_DSC0704.jpg"
         },
         {
           "id": "nature-13",
           "title": "_DSC0927",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-013-_DSC0927.jpg",
           "filename": "_DSC0927.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -263,14 +266,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-013-_DSC0927-thumb.webp",
-          "large": "assets/opt/nature/nature-013-_DSC0927-large.webp"
+          "large": "assets/opt/nature/nature-013-_DSC0927-large.webp",
+          "master": "assets/photos/nature/nature-013-_DSC0927.jpg"
         },
         {
           "id": "nature-14",
           "title": "_DSC1194-编辑-3",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-014-_DSC1194----3.jpg",
           "filename": "_DSC1194-编辑-3.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -283,14 +286,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-014-_DSC1194----3-thumb.webp",
-          "large": "assets/opt/nature/nature-014-_DSC1194----3-large.webp"
+          "large": "assets/opt/nature/nature-014-_DSC1194----3-large.webp",
+          "master": "assets/photos/nature/nature-014-_DSC1194----3.jpg"
         },
         {
           "id": "nature-15",
           "title": "_DSC1787",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-015-_DSC1787.jpg",
           "filename": "_DSC1787.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -303,14 +306,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "20mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-015-_DSC1787-thumb.webp",
-          "large": "assets/opt/nature/nature-015-_DSC1787-large.webp"
+          "large": "assets/opt/nature/nature-015-_DSC1787-large.webp",
+          "master": "assets/photos/nature/nature-015-_DSC1787.jpg"
         },
         {
           "id": "nature-16",
           "title": "_DSC1873",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-016-_DSC1873.jpg",
           "filename": "_DSC1873.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -323,14 +326,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-016-_DSC1873-thumb.webp",
-          "large": "assets/opt/nature/nature-016-_DSC1873-large.webp"
+          "large": "assets/opt/nature/nature-016-_DSC1873-large.webp",
+          "master": "assets/photos/nature/nature-016-_DSC1873.jpg"
         },
         {
           "id": "nature-17",
           "title": "_DSC1954",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-017-_DSC1954.jpg",
           "filename": "_DSC1954.jpg",
           "ratio": "wide",
           "width": 5442,
@@ -343,14 +346,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-017-_DSC1954-thumb.webp",
-          "large": "assets/opt/nature/nature-017-_DSC1954-large.webp"
+          "large": "assets/opt/nature/nature-017-_DSC1954-large.webp",
+          "master": "assets/photos/nature/nature-017-_DSC1954.jpg"
         },
         {
           "id": "nature-18",
           "title": "_DSC1969",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-018-_DSC1969.jpg",
           "filename": "_DSC1969.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -363,14 +366,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "27mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-018-_DSC1969-thumb.webp",
-          "large": "assets/opt/nature/nature-018-_DSC1969-large.webp"
+          "large": "assets/opt/nature/nature-018-_DSC1969-large.webp",
+          "master": "assets/photos/nature/nature-018-_DSC1969.jpg"
         },
         {
           "id": "nature-19",
           "title": "_DSC1973",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-019-_DSC1973.jpg",
           "filename": "_DSC1973.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -383,14 +386,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-019-_DSC1973-thumb.webp",
-          "large": "assets/opt/nature/nature-019-_DSC1973-large.webp"
+          "large": "assets/opt/nature/nature-019-_DSC1973-large.webp",
+          "master": "assets/photos/nature/nature-019-_DSC1973.jpg"
         },
         {
           "id": "nature-20",
           "title": "_DSC2083",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-020-_DSC2083.jpg",
           "filename": "_DSC2083.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -403,14 +406,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-020-_DSC2083-thumb.webp",
-          "large": "assets/opt/nature/nature-020-_DSC2083-large.webp"
+          "large": "assets/opt/nature/nature-020-_DSC2083-large.webp",
+          "master": "assets/photos/nature/nature-020-_DSC2083.jpg"
         },
         {
           "id": "nature-21",
           "title": "_DSC2092",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-021-_DSC2092.jpg",
           "filename": "_DSC2092.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -423,14 +426,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "42mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-021-_DSC2092-thumb.webp",
-          "large": "assets/opt/nature/nature-021-_DSC2092-large.webp"
+          "large": "assets/opt/nature/nature-021-_DSC2092-large.webp",
+          "master": "assets/photos/nature/nature-021-_DSC2092.jpg"
         },
         {
           "id": "nature-22",
           "title": "_DSC2227",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-022-_DSC2227.jpg",
           "filename": "_DSC2227.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -443,14 +446,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-022-_DSC2227-thumb.webp",
-          "large": "assets/opt/nature/nature-022-_DSC2227-large.webp"
+          "large": "assets/opt/nature/nature-022-_DSC2227-large.webp",
+          "master": "assets/photos/nature/nature-022-_DSC2227.jpg"
         },
         {
           "id": "nature-23",
           "title": "_DSC2230",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-023-_DSC2230.jpg",
           "filename": "_DSC2230.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -463,14 +466,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-023-_DSC2230-thumb.webp",
-          "large": "assets/opt/nature/nature-023-_DSC2230-large.webp"
+          "large": "assets/opt/nature/nature-023-_DSC2230-large.webp",
+          "master": "assets/photos/nature/nature-023-_DSC2230.jpg"
         },
         {
           "id": "nature-24",
           "title": "_DSC3911",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-024-_DSC3911.jpg",
           "filename": "_DSC3911.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -483,14 +486,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-024-_DSC3911-thumb.webp",
-          "large": "assets/opt/nature/nature-024-_DSC3911-large.webp"
+          "large": "assets/opt/nature/nature-024-_DSC3911-large.webp",
+          "master": "assets/photos/nature/nature-024-_DSC3911.jpg"
         },
         {
           "id": "nature-25",
           "title": "_DSC6134",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-025-_DSC6134.jpg",
           "filename": "_DSC6134.jpg",
           "ratio": "wide",
           "width": 5140,
@@ -503,14 +506,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-025-_DSC6134-thumb.webp",
-          "large": "assets/opt/nature/nature-025-_DSC6134-large.webp"
+          "large": "assets/opt/nature/nature-025-_DSC6134-large.webp",
+          "master": "assets/photos/nature/nature-025-_DSC6134.jpg"
         },
         {
           "id": "nature-26",
           "title": "_DSC9343",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-026-_DSC9343.jpg",
           "filename": "_DSC9343.jpg",
           "ratio": "wide",
           "width": 5225,
@@ -523,14 +526,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-026-_DSC9343-thumb.webp",
-          "large": "assets/opt/nature/nature-026-_DSC9343-large.webp"
+          "large": "assets/opt/nature/nature-026-_DSC9343-large.webp",
+          "master": "assets/photos/nature/nature-026-_DSC9343.jpg"
         },
         {
           "id": "nature-27",
           "title": "_DSC9795",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-027-_DSC9795.jpg",
           "filename": "_DSC9795.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -543,14 +546,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-027-_DSC9795-thumb.webp",
-          "large": "assets/opt/nature/nature-027-_DSC9795-large.webp"
+          "large": "assets/opt/nature/nature-027-_DSC9795-large.webp",
+          "master": "assets/photos/nature/nature-027-_DSC9795.jpg"
         },
         {
           "id": "nature-28",
           "title": "20220605-DJI_0280",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-028-20220605-DJI_0280.jpg",
           "filename": "20220605-DJI_0280.jpg",
           "ratio": "wide",
           "width": 5464,
@@ -563,14 +566,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-028-20220605-DJI_0280-thumb.webp",
-          "large": "assets/opt/nature/nature-028-20220605-DJI_0280-large.webp"
+          "large": "assets/opt/nature/nature-028-20220605-DJI_0280-large.webp",
+          "master": "assets/photos/nature/nature-028-20220605-DJI_0280.jpg"
         },
         {
           "id": "nature-29",
           "title": "4f0b8ab5af4f28c0754c136b5e8458c",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-029-4f0b8ab5af4f28c0754c136b5e8458c.jpg",
           "filename": "4f0b8ab5af4f28c0754c136b5e8458c.jpg",
           "ratio": "wide",
           "width": 5196,
@@ -583,14 +586,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-029-4f0b8ab5af4f28c0754c136b5e8458c-thumb.webp",
-          "large": "assets/opt/nature/nature-029-4f0b8ab5af4f28c0754c136b5e8458c-large.webp"
+          "large": "assets/opt/nature/nature-029-4f0b8ab5af4f28c0754c136b5e8458c-large.webp",
+          "master": "assets/photos/nature/nature-029-4f0b8ab5af4f28c0754c136b5e8458c.jpg"
         },
         {
           "id": "nature-30",
           "title": "b11e1035c59002334016f94d43c70be",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-030-b11e1035c59002334016f94d43c70be.jpg",
           "filename": "b11e1035c59002334016f94d43c70be.jpg",
           "ratio": "wide",
           "width": 6720,
@@ -603,14 +606,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "170mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-030-b11e1035c59002334016f94d43c70be-thumb.webp",
-          "large": "assets/opt/nature/nature-030-b11e1035c59002334016f94d43c70be-large.webp"
+          "large": "assets/opt/nature/nature-030-b11e1035c59002334016f94d43c70be-large.webp",
+          "master": "assets/photos/nature/nature-030-b11e1035c59002334016f94d43c70be.jpg"
         },
         {
           "id": "nature-31",
           "title": "DJI_0019",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-031-DJI_0019.jpg",
           "filename": "DJI_0019.jpg",
           "ratio": "wide",
           "width": 4889,
@@ -623,14 +626,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": "22.739568, 114.943237",
           "thumb": "assets/opt/nature/nature-031-DJI_0019-thumb.webp",
-          "large": "assets/opt/nature/nature-031-DJI_0019-large.webp"
+          "large": "assets/opt/nature/nature-031-DJI_0019-large.webp",
+          "master": "assets/photos/nature/nature-031-DJI_0019.jpg"
         },
         {
           "id": "nature-32",
           "title": "DJI_0036",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-032-DJI_0036.jpg",
           "filename": "DJI_0036.jpg",
           "ratio": "wide",
           "width": 4087,
@@ -643,14 +646,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": "22.70446, 115.013988",
           "thumb": "assets/opt/nature/nature-032-DJI_0036-thumb.webp",
-          "large": "assets/opt/nature/nature-032-DJI_0036-large.webp"
+          "large": "assets/opt/nature/nature-032-DJI_0036-large.webp",
+          "master": "assets/photos/nature/nature-032-DJI_0036.jpg"
         },
         {
           "id": "nature-33",
           "title": "DJI_0079",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-033-DJI_0079.jpg",
           "filename": "DJI_0079.jpg",
           "ratio": "wide",
           "width": 5210,
@@ -663,14 +666,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": "24.328053, 113.335893",
           "thumb": "assets/opt/nature/nature-033-DJI_0079-thumb.webp",
-          "large": "assets/opt/nature/nature-033-DJI_0079-large.webp"
+          "large": "assets/opt/nature/nature-033-DJI_0079-large.webp",
+          "master": "assets/photos/nature/nature-033-DJI_0079.jpg"
         },
         {
           "id": "nature-34",
           "title": "DJI_0128",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-034-DJI_0128.jpg",
           "filename": "DJI_0128.jpg",
           "ratio": "tall",
           "width": 1217,
@@ -682,14 +685,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "8mm",
           "location": "22.61026, 114.368796",
-          "thumb": "assets/opt/nature/nature-034-DJI_0128-thumb.webp"
+          "thumb": "assets/opt/nature/nature-034-DJI_0128-thumb.webp",
+          "large": "assets/opt/nature/nature-034-DJI_0128-large.webp",
+          "master": "assets/photos/nature/nature-034-DJI_0128.jpg"
         },
         {
           "id": "nature-35",
           "title": "DJI_0220-HDR",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-035-DJI_0220-HDR.jpg",
           "filename": "DJI_0220-HDR.jpg",
           "ratio": "wide",
           "width": 5444,
@@ -702,14 +706,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": "22.523596, 114.542631",
           "thumb": "assets/opt/nature/nature-035-DJI_0220-HDR-thumb.webp",
-          "large": "assets/opt/nature/nature-035-DJI_0220-HDR-large.webp"
+          "large": "assets/opt/nature/nature-035-DJI_0220-HDR-large.webp",
+          "master": "assets/photos/nature/nature-035-DJI_0220-HDR.jpg"
         },
         {
           "id": "nature-36",
           "title": "DJI_0295-HDR",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-036-DJI_0295-HDR.jpg",
           "filename": "DJI_0295-HDR.jpg",
           "ratio": "wide",
           "width": 5276,
@@ -722,14 +726,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-036-DJI_0295-HDR-thumb.webp",
-          "large": "assets/opt/nature/nature-036-DJI_0295-HDR-large.webp"
+          "large": "assets/opt/nature/nature-036-DJI_0295-HDR-large.webp",
+          "master": "assets/photos/nature/nature-036-DJI_0295-HDR.jpg"
         },
         {
           "id": "nature-37",
           "title": "DJI_0335-HDR",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-037-DJI_0335-HDR.jpg",
           "filename": "DJI_0335-HDR.jpg",
           "ratio": "wide",
           "width": 5444,
@@ -742,14 +746,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-037-DJI_0335-HDR-thumb.webp",
-          "large": "assets/opt/nature/nature-037-DJI_0335-HDR-large.webp"
+          "large": "assets/opt/nature/nature-037-DJI_0335-HDR-large.webp",
+          "master": "assets/photos/nature/nature-037-DJI_0335-HDR.jpg"
         },
         {
           "id": "nature-38",
           "title": "DJI_0349",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-038-DJI_0349.jpg",
           "filename": "DJI_0349.jpg",
           "ratio": "wide",
           "width": 5264,
@@ -762,14 +766,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-038-DJI_0349-thumb.webp",
-          "large": "assets/opt/nature/nature-038-DJI_0349-large.webp"
+          "large": "assets/opt/nature/nature-038-DJI_0349-large.webp",
+          "master": "assets/photos/nature/nature-038-DJI_0349.jpg"
         },
         {
           "id": "nature-39",
           "title": "DJI_0451",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-039-DJI_0451.jpg",
           "filename": "DJI_0451.jpg",
           "ratio": "wide",
           "width": 3948,
@@ -782,14 +786,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-039-DJI_0451-thumb.webp",
-          "large": "assets/opt/nature/nature-039-DJI_0451-large.webp"
+          "large": "assets/opt/nature/nature-039-DJI_0451-large.webp",
+          "master": "assets/photos/nature/nature-039-DJI_0451.jpg"
         },
         {
           "id": "nature-40",
           "title": "DJI_0462-HDR",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-040-DJI_0462-HDR.jpg",
           "filename": "DJI_0462-HDR.jpg",
           "ratio": "wide",
           "width": 5059,
@@ -802,14 +806,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-040-DJI_0462-HDR-thumb.webp",
-          "large": "assets/opt/nature/nature-040-DJI_0462-HDR-large.webp"
+          "large": "assets/opt/nature/nature-040-DJI_0462-HDR-large.webp",
+          "master": "assets/photos/nature/nature-040-DJI_0462-HDR.jpg"
         },
         {
           "id": "nature-41",
           "title": "DJI_0684",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-041-DJI_0684.jpg",
           "filename": "DJI_0684.jpg",
           "ratio": "wide",
           "width": 5464,
@@ -822,14 +826,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-041-DJI_0684-thumb.webp",
-          "large": "assets/opt/nature/nature-041-DJI_0684-large.webp"
+          "large": "assets/opt/nature/nature-041-DJI_0684-large.webp",
+          "master": "assets/photos/nature/nature-041-DJI_0684.jpg"
         },
         {
           "id": "nature-42",
           "title": "DJI_0780-HDR",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-042-DJI_0780-HDR.jpg",
           "filename": "DJI_0780-HDR.jpg",
           "ratio": "wide",
           "width": 5444,
@@ -842,14 +846,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-042-DJI_0780-HDR-thumb.webp",
-          "large": "assets/opt/nature/nature-042-DJI_0780-HDR-large.webp"
+          "large": "assets/opt/nature/nature-042-DJI_0780-HDR-large.webp",
+          "master": "assets/photos/nature/nature-042-DJI_0780-HDR.jpg"
         },
         {
           "id": "nature-43",
           "title": "DJI_0853-HDR",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-043-DJI_0853-HDR.jpg",
           "filename": "DJI_0853-HDR.jpg",
           "ratio": "wide",
           "width": 5452,
@@ -862,14 +866,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-043-DJI_0853-HDR-thumb.webp",
-          "large": "assets/opt/nature/nature-043-DJI_0853-HDR-large.webp"
+          "large": "assets/opt/nature/nature-043-DJI_0853-HDR-large.webp",
+          "master": "assets/photos/nature/nature-043-DJI_0853-HDR.jpg"
         },
         {
           "id": "nature-44",
           "title": "DSC00265",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-044-DSC00265.jpg",
           "filename": "DSC00265.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -882,14 +886,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "63mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-044-DSC00265-thumb.webp",
-          "large": "assets/opt/nature/nature-044-DSC00265-large.webp"
+          "large": "assets/opt/nature/nature-044-DSC00265-large.webp",
+          "master": "assets/photos/nature/nature-044-DSC00265.jpg"
         },
         {
           "id": "nature-45",
           "title": "DSC00323",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-045-DSC00323.jpg",
           "filename": "DSC00323.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -902,14 +906,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "56mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-045-DSC00323-thumb.webp",
-          "large": "assets/opt/nature/nature-045-DSC00323-large.webp"
+          "large": "assets/opt/nature/nature-045-DSC00323-large.webp",
+          "master": "assets/photos/nature/nature-045-DSC00323.jpg"
         },
         {
           "id": "nature-46",
           "title": "DSC00325",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-046-DSC00325.jpg",
           "filename": "DSC00325.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -922,14 +926,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-046-DSC00325-thumb.webp",
-          "large": "assets/opt/nature/nature-046-DSC00325-large.webp"
+          "large": "assets/opt/nature/nature-046-DSC00325-large.webp",
+          "master": "assets/photos/nature/nature-046-DSC00325.jpg"
         },
         {
           "id": "nature-47",
           "title": "DSC00344",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-047-DSC00344.jpg",
           "filename": "DSC00344.jpg",
           "ratio": "wide",
           "width": 5982,
@@ -942,14 +946,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-047-DSC00344-thumb.webp",
-          "large": "assets/opt/nature/nature-047-DSC00344-large.webp"
+          "large": "assets/opt/nature/nature-047-DSC00344-large.webp",
+          "master": "assets/photos/nature/nature-047-DSC00344.jpg"
         },
         {
           "id": "nature-48",
           "title": "DSC05758",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-048-DSC05758.jpg",
           "filename": "DSC05758.jpg",
           "ratio": "tall",
           "width": 1571,
@@ -961,14 +965,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 3200",
           "focalLength": "30mm",
           "location": null,
-          "thumb": "assets/opt/nature/nature-048-DSC05758-thumb.webp"
+          "thumb": "assets/opt/nature/nature-048-DSC05758-thumb.webp",
+          "large": "assets/opt/nature/nature-048-DSC05758-large.webp",
+          "master": "assets/photos/nature/nature-048-DSC05758.jpg"
         },
         {
           "id": "nature-49",
           "title": "DSC06524",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-049-DSC06524.jpg",
           "filename": "DSC06524.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -981,14 +986,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/nature/nature-049-DSC06524-thumb.webp",
-          "large": "assets/opt/nature/nature-049-DSC06524-large.webp"
+          "large": "assets/opt/nature/nature-049-DSC06524-large.webp",
+          "master": "assets/photos/nature/nature-049-DSC06524.jpg"
         },
         {
           "id": "nature-50",
           "title": "DSC06541",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-050-DSC06541.jpg",
           "filename": "DSC06541.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1001,14 +1006,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "62mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-050-DSC06541-thumb.webp",
-          "large": "assets/opt/nature/nature-050-DSC06541-large.webp"
+          "large": "assets/opt/nature/nature-050-DSC06541-large.webp",
+          "master": "assets/photos/nature/nature-050-DSC06541.jpg"
         },
         {
           "id": "nature-51",
           "title": "DSC07324",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-051-DSC07324.jpg",
           "filename": "DSC07324.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -1021,14 +1026,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "61mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-051-DSC07324-thumb.webp",
-          "large": "assets/opt/nature/nature-051-DSC07324-large.webp"
+          "large": "assets/opt/nature/nature-051-DSC07324-large.webp",
+          "master": "assets/photos/nature/nature-051-DSC07324.jpg"
         },
         {
           "id": "nature-52",
           "title": "DSC07886",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-052-DSC07886.jpg",
           "filename": "DSC07886.jpg",
           "ratio": "wide",
           "width": 3571,
@@ -1041,14 +1046,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-052-DSC07886-thumb.webp",
-          "large": "assets/opt/nature/nature-052-DSC07886-large.webp"
+          "large": "assets/opt/nature/nature-052-DSC07886-large.webp",
+          "master": "assets/photos/nature/nature-052-DSC07886.jpg"
         },
         {
           "id": "nature-53",
           "title": "f05340de4df1f7208928c1b34f5e567",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-053-f05340de4df1f7208928c1b34f5e567.jpg",
           "filename": "f05340de4df1f7208928c1b34f5e567.jpg",
           "ratio": "wide",
           "width": 6720,
@@ -1061,14 +1066,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "100mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-053-f05340de4df1f7208928c1b34f5e567-thumb.webp",
-          "large": "assets/opt/nature/nature-053-f05340de4df1f7208928c1b34f5e567-large.webp"
+          "large": "assets/opt/nature/nature-053-f05340de4df1f7208928c1b34f5e567-large.webp",
+          "master": "assets/photos/nature/nature-053-f05340de4df1f7208928c1b34f5e567.jpg"
         },
         {
           "id": "nature-54",
           "title": "SONY ILCE-7M3_20240302_082840",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-054-SONY-ILCE-7M3_20240302_082840.jpg",
           "filename": "SONY ILCE-7M3_20240302_082840.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1081,14 +1086,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-054-SONY-ILCE-7M3_20240302_082840-thumb.webp",
-          "large": "assets/opt/nature/nature-054-SONY-ILCE-7M3_20240302_082840-large.webp"
+          "large": "assets/opt/nature/nature-054-SONY-ILCE-7M3_20240302_082840-large.webp",
+          "master": "assets/photos/nature/nature-054-SONY-ILCE-7M3_20240302_082840.jpg"
         },
         {
           "id": "nature-55",
           "title": "SONY ILCE-7M3_20240302_090904",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-055-SONY-ILCE-7M3_20240302_090904.jpg",
           "filename": "SONY ILCE-7M3_20240302_090904.jpg",
           "ratio": "tall",
           "width": 3829,
@@ -1100,14 +1105,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "35mm",
           "location": null,
-          "thumb": "assets/opt/nature/nature-055-SONY-ILCE-7M3_20240302_090904-thumb.webp"
+          "thumb": "assets/opt/nature/nature-055-SONY-ILCE-7M3_20240302_090904-thumb.webp",
+          "large": "assets/opt/nature/nature-055-SONY-ILCE-7M3_20240302_090904-large.webp",
+          "master": "assets/photos/nature/nature-055-SONY-ILCE-7M3_20240302_090904.jpg"
         },
         {
           "id": "nature-56",
           "title": "SONY ILCE-7M3_20240302_101609",
           "category": "nature",
           "categoryLabel": "自然风光",
-          "src": "assets/photos/nature/nature-056-SONY-ILCE-7M3_20240302_101609.jpg",
           "filename": "SONY ILCE-7M3_20240302_101609.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1120,7 +1126,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/nature/nature-056-SONY-ILCE-7M3_20240302_101609-thumb.webp",
-          "large": "assets/opt/nature/nature-056-SONY-ILCE-7M3_20240302_101609-large.webp"
+          "large": "assets/opt/nature/nature-056-SONY-ILCE-7M3_20240302_101609-large.webp",
+          "master": "assets/photos/nature/nature-056-SONY-ILCE-7M3_20240302_101609.jpg"
         }
       ]
     },
@@ -1136,7 +1143,6 @@ window.PHOTO_LIBRARY = {
           "title": "_DSC0022",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-001-_DSC0022.jpg",
           "filename": "_DSC0022.jpg",
           "ratio": "wide",
           "width": 5627,
@@ -1149,14 +1155,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-001-_DSC0022-thumb.webp",
-          "large": "assets/opt/city/city-001-_DSC0022-large.webp"
+          "large": "assets/opt/city/city-001-_DSC0022-large.webp",
+          "master": "assets/photos/city/city-001-_DSC0022.jpg"
         },
         {
           "id": "city-2",
           "title": "_DSC1978",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-002-_DSC1978.jpg",
           "filename": "_DSC1978.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1169,14 +1175,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "44mm",
           "location": null,
           "thumb": "assets/opt/city/city-002-_DSC1978-thumb.webp",
-          "large": "assets/opt/city/city-002-_DSC1978-large.webp"
+          "large": "assets/opt/city/city-002-_DSC1978-large.webp",
+          "master": "assets/photos/city/city-002-_DSC1978.jpg"
         },
         {
           "id": "city-3",
           "title": "_DSC1984",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-003-_DSC1984.jpg",
           "filename": "_DSC1984.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1189,14 +1195,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "45mm",
           "location": null,
           "thumb": "assets/opt/city/city-003-_DSC1984-thumb.webp",
-          "large": "assets/opt/city/city-003-_DSC1984-large.webp"
+          "large": "assets/opt/city/city-003-_DSC1984-large.webp",
+          "master": "assets/photos/city/city-003-_DSC1984.jpg"
         },
         {
           "id": "city-4",
           "title": "_DSC1985",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-004-_DSC1985.jpg",
           "filename": "_DSC1985.jpg",
           "ratio": "wide",
           "width": 5715,
@@ -1209,14 +1215,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "51mm",
           "location": null,
           "thumb": "assets/opt/city/city-004-_DSC1985-thumb.webp",
-          "large": "assets/opt/city/city-004-_DSC1985-large.webp"
+          "large": "assets/opt/city/city-004-_DSC1985-large.webp",
+          "master": "assets/photos/city/city-004-_DSC1985.jpg"
         },
         {
           "id": "city-5",
           "title": "_DSC1992",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-005-_DSC1992.jpg",
           "filename": "_DSC1992.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1229,14 +1235,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "45mm",
           "location": null,
           "thumb": "assets/opt/city/city-005-_DSC1992-thumb.webp",
-          "large": "assets/opt/city/city-005-_DSC1992-large.webp"
+          "large": "assets/opt/city/city-005-_DSC1992-large.webp",
+          "master": "assets/photos/city/city-005-_DSC1992.jpg"
         },
         {
           "id": "city-6",
           "title": "_DSC1995",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-006-_DSC1995.jpg",
           "filename": "_DSC1995.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1249,14 +1255,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "43mm",
           "location": null,
           "thumb": "assets/opt/city/city-006-_DSC1995-thumb.webp",
-          "large": "assets/opt/city/city-006-_DSC1995-large.webp"
+          "large": "assets/opt/city/city-006-_DSC1995-large.webp",
+          "master": "assets/photos/city/city-006-_DSC1995.jpg"
         },
         {
           "id": "city-7",
           "title": "_DSC2022",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-007-_DSC2022.jpg",
           "filename": "_DSC2022.jpg",
           "ratio": "wide",
           "width": 5767,
@@ -1269,14 +1275,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "70mm",
           "location": null,
           "thumb": "assets/opt/city/city-007-_DSC2022-thumb.webp",
-          "large": "assets/opt/city/city-007-_DSC2022-large.webp"
+          "large": "assets/opt/city/city-007-_DSC2022-large.webp",
+          "master": "assets/photos/city/city-007-_DSC2022.jpg"
         },
         {
           "id": "city-8",
           "title": "_DSC2318",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-008-_DSC2318.jpg",
           "filename": "_DSC2318.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1289,14 +1295,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "36mm",
           "location": null,
           "thumb": "assets/opt/city/city-008-_DSC2318-thumb.webp",
-          "large": "assets/opt/city/city-008-_DSC2318-large.webp"
+          "large": "assets/opt/city/city-008-_DSC2318-large.webp",
+          "master": "assets/photos/city/city-008-_DSC2318.jpg"
         },
         {
           "id": "city-9",
           "title": "_DSC2322",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-009-_DSC2322.jpg",
           "filename": "_DSC2322.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1309,14 +1315,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-009-_DSC2322-thumb.webp",
-          "large": "assets/opt/city/city-009-_DSC2322-large.webp"
+          "large": "assets/opt/city/city-009-_DSC2322-large.webp",
+          "master": "assets/photos/city/city-009-_DSC2322.jpg"
         },
         {
           "id": "city-10",
           "title": "_DSC2325",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-010-_DSC2325.jpg",
           "filename": "_DSC2325.jpg",
           "ratio": "wide",
           "width": 5774,
@@ -1329,14 +1335,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-010-_DSC2325-thumb.webp",
-          "large": "assets/opt/city/city-010-_DSC2325-large.webp"
+          "large": "assets/opt/city/city-010-_DSC2325-large.webp",
+          "master": "assets/photos/city/city-010-_DSC2325.jpg"
         },
         {
           "id": "city-11",
           "title": "_DSC2374",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-011-_DSC2374.jpg",
           "filename": "_DSC2374.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1349,14 +1355,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "56mm",
           "location": null,
           "thumb": "assets/opt/city/city-011-_DSC2374-thumb.webp",
-          "large": "assets/opt/city/city-011-_DSC2374-large.webp"
+          "large": "assets/opt/city/city-011-_DSC2374-large.webp",
+          "master": "assets/photos/city/city-011-_DSC2374.jpg"
         },
         {
           "id": "city-12",
           "title": "_DSC2385",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-012-_DSC2385.jpg",
           "filename": "_DSC2385.jpg",
           "ratio": "wide",
           "width": 5579,
@@ -1369,14 +1375,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "49mm",
           "location": null,
           "thumb": "assets/opt/city/city-012-_DSC2385-thumb.webp",
-          "large": "assets/opt/city/city-012-_DSC2385-large.webp"
+          "large": "assets/opt/city/city-012-_DSC2385-large.webp",
+          "master": "assets/photos/city/city-012-_DSC2385.jpg"
         },
         {
           "id": "city-13",
           "title": "_DSC4018",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-013-_DSC4018.jpg",
           "filename": "_DSC4018.jpg",
           "ratio": "wide",
           "width": 5559,
@@ -1389,14 +1395,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "66mm",
           "location": null,
           "thumb": "assets/opt/city/city-013-_DSC4018-thumb.webp",
-          "large": "assets/opt/city/city-013-_DSC4018-large.webp"
+          "large": "assets/opt/city/city-013-_DSC4018-large.webp",
+          "master": "assets/photos/city/city-013-_DSC4018.jpg"
         },
         {
           "id": "city-14",
           "title": "_DSC4575",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-014-_DSC4575.jpg",
           "filename": "_DSC4575.jpg",
           "ratio": "wide",
           "width": 5301,
@@ -1409,14 +1415,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/city/city-014-_DSC4575-thumb.webp",
-          "large": "assets/opt/city/city-014-_DSC4575-large.webp"
+          "large": "assets/opt/city/city-014-_DSC4575-large.webp",
+          "master": "assets/photos/city/city-014-_DSC4575.jpg"
         },
         {
           "id": "city-15",
           "title": "_DSC5493-编辑",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-015-_DSC5493.jpg",
           "filename": "_DSC5493-编辑.jpg",
           "ratio": "wide",
           "width": 5787,
@@ -1429,14 +1435,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/city/city-015-_DSC5493-thumb.webp",
-          "large": "assets/opt/city/city-015-_DSC5493-large.webp"
+          "large": "assets/opt/city/city-015-_DSC5493-large.webp",
+          "master": "assets/photos/city/city-015-_DSC5493.jpg"
         },
         {
           "id": "city-16",
           "title": "_DSC5600",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-016-_DSC5600.jpg",
           "filename": "_DSC5600.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -1449,14 +1455,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "39mm",
           "location": null,
           "thumb": "assets/opt/city/city-016-_DSC5600-thumb.webp",
-          "large": "assets/opt/city/city-016-_DSC5600-large.webp"
+          "large": "assets/opt/city/city-016-_DSC5600-large.webp",
+          "master": "assets/photos/city/city-016-_DSC5600.jpg"
         },
         {
           "id": "city-17",
           "title": "_DSC6072",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-017-_DSC6072.jpg",
           "filename": "_DSC6072.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1469,14 +1475,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-017-_DSC6072-thumb.webp",
-          "large": "assets/opt/city/city-017-_DSC6072-large.webp"
+          "large": "assets/opt/city/city-017-_DSC6072-large.webp",
+          "master": "assets/photos/city/city-017-_DSC6072.jpg"
         },
         {
           "id": "city-18",
           "title": "_DSC6437",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-018-_DSC6437.jpg",
           "filename": "_DSC6437.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1489,14 +1495,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/city/city-018-_DSC6437-thumb.webp",
-          "large": "assets/opt/city/city-018-_DSC6437-large.webp"
+          "large": "assets/opt/city/city-018-_DSC6437-large.webp",
+          "master": "assets/photos/city/city-018-_DSC6437.jpg"
         },
         {
           "id": "city-19",
           "title": "_DSC9137",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-019-_DSC9137.jpg",
           "filename": "_DSC9137.jpg",
           "ratio": "tall",
           "width": 3712,
@@ -1509,14 +1515,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "65mm",
           "location": null,
           "thumb": "assets/opt/city/city-019-_DSC9137-thumb.webp",
-          "large": "assets/opt/city/city-019-_DSC9137-large.webp"
+          "large": "assets/opt/city/city-019-_DSC9137-large.webp",
+          "master": "assets/photos/city/city-019-_DSC9137.jpg"
         },
         {
           "id": "city-20",
           "title": "_DSC9739",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-020-_DSC9739.jpg",
           "filename": "_DSC9739.jpg",
           "ratio": "wide",
           "width": 5140,
@@ -1529,14 +1535,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-020-_DSC9739-thumb.webp",
-          "large": "assets/opt/city/city-020-_DSC9739-large.webp"
+          "large": "assets/opt/city/city-020-_DSC9739-large.webp",
+          "master": "assets/photos/city/city-020-_DSC9739.jpg"
         },
         {
           "id": "city-21",
           "title": "_DSC9742",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-021-_DSC9742.jpg",
           "filename": "_DSC9742.jpg",
           "ratio": "wide",
           "width": 5399,
@@ -1549,14 +1555,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "53mm",
           "location": null,
           "thumb": "assets/opt/city/city-021-_DSC9742-thumb.webp",
-          "large": "assets/opt/city/city-021-_DSC9742-large.webp"
+          "large": "assets/opt/city/city-021-_DSC9742-large.webp",
+          "master": "assets/photos/city/city-021-_DSC9742.jpg"
         },
         {
           "id": "city-22",
           "title": "_DSC9777",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-022-_DSC9777.jpg",
           "filename": "_DSC9777.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1569,14 +1575,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "41mm",
           "location": null,
           "thumb": "assets/opt/city/city-022-_DSC9777-thumb.webp",
-          "large": "assets/opt/city/city-022-_DSC9777-large.webp"
+          "large": "assets/opt/city/city-022-_DSC9777-large.webp",
+          "master": "assets/photos/city/city-022-_DSC9777.jpg"
         },
         {
           "id": "city-23",
           "title": "_DSC9791",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-023-_DSC9791.jpg",
           "filename": "_DSC9791.jpg",
           "ratio": "wide",
           "width": 5611,
@@ -1589,14 +1595,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "37mm",
           "location": null,
           "thumb": "assets/opt/city/city-023-_DSC9791-thumb.webp",
-          "large": "assets/opt/city/city-023-_DSC9791-large.webp"
+          "large": "assets/opt/city/city-023-_DSC9791-large.webp",
+          "master": "assets/photos/city/city-023-_DSC9791.jpg"
         },
         {
           "id": "city-24",
           "title": "_DSC9958",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-024-_DSC9958.jpg",
           "filename": "_DSC9958.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1609,14 +1615,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "57mm",
           "location": null,
           "thumb": "assets/opt/city/city-024-_DSC9958-thumb.webp",
-          "large": "assets/opt/city/city-024-_DSC9958-large.webp"
+          "large": "assets/opt/city/city-024-_DSC9958-large.webp",
+          "master": "assets/photos/city/city-024-_DSC9958.jpg"
         },
         {
           "id": "city-25",
           "title": "_DSC9965",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-025-_DSC9965.jpg",
           "filename": "_DSC9965.jpg",
           "ratio": "wide",
           "width": 5608,
@@ -1629,14 +1635,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-025-_DSC9965-thumb.webp",
-          "large": "assets/opt/city/city-025-_DSC9965-large.webp"
+          "large": "assets/opt/city/city-025-_DSC9965-large.webp",
+          "master": "assets/photos/city/city-025-_DSC9965.jpg"
         },
         {
           "id": "city-26",
           "title": "20220529-DJI_0248-HDR",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-026-20220529-DJI_0248-HDR.jpg",
           "filename": "20220529-DJI_0248-HDR.jpg",
           "ratio": "wide",
           "width": 5444,
@@ -1649,14 +1655,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/city/city-026-20220529-DJI_0248-HDR-thumb.webp",
-          "large": "assets/opt/city/city-026-20220529-DJI_0248-HDR-large.webp"
+          "large": "assets/opt/city/city-026-20220529-DJI_0248-HDR-large.webp",
+          "master": "assets/photos/city/city-026-20220529-DJI_0248-HDR.jpg"
         },
         {
           "id": "city-27",
           "title": "DJI_0128",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-027-DJI_0128.jpg",
           "filename": "DJI_0128.jpg",
           "ratio": "wide",
           "width": 5423,
@@ -1669,14 +1675,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": "22.520675, 113.946413",
           "thumb": "assets/opt/city/city-027-DJI_0128-thumb.webp",
-          "large": "assets/opt/city/city-027-DJI_0128-large.webp"
+          "large": "assets/opt/city/city-027-DJI_0128-large.webp",
+          "master": "assets/photos/city/city-027-DJI_0128.jpg"
         },
         {
           "id": "city-28",
           "title": "DJI_0159",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-028-DJI_0159.jpg",
           "filename": "DJI_0159.jpg",
           "ratio": "wide",
           "width": 5264,
@@ -1689,14 +1695,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": "22.545955, 114.056613",
           "thumb": "assets/opt/city/city-028-DJI_0159-thumb.webp",
-          "large": "assets/opt/city/city-028-DJI_0159-large.webp"
+          "large": "assets/opt/city/city-028-DJI_0159-large.webp",
+          "master": "assets/photos/city/city-028-DJI_0159.jpg"
         },
         {
           "id": "city-29",
           "title": "DSC00069",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-029-DSC00069.jpg",
           "filename": "DSC00069.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1709,14 +1715,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-029-DSC00069-thumb.webp",
-          "large": "assets/opt/city/city-029-DSC00069-large.webp"
+          "large": "assets/opt/city/city-029-DSC00069-large.webp",
+          "master": "assets/photos/city/city-029-DSC00069.jpg"
         },
         {
           "id": "city-30",
           "title": "DSC00091",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-030-DSC00091.jpg",
           "filename": "DSC00091.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1729,14 +1735,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "60mm",
           "location": null,
           "thumb": "assets/opt/city/city-030-DSC00091-thumb.webp",
-          "large": "assets/opt/city/city-030-DSC00091-large.webp"
+          "large": "assets/opt/city/city-030-DSC00091-large.webp",
+          "master": "assets/photos/city/city-030-DSC00091.jpg"
         },
         {
           "id": "city-31",
           "title": "DSC00226",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-031-DSC00226.jpg",
           "filename": "DSC00226.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1749,14 +1755,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "70mm",
           "location": null,
           "thumb": "assets/opt/city/city-031-DSC00226-thumb.webp",
-          "large": "assets/opt/city/city-031-DSC00226-large.webp"
+          "large": "assets/opt/city/city-031-DSC00226-large.webp",
+          "master": "assets/photos/city/city-031-DSC00226.jpg"
         },
         {
           "id": "city-32",
           "title": "DSC00265",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-032-DSC00265.jpg",
           "filename": "DSC00265.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1769,14 +1775,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "63mm",
           "location": null,
           "thumb": "assets/opt/city/city-032-DSC00265-thumb.webp",
-          "large": "assets/opt/city/city-032-DSC00265-large.webp"
+          "large": "assets/opt/city/city-032-DSC00265-large.webp",
+          "master": "assets/photos/city/city-032-DSC00265.jpg"
         },
         {
           "id": "city-33",
           "title": "DSC00292",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-033-DSC00292.jpg",
           "filename": "DSC00292.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1789,14 +1795,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/city/city-033-DSC00292-thumb.webp",
-          "large": "assets/opt/city/city-033-DSC00292-large.webp"
+          "large": "assets/opt/city/city-033-DSC00292-large.webp",
+          "master": "assets/photos/city/city-033-DSC00292.jpg"
         },
         {
           "id": "city-34",
           "title": "DSC00343",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-034-DSC00343.jpg",
           "filename": "DSC00343.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -1809,14 +1815,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-034-DSC00343-thumb.webp",
-          "large": "assets/opt/city/city-034-DSC00343-large.webp"
+          "large": "assets/opt/city/city-034-DSC00343-large.webp",
+          "master": "assets/photos/city/city-034-DSC00343.jpg"
         },
         {
           "id": "city-35",
           "title": "DSC01245",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-035-DSC01245.jpg",
           "filename": "DSC01245.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -1829,14 +1835,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "54mm",
           "location": null,
           "thumb": "assets/opt/city/city-035-DSC01245-thumb.webp",
-          "large": "assets/opt/city/city-035-DSC01245-large.webp"
+          "large": "assets/opt/city/city-035-DSC01245-large.webp",
+          "master": "assets/photos/city/city-035-DSC01245.jpg"
         },
         {
           "id": "city-36",
           "title": "DSC01297",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-036-DSC01297.jpg",
           "filename": "DSC01297.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -1849,14 +1855,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-036-DSC01297-thumb.webp",
-          "large": "assets/opt/city/city-036-DSC01297-large.webp"
+          "large": "assets/opt/city/city-036-DSC01297-large.webp",
+          "master": "assets/photos/city/city-036-DSC01297.jpg"
         },
         {
           "id": "city-37",
           "title": "DSC01302",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-037-DSC01302.jpg",
           "filename": "DSC01302.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -1869,14 +1875,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "42mm",
           "location": null,
           "thumb": "assets/opt/city/city-037-DSC01302-thumb.webp",
-          "large": "assets/opt/city/city-037-DSC01302-large.webp"
+          "large": "assets/opt/city/city-037-DSC01302-large.webp",
+          "master": "assets/photos/city/city-037-DSC01302.jpg"
         },
         {
           "id": "city-38",
           "title": "DSC01361",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-038-DSC01361.jpg",
           "filename": "DSC01361.jpg",
           "ratio": "wide",
           "width": 5967,
@@ -1889,14 +1895,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-038-DSC01361-thumb.webp",
-          "large": "assets/opt/city/city-038-DSC01361-large.webp"
+          "large": "assets/opt/city/city-038-DSC01361-large.webp",
+          "master": "assets/photos/city/city-038-DSC01361.jpg"
         },
         {
           "id": "city-39",
           "title": "DSC01729",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-039-DSC01729.jpg",
           "filename": "DSC01729.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -1909,14 +1915,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "58mm",
           "location": null,
           "thumb": "assets/opt/city/city-039-DSC01729-thumb.webp",
-          "large": "assets/opt/city/city-039-DSC01729-large.webp"
+          "large": "assets/opt/city/city-039-DSC01729-large.webp",
+          "master": "assets/photos/city/city-039-DSC01729.jpg"
         },
         {
           "id": "city-40",
           "title": "DSC01816",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-040-DSC01816.jpg",
           "filename": "DSC01816.jpg",
           "ratio": "wide",
           "width": 3499,
@@ -1929,14 +1935,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-040-DSC01816-thumb.webp",
-          "large": "assets/opt/city/city-040-DSC01816-large.webp"
+          "large": "assets/opt/city/city-040-DSC01816-large.webp",
+          "master": "assets/photos/city/city-040-DSC01816.jpg"
         },
         {
           "id": "city-41",
           "title": "DSC01977",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-041-DSC01977.jpg",
           "filename": "DSC01977.jpg",
           "ratio": "tall",
           "width": 1440,
@@ -1949,14 +1955,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "67mm",
           "location": null,
           "thumb": "assets/opt/city/city-041-DSC01977-thumb.webp",
-          "large": "assets/opt/city/city-041-DSC01977-large.webp"
+          "large": "assets/opt/city/city-041-DSC01977-large.webp",
+          "master": "assets/photos/city/city-041-DSC01977.jpg"
         },
         {
           "id": "city-42",
           "title": "DSC02448",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-042-DSC02448.jpg",
           "filename": "DSC02448.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -1969,14 +1975,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-042-DSC02448-thumb.webp",
-          "large": "assets/opt/city/city-042-DSC02448-large.webp"
+          "large": "assets/opt/city/city-042-DSC02448-large.webp",
+          "master": "assets/photos/city/city-042-DSC02448.jpg"
         },
         {
           "id": "city-43",
           "title": "DSC04744",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-043-DSC04744.jpg",
           "filename": "DSC04744.jpg",
           "ratio": "tall",
           "width": 1440,
@@ -1989,14 +1995,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-043-DSC04744-thumb.webp",
-          "large": "assets/opt/city/city-043-DSC04744-large.webp"
+          "large": "assets/opt/city/city-043-DSC04744-large.webp",
+          "master": "assets/photos/city/city-043-DSC04744.jpg"
         },
         {
           "id": "city-44",
           "title": "DSC04747",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-044-DSC04747.jpg",
           "filename": "DSC04747.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2009,14 +2015,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-044-DSC04747-thumb.webp",
-          "large": "assets/opt/city/city-044-DSC04747-large.webp"
+          "large": "assets/opt/city/city-044-DSC04747-large.webp",
+          "master": "assets/photos/city/city-044-DSC04747.jpg"
         },
         {
           "id": "city-45",
           "title": "DSC04990",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-045-DSC04990.jpg",
           "filename": "DSC04990.jpg",
           "ratio": "wide",
           "width": 5972,
@@ -2029,14 +2035,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-045-DSC04990-thumb.webp",
-          "large": "assets/opt/city/city-045-DSC04990-large.webp"
+          "large": "assets/opt/city/city-045-DSC04990-large.webp",
+          "master": "assets/photos/city/city-045-DSC04990.jpg"
         },
         {
           "id": "city-46",
           "title": "DSC05830",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-046-DSC05830.jpg",
           "filename": "DSC05830.jpg",
           "ratio": "wide",
           "width": 3097,
@@ -2049,14 +2055,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-046-DSC05830-thumb.webp",
-          "large": "assets/opt/city/city-046-DSC05830-large.webp"
+          "large": "assets/opt/city/city-046-DSC05830-large.webp",
+          "master": "assets/photos/city/city-046-DSC05830.jpg"
         },
         {
           "id": "city-47",
           "title": "DSC05845",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-047-DSC05845.jpg",
           "filename": "DSC05845.jpg",
           "ratio": "tall",
           "width": 1440,
@@ -2068,14 +2074,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "54mm",
           "location": null,
-          "thumb": "assets/opt/city/city-047-DSC05845-thumb.webp"
+          "thumb": "assets/opt/city/city-047-DSC05845-thumb.webp",
+          "large": "assets/opt/city/city-047-DSC05845-large.webp",
+          "master": "assets/photos/city/city-047-DSC05845.jpg"
         },
         {
           "id": "city-48",
           "title": "DSC05895",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-048-DSC05895.jpg",
           "filename": "DSC05895.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -2088,14 +2095,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-048-DSC05895-thumb.webp",
-          "large": "assets/opt/city/city-048-DSC05895-large.webp"
+          "large": "assets/opt/city/city-048-DSC05895-large.webp",
+          "master": "assets/photos/city/city-048-DSC05895.jpg"
         },
         {
           "id": "city-49",
           "title": "DSC06577",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-049-DSC06577.jpg",
           "filename": "DSC06577.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2108,14 +2115,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "40mm",
           "location": null,
           "thumb": "assets/opt/city/city-049-DSC06577-thumb.webp",
-          "large": "assets/opt/city/city-049-DSC06577-large.webp"
+          "large": "assets/opt/city/city-049-DSC06577-large.webp",
+          "master": "assets/photos/city/city-049-DSC06577.jpg"
         },
         {
           "id": "city-50",
           "title": "DSC06814",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-050-DSC06814.jpg",
           "filename": "DSC06814.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2128,14 +2135,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "40mm",
           "location": null,
           "thumb": "assets/opt/city/city-050-DSC06814-thumb.webp",
-          "large": "assets/opt/city/city-050-DSC06814-large.webp"
+          "large": "assets/opt/city/city-050-DSC06814-large.webp",
+          "master": "assets/photos/city/city-050-DSC06814.jpg"
         },
         {
           "id": "city-51",
           "title": "DSC06828",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-051-DSC06828.jpg",
           "filename": "DSC06828.jpg",
           "ratio": "wide",
           "width": 4887,
@@ -2148,14 +2155,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-051-DSC06828-thumb.webp",
-          "large": "assets/opt/city/city-051-DSC06828-large.webp"
+          "large": "assets/opt/city/city-051-DSC06828-large.webp",
+          "master": "assets/photos/city/city-051-DSC06828.jpg"
         },
         {
           "id": "city-52",
           "title": "DSC06846",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-052-DSC06846.jpg",
           "filename": "DSC06846.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2168,14 +2175,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/city/city-052-DSC06846-thumb.webp",
-          "large": "assets/opt/city/city-052-DSC06846-large.webp"
+          "large": "assets/opt/city/city-052-DSC06846-large.webp",
+          "master": "assets/photos/city/city-052-DSC06846.jpg"
         },
         {
           "id": "city-53",
           "title": "DSC07163",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-053-DSC07163.jpg",
           "filename": "DSC07163.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2188,14 +2195,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/city/city-053-DSC07163-thumb.webp",
-          "large": "assets/opt/city/city-053-DSC07163-large.webp"
+          "large": "assets/opt/city/city-053-DSC07163-large.webp",
+          "master": "assets/photos/city/city-053-DSC07163.jpg"
         },
         {
           "id": "city-54",
           "title": "DSC07182",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-054-DSC07182.jpg",
           "filename": "DSC07182.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2208,14 +2215,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/city/city-054-DSC07182-thumb.webp",
-          "large": "assets/opt/city/city-054-DSC07182-large.webp"
+          "large": "assets/opt/city/city-054-DSC07182-large.webp",
+          "master": "assets/photos/city/city-054-DSC07182.jpg"
         },
         {
           "id": "city-55",
           "title": "DSC07185",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-055-DSC07185.jpg",
           "filename": "DSC07185.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2228,14 +2235,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/city/city-055-DSC07185-thumb.webp",
-          "large": "assets/opt/city/city-055-DSC07185-large.webp"
+          "large": "assets/opt/city/city-055-DSC07185-large.webp",
+          "master": "assets/photos/city/city-055-DSC07185.jpg"
         },
         {
           "id": "city-56",
           "title": "DSC07780",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-056-DSC07780.jpg",
           "filename": "DSC07780.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2248,14 +2255,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/city/city-056-DSC07780-thumb.webp",
-          "large": "assets/opt/city/city-056-DSC07780-large.webp"
+          "large": "assets/opt/city/city-056-DSC07780-large.webp",
+          "master": "assets/photos/city/city-056-DSC07780.jpg"
         },
         {
           "id": "city-57",
           "title": "DSC07933",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-057-DSC07933.jpg",
           "filename": "DSC07933.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -2268,14 +2275,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "69mm",
           "location": null,
           "thumb": "assets/opt/city/city-057-DSC07933-thumb.webp",
-          "large": "assets/opt/city/city-057-DSC07933-large.webp"
+          "large": "assets/opt/city/city-057-DSC07933-large.webp",
+          "master": "assets/photos/city/city-057-DSC07933.jpg"
         },
         {
           "id": "city-58",
           "title": "DSC07938",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-058-DSC07938.jpg",
           "filename": "DSC07938.jpg",
           "ratio": "wide",
           "width": 3606,
@@ -2288,14 +2295,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "45mm",
           "location": null,
           "thumb": "assets/opt/city/city-058-DSC07938-thumb.webp",
-          "large": "assets/opt/city/city-058-DSC07938-large.webp"
+          "large": "assets/opt/city/city-058-DSC07938-large.webp",
+          "master": "assets/photos/city/city-058-DSC07938.jpg"
         },
         {
           "id": "city-59",
           "title": "DSC07973",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-059-DSC07973.jpg",
           "filename": "DSC07973.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2308,14 +2315,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "51mm",
           "location": null,
           "thumb": "assets/opt/city/city-059-DSC07973-thumb.webp",
-          "large": "assets/opt/city/city-059-DSC07973-large.webp"
+          "large": "assets/opt/city/city-059-DSC07973-large.webp",
+          "master": "assets/photos/city/city-059-DSC07973.jpg"
         },
         {
           "id": "city-60",
           "title": "DSC08010",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-060-DSC08010.jpg",
           "filename": "DSC08010.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2328,14 +2335,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "59mm",
           "location": null,
           "thumb": "assets/opt/city/city-060-DSC08010-thumb.webp",
-          "large": "assets/opt/city/city-060-DSC08010-large.webp"
+          "large": "assets/opt/city/city-060-DSC08010-large.webp",
+          "master": "assets/photos/city/city-060-DSC08010.jpg"
         },
         {
           "id": "city-61",
           "title": "DSC08412",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-061-DSC08412.jpg",
           "filename": "DSC08412.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -2348,14 +2355,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "36mm",
           "location": null,
           "thumb": "assets/opt/city/city-061-DSC08412-thumb.webp",
-          "large": "assets/opt/city/city-061-DSC08412-large.webp"
+          "large": "assets/opt/city/city-061-DSC08412-large.webp",
+          "master": "assets/photos/city/city-061-DSC08412.jpg"
         },
         {
           "id": "city-62",
           "title": "DSC09249",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-062-DSC09249.jpg",
           "filename": "DSC09249.jpg",
           "ratio": "wide",
           "width": 4519,
@@ -2368,14 +2375,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-062-DSC09249-thumb.webp",
-          "large": "assets/opt/city/city-062-DSC09249-large.webp"
+          "large": "assets/opt/city/city-062-DSC09249-large.webp",
+          "master": "assets/photos/city/city-062-DSC09249.jpg"
         },
         {
           "id": "city-63",
           "title": "DSC09256",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-063-DSC09256.jpg",
           "filename": "DSC09256.jpg",
           "ratio": "wide",
           "width": 5671,
@@ -2388,14 +2395,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "47mm",
           "location": null,
           "thumb": "assets/opt/city/city-063-DSC09256-thumb.webp",
-          "large": "assets/opt/city/city-063-DSC09256-large.webp"
+          "large": "assets/opt/city/city-063-DSC09256-large.webp",
+          "master": "assets/photos/city/city-063-DSC09256.jpg"
         },
         {
           "id": "city-64",
           "title": "DSC09363",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-064-DSC09363.jpg",
           "filename": "DSC09363.jpg",
           "ratio": "wide",
           "width": 5692,
@@ -2408,14 +2415,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-064-DSC09363-thumb.webp",
-          "large": "assets/opt/city/city-064-DSC09363-large.webp"
+          "large": "assets/opt/city/city-064-DSC09363-large.webp",
+          "master": "assets/photos/city/city-064-DSC09363.jpg"
         },
         {
           "id": "city-65",
           "title": "DSC09438",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-065-DSC09438.jpg",
           "filename": "DSC09438.jpg",
           "ratio": "wide",
           "width": 3648,
@@ -2428,14 +2435,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "54mm",
           "location": null,
           "thumb": "assets/opt/city/city-065-DSC09438-thumb.webp",
-          "large": "assets/opt/city/city-065-DSC09438-large.webp"
+          "large": "assets/opt/city/city-065-DSC09438-large.webp",
+          "master": "assets/photos/city/city-065-DSC09438.jpg"
         },
         {
           "id": "city-66",
           "title": "DSC09444",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-066-DSC09444.jpg",
           "filename": "DSC09444.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -2448,14 +2455,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/city/city-066-DSC09444-thumb.webp",
-          "large": "assets/opt/city/city-066-DSC09444-large.webp"
+          "large": "assets/opt/city/city-066-DSC09444-large.webp",
+          "master": "assets/photos/city/city-066-DSC09444.jpg"
         },
         {
           "id": "city-67",
           "title": "东门夜景",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-067-photo.jpg",
           "filename": "东门夜景.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -2468,14 +2475,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "40mm",
           "location": null,
           "thumb": "assets/opt/city/city-067-photo-thumb.webp",
-          "large": "assets/opt/city/city-067-photo-large.webp"
+          "large": "assets/opt/city/city-067-photo-large.webp",
+          "master": "assets/photos/city/city-067-photo.jpg"
         },
         {
           "id": "city-68",
           "title": "未标题1",
           "category": "city",
           "categoryLabel": "城市脉动",
-          "src": "assets/photos/city/city-068-1.jpg",
           "filename": "未标题1.jpg",
           "ratio": "wide",
           "width": 5880,
@@ -2488,7 +2495,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/city/city-068-1-thumb.webp",
-          "large": "assets/opt/city/city-068-1-large.webp"
+          "large": "assets/opt/city/city-068-1-large.webp",
+          "master": "assets/photos/city/city-068-1.jpg"
         }
       ]
     },
@@ -2504,7 +2512,6 @@ window.PHOTO_LIBRARY = {
           "title": "_DSC0005 - Copy",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-001-_DSC0005---Copy.jpg",
           "filename": "_DSC0005 - Copy.jpg",
           "ratio": "tall",
           "width": 3636,
@@ -2516,14 +2523,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "28mm",
           "location": null,
-          "thumb": "assets/opt/people/people-001-_DSC0005---Copy-thumb.webp"
+          "thumb": "assets/opt/people/people-001-_DSC0005---Copy-thumb.webp",
+          "large": "assets/opt/people/people-001-_DSC0005---Copy-large.webp",
+          "master": "assets/photos/people/people-001-_DSC0005---Copy.jpg"
         },
         {
           "id": "people-2",
           "title": "_DSC0007",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-002-_DSC0007.jpg",
           "filename": "_DSC0007.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2536,14 +2544,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-002-_DSC0007-thumb.webp",
-          "large": "assets/opt/people/people-002-_DSC0007-large.webp"
+          "large": "assets/opt/people/people-002-_DSC0007-large.webp",
+          "master": "assets/photos/people/people-002-_DSC0007.jpg"
         },
         {
           "id": "people-3",
           "title": "_DSC0016",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-003-_DSC0016.jpg",
           "filename": "_DSC0016.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2556,14 +2564,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "60mm",
           "location": null,
           "thumb": "assets/opt/people/people-003-_DSC0016-thumb.webp",
-          "large": "assets/opt/people/people-003-_DSC0016-large.webp"
+          "large": "assets/opt/people/people-003-_DSC0016-large.webp",
+          "master": "assets/photos/people/people-003-_DSC0016.jpg"
         },
         {
           "id": "people-4",
           "title": "_DSC0057",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-004-_DSC0057.jpg",
           "filename": "_DSC0057.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -2575,14 +2583,15 @@ window.PHOTO_LIBRARY = {
           "iso": null,
           "focalLength": null,
           "location": null,
-          "thumb": "assets/opt/people/people-004-_DSC0057-thumb.webp"
+          "thumb": "assets/opt/people/people-004-_DSC0057-thumb.webp",
+          "large": "assets/opt/people/people-004-_DSC0057-large.webp",
+          "master": "assets/photos/people/people-004-_DSC0057.jpg"
         },
         {
           "id": "people-5",
           "title": "_DSC0106",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-005-_DSC0106.jpg",
           "filename": "_DSC0106.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2595,14 +2604,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "70mm",
           "location": null,
           "thumb": "assets/opt/people/people-005-_DSC0106-thumb.webp",
-          "large": "assets/opt/people/people-005-_DSC0106-large.webp"
+          "large": "assets/opt/people/people-005-_DSC0106-large.webp",
+          "master": "assets/photos/people/people-005-_DSC0106.jpg"
         },
         {
           "id": "people-6",
           "title": "_DSC0128",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-006-_DSC0128.jpg",
           "filename": "_DSC0128.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2615,14 +2624,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-006-_DSC0128-thumb.webp",
-          "large": "assets/opt/people/people-006-_DSC0128-large.webp"
+          "large": "assets/opt/people/people-006-_DSC0128-large.webp",
+          "master": "assets/photos/people/people-006-_DSC0128.jpg"
         },
         {
           "id": "people-7",
           "title": "_DSC0158",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-007-_DSC0158.jpg",
           "filename": "_DSC0158.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2635,14 +2644,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "200mm",
           "location": null,
           "thumb": "assets/opt/people/people-007-_DSC0158-thumb.webp",
-          "large": "assets/opt/people/people-007-_DSC0158-large.webp"
+          "large": "assets/opt/people/people-007-_DSC0158-large.webp",
+          "master": "assets/photos/people/people-007-_DSC0158.jpg"
         },
         {
           "id": "people-8",
           "title": "_DSC0197",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-008-_DSC0197.jpg",
           "filename": "_DSC0197.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -2654,14 +2663,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-008-_DSC0197-thumb.webp"
+          "thumb": "assets/opt/people/people-008-_DSC0197-thumb.webp",
+          "large": "assets/opt/people/people-008-_DSC0197-large.webp",
+          "master": "assets/photos/people/people-008-_DSC0197.jpg"
         },
         {
           "id": "people-9",
           "title": "_DSC0214",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-009-_DSC0214.jpg",
           "filename": "_DSC0214.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2674,14 +2684,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "70mm",
           "location": null,
           "thumb": "assets/opt/people/people-009-_DSC0214-thumb.webp",
-          "large": "assets/opt/people/people-009-_DSC0214-large.webp"
+          "large": "assets/opt/people/people-009-_DSC0214-large.webp",
+          "master": "assets/photos/people/people-009-_DSC0214.jpg"
         },
         {
           "id": "people-10",
           "title": "_DSC0356",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-010-_DSC0356.jpg",
           "filename": "_DSC0356.jpg",
           "ratio": "tall",
           "width": 3841,
@@ -2693,14 +2703,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-010-_DSC0356-thumb.webp"
+          "thumb": "assets/opt/people/people-010-_DSC0356-thumb.webp",
+          "large": "assets/opt/people/people-010-_DSC0356-large.webp",
+          "master": "assets/photos/people/people-010-_DSC0356.jpg"
         },
         {
           "id": "people-11",
           "title": "_DSC0545",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-011-_DSC0545.jpg",
           "filename": "_DSC0545.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2713,14 +2724,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "59mm",
           "location": null,
           "thumb": "assets/opt/people/people-011-_DSC0545-thumb.webp",
-          "large": "assets/opt/people/people-011-_DSC0545-large.webp"
+          "large": "assets/opt/people/people-011-_DSC0545-large.webp",
+          "master": "assets/photos/people/people-011-_DSC0545.jpg"
         },
         {
           "id": "people-12",
           "title": "_DSC0694",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-012-_DSC0694.jpg",
           "filename": "_DSC0694.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2733,14 +2744,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "56mm",
           "location": null,
           "thumb": "assets/opt/people/people-012-_DSC0694-thumb.webp",
-          "large": "assets/opt/people/people-012-_DSC0694-large.webp"
+          "large": "assets/opt/people/people-012-_DSC0694-large.webp",
+          "master": "assets/photos/people/people-012-_DSC0694.jpg"
         },
         {
           "id": "people-13",
           "title": "_DSC0711",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-013-_DSC0711.jpg",
           "filename": "_DSC0711.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2753,14 +2764,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-013-_DSC0711-thumb.webp",
-          "large": "assets/opt/people/people-013-_DSC0711-large.webp"
+          "large": "assets/opt/people/people-013-_DSC0711-large.webp",
+          "master": "assets/photos/people/people-013-_DSC0711.jpg"
         },
         {
           "id": "people-14",
           "title": "_DSC0762",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-014-_DSC0762.jpg",
           "filename": "_DSC0762.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2773,14 +2784,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "45mm",
           "location": null,
           "thumb": "assets/opt/people/people-014-_DSC0762-thumb.webp",
-          "large": "assets/opt/people/people-014-_DSC0762-large.webp"
+          "large": "assets/opt/people/people-014-_DSC0762-large.webp",
+          "master": "assets/photos/people/people-014-_DSC0762.jpg"
         },
         {
           "id": "people-15",
           "title": "_DSC1169",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-015-_DSC1169.jpg",
           "filename": "_DSC1169.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2793,14 +2804,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-015-_DSC1169-thumb.webp",
-          "large": "assets/opt/people/people-015-_DSC1169-large.webp"
+          "large": "assets/opt/people/people-015-_DSC1169-large.webp",
+          "master": "assets/photos/people/people-015-_DSC1169.jpg"
         },
         {
           "id": "people-16",
           "title": "_DSC3080",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-016-_DSC3080.jpg",
           "filename": "_DSC3080.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2813,14 +2824,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "65mm",
           "location": null,
           "thumb": "assets/opt/people/people-016-_DSC3080-thumb.webp",
-          "large": "assets/opt/people/people-016-_DSC3080-large.webp"
+          "large": "assets/opt/people/people-016-_DSC3080-large.webp",
+          "master": "assets/photos/people/people-016-_DSC3080.jpg"
         },
         {
           "id": "people-17",
           "title": "_DSC3123",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-017-_DSC3123.jpg",
           "filename": "_DSC3123.jpg",
           "ratio": "tall",
           "width": 2624,
@@ -2832,14 +2843,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 200",
           "focalLength": "52mm",
           "location": null,
-          "thumb": "assets/opt/people/people-017-_DSC3123-thumb.webp"
+          "thumb": "assets/opt/people/people-017-_DSC3123-thumb.webp",
+          "large": "assets/opt/people/people-017-_DSC3123-large.webp",
+          "master": "assets/photos/people/people-017-_DSC3123.jpg"
         },
         {
           "id": "people-18",
           "title": "_DSC3141",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-018-_DSC3141.jpg",
           "filename": "_DSC3141.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -2851,14 +2863,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 200",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-018-_DSC3141-thumb.webp"
+          "thumb": "assets/opt/people/people-018-_DSC3141-thumb.webp",
+          "large": "assets/opt/people/people-018-_DSC3141-large.webp",
+          "master": "assets/photos/people/people-018-_DSC3141.jpg"
         },
         {
           "id": "people-19",
           "title": "_DSC3659",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-019-_DSC3659.jpg",
           "filename": "_DSC3659.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -2870,14 +2883,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 400",
           "focalLength": "64mm",
           "location": null,
-          "thumb": "assets/opt/people/people-019-_DSC3659-thumb.webp"
+          "thumb": "assets/opt/people/people-019-_DSC3659-thumb.webp",
+          "large": "assets/opt/people/people-019-_DSC3659-large.webp",
+          "master": "assets/photos/people/people-019-_DSC3659.jpg"
         },
         {
           "id": "people-20",
           "title": "_DSC3820",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-020-_DSC3820.jpg",
           "filename": "_DSC3820.jpg",
           "ratio": "tall",
           "width": 3686,
@@ -2889,14 +2903,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 400",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-020-_DSC3820-thumb.webp"
+          "thumb": "assets/opt/people/people-020-_DSC3820-thumb.webp",
+          "large": "assets/opt/people/people-020-_DSC3820-large.webp",
+          "master": "assets/photos/people/people-020-_DSC3820.jpg"
         },
         {
           "id": "people-21",
           "title": "_DSC5693",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-021-_DSC5693.jpg",
           "filename": "_DSC5693.jpg",
           "ratio": "wide",
           "width": 5857,
@@ -2909,14 +2924,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-021-_DSC5693-thumb.webp",
-          "large": "assets/opt/people/people-021-_DSC5693-large.webp"
+          "large": "assets/opt/people/people-021-_DSC5693-large.webp",
+          "master": "assets/photos/people/people-021-_DSC5693.jpg"
         },
         {
           "id": "people-22",
           "title": "_DSC5703",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-022-_DSC5703.jpg",
           "filename": "_DSC5703.jpg",
           "ratio": "tall",
           "width": 3914,
@@ -2928,14 +2943,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-022-_DSC5703-thumb.webp"
+          "thumb": "assets/opt/people/people-022-_DSC5703-thumb.webp",
+          "large": "assets/opt/people/people-022-_DSC5703-large.webp",
+          "master": "assets/photos/people/people-022-_DSC5703.jpg"
         },
         {
           "id": "people-23",
           "title": "_DSC5738",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-023-_DSC5738.jpg",
           "filename": "_DSC5738.jpg",
           "ratio": "tall",
           "width": 3771,
@@ -2947,14 +2963,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-023-_DSC5738-thumb.webp"
+          "thumb": "assets/opt/people/people-023-_DSC5738-thumb.webp",
+          "large": "assets/opt/people/people-023-_DSC5738-large.webp",
+          "master": "assets/photos/people/people-023-_DSC5738.jpg"
         },
         {
           "id": "people-24",
           "title": "_DSC6532",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-024-_DSC6532.jpg",
           "filename": "_DSC6532.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2967,14 +2984,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "44mm",
           "location": null,
           "thumb": "assets/opt/people/people-024-_DSC6532-thumb.webp",
-          "large": "assets/opt/people/people-024-_DSC6532-large.webp"
+          "large": "assets/opt/people/people-024-_DSC6532-large.webp",
+          "master": "assets/photos/people/people-024-_DSC6532.jpg"
         },
         {
           "id": "people-25",
           "title": "_DSC6610",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-025-_DSC6610.jpg",
           "filename": "_DSC6610.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -2987,14 +3004,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "61mm",
           "location": null,
           "thumb": "assets/opt/people/people-025-_DSC6610-thumb.webp",
-          "large": "assets/opt/people/people-025-_DSC6610-large.webp"
+          "large": "assets/opt/people/people-025-_DSC6610-large.webp",
+          "master": "assets/photos/people/people-025-_DSC6610.jpg"
         },
         {
           "id": "people-26",
           "title": "_DSC6661",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-026-_DSC6661.jpg",
           "filename": "_DSC6661.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3007,14 +3024,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-026-_DSC6661-thumb.webp",
-          "large": "assets/opt/people/people-026-_DSC6661-large.webp"
+          "large": "assets/opt/people/people-026-_DSC6661-large.webp",
+          "master": "assets/photos/people/people-026-_DSC6661.jpg"
         },
         {
           "id": "people-27",
           "title": "_DSC6684",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-027-_DSC6684.jpg",
           "filename": "_DSC6684.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3027,14 +3044,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "53mm",
           "location": null,
           "thumb": "assets/opt/people/people-027-_DSC6684-thumb.webp",
-          "large": "assets/opt/people/people-027-_DSC6684-large.webp"
+          "large": "assets/opt/people/people-027-_DSC6684-large.webp",
+          "master": "assets/photos/people/people-027-_DSC6684.jpg"
         },
         {
           "id": "people-28",
           "title": "_DSC7195",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-028-_DSC7195.jpg",
           "filename": "_DSC7195.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -3046,14 +3063,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 500",
           "focalLength": "59mm",
           "location": null,
-          "thumb": "assets/opt/people/people-028-_DSC7195-thumb.webp"
+          "thumb": "assets/opt/people/people-028-_DSC7195-thumb.webp",
+          "large": "assets/opt/people/people-028-_DSC7195-large.webp",
+          "master": "assets/photos/people/people-028-_DSC7195.jpg"
         },
         {
           "id": "people-29",
           "title": "_DSC7908",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-029-_DSC7908.jpg",
           "filename": "_DSC7908.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3066,14 +3084,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "29mm",
           "location": null,
           "thumb": "assets/opt/people/people-029-_DSC7908-thumb.webp",
-          "large": "assets/opt/people/people-029-_DSC7908-large.webp"
+          "large": "assets/opt/people/people-029-_DSC7908-large.webp",
+          "master": "assets/photos/people/people-029-_DSC7908.jpg"
         },
         {
           "id": "people-30",
           "title": "_DSC7944",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-030-_DSC7944.jpg",
           "filename": "_DSC7944.jpg",
           "ratio": "wide",
           "width": 5377,
@@ -3086,14 +3104,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "33mm",
           "location": null,
           "thumb": "assets/opt/people/people-030-_DSC7944-thumb.webp",
-          "large": "assets/opt/people/people-030-_DSC7944-large.webp"
+          "large": "assets/opt/people/people-030-_DSC7944-large.webp",
+          "master": "assets/photos/people/people-030-_DSC7944.jpg"
         },
         {
           "id": "people-31",
           "title": "_DSC8860",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-031-_DSC8860.jpg",
           "filename": "_DSC8860.jpg",
           "ratio": "wide",
           "width": 5056,
@@ -3106,14 +3124,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-031-_DSC8860-thumb.webp",
-          "large": "assets/opt/people/people-031-_DSC8860-large.webp"
+          "large": "assets/opt/people/people-031-_DSC8860-large.webp",
+          "master": "assets/photos/people/people-031-_DSC8860.jpg"
         },
         {
           "id": "people-32",
           "title": "_DSC9213",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-032-_DSC9213.jpg",
           "filename": "_DSC9213.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3126,14 +3144,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-032-_DSC9213-thumb.webp",
-          "large": "assets/opt/people/people-032-_DSC9213-large.webp"
+          "large": "assets/opt/people/people-032-_DSC9213-large.webp",
+          "master": "assets/photos/people/people-032-_DSC9213.jpg"
         },
         {
           "id": "people-33",
           "title": "_DSC9292",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-033-_DSC9292.jpg",
           "filename": "_DSC9292.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3146,14 +3164,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "50mm",
           "location": null,
           "thumb": "assets/opt/people/people-033-_DSC9292-thumb.webp",
-          "large": "assets/opt/people/people-033-_DSC9292-large.webp"
+          "large": "assets/opt/people/people-033-_DSC9292-large.webp",
+          "master": "assets/photos/people/people-033-_DSC9292.jpg"
         },
         {
           "id": "people-34",
           "title": "_DSC9397",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-034-_DSC9397.jpg",
           "filename": "_DSC9397.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3166,14 +3184,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "37mm",
           "location": null,
           "thumb": "assets/opt/people/people-034-_DSC9397-thumb.webp",
-          "large": "assets/opt/people/people-034-_DSC9397-large.webp"
+          "large": "assets/opt/people/people-034-_DSC9397-large.webp",
+          "master": "assets/photos/people/people-034-_DSC9397.jpg"
         },
         {
           "id": "people-35",
           "title": "_DSC9478",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-035-_DSC9478.jpg",
           "filename": "_DSC9478.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -3185,14 +3203,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 250",
           "focalLength": "35mm",
           "location": null,
-          "thumb": "assets/opt/people/people-035-_DSC9478-thumb.webp"
+          "thumb": "assets/opt/people/people-035-_DSC9478-thumb.webp",
+          "large": "assets/opt/people/people-035-_DSC9478-large.webp",
+          "master": "assets/photos/people/people-035-_DSC9478.jpg"
         },
         {
           "id": "people-36",
           "title": "_DSC9755",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-036-_DSC9755.jpg",
           "filename": "_DSC9755.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3205,14 +3224,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "68mm",
           "location": null,
           "thumb": "assets/opt/people/people-036-_DSC9755-thumb.webp",
-          "large": "assets/opt/people/people-036-_DSC9755-large.webp"
+          "large": "assets/opt/people/people-036-_DSC9755-large.webp",
+          "master": "assets/photos/people/people-036-_DSC9755.jpg"
         },
         {
           "id": "people-37",
           "title": "_DSC9787",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-037-_DSC9787.jpg",
           "filename": "_DSC9787.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3225,14 +3244,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "67mm",
           "location": null,
           "thumb": "assets/opt/people/people-037-_DSC9787-thumb.webp",
-          "large": "assets/opt/people/people-037-_DSC9787-large.webp"
+          "large": "assets/opt/people/people-037-_DSC9787-large.webp",
+          "master": "assets/photos/people/people-037-_DSC9787.jpg"
         },
         {
           "id": "people-38",
           "title": "_DSC9960",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-038-_DSC9960.jpg",
           "filename": "_DSC9960.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3245,14 +3264,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "71mm",
           "location": null,
           "thumb": "assets/opt/people/people-038-_DSC9960-thumb.webp",
-          "large": "assets/opt/people/people-038-_DSC9960-large.webp"
+          "large": "assets/opt/people/people-038-_DSC9960-large.webp",
+          "master": "assets/photos/people/people-038-_DSC9960.jpg"
         },
         {
           "id": "people-39",
           "title": "20220605-_DSC8722",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-039-20220605-_DSC8722.jpg",
           "filename": "20220605-_DSC8722.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -3264,14 +3283,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "55mm",
           "location": null,
-          "thumb": "assets/opt/people/people-039-20220605-_DSC8722-thumb.webp"
+          "thumb": "assets/opt/people/people-039-20220605-_DSC8722-thumb.webp",
+          "large": "assets/opt/people/people-039-20220605-_DSC8722-large.webp",
+          "master": "assets/photos/people/people-039-20220605-_DSC8722.jpg"
         },
         {
           "id": "people-40",
           "title": "20220605-_DSC8723",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-040-20220605-_DSC8723.jpg",
           "filename": "20220605-_DSC8723.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -3283,14 +3303,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "57mm",
           "location": null,
-          "thumb": "assets/opt/people/people-040-20220605-_DSC8723-thumb.webp"
+          "thumb": "assets/opt/people/people-040-20220605-_DSC8723-thumb.webp",
+          "large": "assets/opt/people/people-040-20220605-_DSC8723-large.webp",
+          "master": "assets/photos/people/people-040-20220605-_DSC8723.jpg"
         },
         {
           "id": "people-41",
           "title": "20220605-_DSC8728",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-041-20220605-_DSC8728.jpg",
           "filename": "20220605-_DSC8728.jpg",
           "ratio": "wide",
           "width": 4476,
@@ -3303,14 +3324,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/people/people-041-20220605-_DSC8728-thumb.webp",
-          "large": "assets/opt/people/people-041-20220605-_DSC8728-large.webp"
+          "large": "assets/opt/people/people-041-20220605-_DSC8728-large.webp",
+          "master": "assets/photos/people/people-041-20220605-_DSC8728.jpg"
         },
         {
           "id": "people-42",
           "title": "20220605-_DSC8738",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-042-20220605-_DSC8738.jpg",
           "filename": "20220605-_DSC8738.jpg",
           "ratio": "tall",
           "width": 3917,
@@ -3322,14 +3343,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 125",
           "focalLength": "28mm",
           "location": null,
-          "thumb": "assets/opt/people/people-042-20220605-_DSC8738-thumb.webp"
+          "thumb": "assets/opt/people/people-042-20220605-_DSC8738-thumb.webp",
+          "large": "assets/opt/people/people-042-20220605-_DSC8738-large.webp",
+          "master": "assets/photos/people/people-042-20220605-_DSC8738.jpg"
         },
         {
           "id": "people-43",
           "title": "20220605-_DSC8809",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-043-20220605-_DSC8809.jpg",
           "filename": "20220605-_DSC8809.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3342,14 +3364,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-043-20220605-_DSC8809-thumb.webp",
-          "large": "assets/opt/people/people-043-20220605-_DSC8809-large.webp"
+          "large": "assets/opt/people/people-043-20220605-_DSC8809-large.webp",
+          "master": "assets/photos/people/people-043-20220605-_DSC8809.jpg"
         },
         {
           "id": "people-44",
           "title": "DJI_0435",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-044-DJI_0435.jpg",
           "filename": "DJI_0435.jpg",
           "ratio": "wide",
           "width": 5464,
@@ -3362,14 +3384,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-044-DJI_0435-thumb.webp",
-          "large": "assets/opt/people/people-044-DJI_0435-large.webp"
+          "large": "assets/opt/people/people-044-DJI_0435-large.webp",
+          "master": "assets/photos/people/people-044-DJI_0435.jpg"
         },
         {
           "id": "people-45",
           "title": "DJI_0545",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-045-DJI_0545.jpg",
           "filename": "DJI_0545.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -3382,14 +3404,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/people/people-045-DJI_0545-thumb.webp",
-          "large": "assets/opt/people/people-045-DJI_0545-large.webp"
+          "large": "assets/opt/people/people-045-DJI_0545-large.webp",
+          "master": "assets/photos/people/people-045-DJI_0545.jpg"
         },
         {
           "id": "people-46",
           "title": "DJI_0730",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-046-DJI_0730.jpg",
           "filename": "DJI_0730.jpg",
           "ratio": "wide",
           "width": 5464,
@@ -3402,14 +3424,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/people/people-046-DJI_0730-thumb.webp",
-          "large": "assets/opt/people/people-046-DJI_0730-large.webp"
+          "large": "assets/opt/people/people-046-DJI_0730-large.webp",
+          "master": "assets/photos/people/people-046-DJI_0730.jpg"
         },
         {
           "id": "people-47",
           "title": "DJI_0738",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-047-DJI_0738.jpg",
           "filename": "DJI_0738.jpg",
           "ratio": "wide",
           "width": 5464,
@@ -3422,14 +3444,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/people/people-047-DJI_0738-thumb.webp",
-          "large": "assets/opt/people/people-047-DJI_0738-large.webp"
+          "large": "assets/opt/people/people-047-DJI_0738-large.webp",
+          "master": "assets/photos/people/people-047-DJI_0738.jpg"
         },
         {
           "id": "people-48",
           "title": "DSC00075",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-048-DSC00075.jpg",
           "filename": "DSC00075.jpg",
           "ratio": "wide",
           "width": 5041,
@@ -3442,14 +3464,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/people/people-048-DSC00075-thumb.webp",
-          "large": "assets/opt/people/people-048-DSC00075-large.webp"
+          "large": "assets/opt/people/people-048-DSC00075-large.webp",
+          "master": "assets/photos/people/people-048-DSC00075.jpg"
         },
         {
           "id": "people-49",
           "title": "DSC00129",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-049-DSC00129.jpg",
           "filename": "DSC00129.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3462,14 +3484,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "60mm",
           "location": null,
           "thumb": "assets/opt/people/people-049-DSC00129-thumb.webp",
-          "large": "assets/opt/people/people-049-DSC00129-large.webp"
+          "large": "assets/opt/people/people-049-DSC00129-large.webp",
+          "master": "assets/photos/people/people-049-DSC00129.jpg"
         },
         {
           "id": "people-50",
           "title": "DSC00235",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-050-DSC00235.jpg",
           "filename": "DSC00235.jpg",
           "ratio": "wide",
           "width": 5077,
@@ -3482,14 +3504,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-050-DSC00235-thumb.webp",
-          "large": "assets/opt/people/people-050-DSC00235-large.webp"
+          "large": "assets/opt/people/people-050-DSC00235-large.webp",
+          "master": "assets/photos/people/people-050-DSC00235.jpg"
         },
         {
           "id": "people-51",
           "title": "DSC00493",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-051-DSC00493.jpg",
           "filename": "DSC00493.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -3501,14 +3523,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "57mm",
           "location": null,
-          "thumb": "assets/opt/people/people-051-DSC00493-thumb.webp"
+          "thumb": "assets/opt/people/people-051-DSC00493-thumb.webp",
+          "large": "assets/opt/people/people-051-DSC00493-large.webp",
+          "master": "assets/photos/people/people-051-DSC00493.jpg"
         },
         {
           "id": "people-52",
           "title": "DSC01395",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-052-DSC01395.jpg",
           "filename": "DSC01395.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -3521,14 +3544,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-052-DSC01395-thumb.webp",
-          "large": "assets/opt/people/people-052-DSC01395-large.webp"
+          "large": "assets/opt/people/people-052-DSC01395-large.webp",
+          "master": "assets/photos/people/people-052-DSC01395.jpg"
         },
         {
           "id": "people-53",
           "title": "DSC01507",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-053-DSC01507.jpg",
           "filename": "DSC01507.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -3541,14 +3564,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "34mm",
           "location": null,
           "thumb": "assets/opt/people/people-053-DSC01507-thumb.webp",
-          "large": "assets/opt/people/people-053-DSC01507-large.webp"
+          "large": "assets/opt/people/people-053-DSC01507-large.webp",
+          "master": "assets/photos/people/people-053-DSC01507.jpg"
         },
         {
           "id": "people-54",
           "title": "DSC01565",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-054-DSC01565.jpg",
           "filename": "DSC01565.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -3561,14 +3584,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "48mm",
           "location": null,
           "thumb": "assets/opt/people/people-054-DSC01565-thumb.webp",
-          "large": "assets/opt/people/people-054-DSC01565-large.webp"
+          "large": "assets/opt/people/people-054-DSC01565-large.webp",
+          "master": "assets/photos/people/people-054-DSC01565.jpg"
         },
         {
           "id": "people-55",
           "title": "DSC02080",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-055-DSC02080.jpg",
           "filename": "DSC02080.jpg",
           "ratio": "tall",
           "width": 1732,
@@ -3580,14 +3603,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 200",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/people/people-055-DSC02080-thumb.webp"
+          "thumb": "assets/opt/people/people-055-DSC02080-thumb.webp",
+          "large": "assets/opt/people/people-055-DSC02080-large.webp",
+          "master": "assets/photos/people/people-055-DSC02080.jpg"
         },
         {
           "id": "people-56",
           "title": "DSC02699",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-056-DSC02699.jpg",
           "filename": "DSC02699.jpg",
           "ratio": "tall",
           "width": 1583,
@@ -3599,14 +3623,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 200",
           "focalLength": "57mm",
           "location": null,
-          "thumb": "assets/opt/people/people-056-DSC02699-thumb.webp"
+          "thumb": "assets/opt/people/people-056-DSC02699-thumb.webp",
+          "large": "assets/opt/people/people-056-DSC02699-large.webp",
+          "master": "assets/photos/people/people-056-DSC02699.jpg"
         },
         {
           "id": "people-57",
           "title": "DSC02737",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-057-DSC02737.jpg",
           "filename": "DSC02737.jpg",
           "ratio": "tall",
           "width": 1440,
@@ -3618,14 +3643,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 3200",
           "focalLength": "43mm",
           "location": null,
-          "thumb": "assets/opt/people/people-057-DSC02737-thumb.webp"
+          "thumb": "assets/opt/people/people-057-DSC02737-thumb.webp",
+          "large": "assets/opt/people/people-057-DSC02737-large.webp",
+          "master": "assets/photos/people/people-057-DSC02737.jpg"
         },
         {
           "id": "people-58",
           "title": "DSC03100",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-058-DSC03100.jpg",
           "filename": "DSC03100.jpg",
           "ratio": "tall",
           "width": 1502,
@@ -3637,14 +3663,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "56mm",
           "location": null,
-          "thumb": "assets/opt/people/people-058-DSC03100-thumb.webp"
+          "thumb": "assets/opt/people/people-058-DSC03100-thumb.webp",
+          "large": "assets/opt/people/people-058-DSC03100-large.webp",
+          "master": "assets/photos/people/people-058-DSC03100.jpg"
         },
         {
           "id": "people-59",
           "title": "DSC04054",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-059-DSC04054.jpg",
           "filename": "DSC04054.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -3657,14 +3684,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-059-DSC04054-thumb.webp",
-          "large": "assets/opt/people/people-059-DSC04054-large.webp"
+          "large": "assets/opt/people/people-059-DSC04054-large.webp",
+          "master": "assets/photos/people/people-059-DSC04054.jpg"
         },
         {
           "id": "people-60",
           "title": "DSC04086",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-060-DSC04086.jpg",
           "filename": "DSC04086.jpg",
           "ratio": "tall",
           "width": 1583,
@@ -3676,14 +3703,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 125",
           "focalLength": "48mm",
           "location": null,
-          "thumb": "assets/opt/people/people-060-DSC04086-thumb.webp"
+          "thumb": "assets/opt/people/people-060-DSC04086-thumb.webp",
+          "large": "assets/opt/people/people-060-DSC04086-large.webp",
+          "master": "assets/photos/people/people-060-DSC04086.jpg"
         },
         {
           "id": "people-61",
           "title": "DSC04109",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-061-DSC04109.jpg",
           "filename": "DSC04109.jpg",
           "ratio": "tall",
           "width": 1420,
@@ -3695,14 +3723,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 125",
           "focalLength": "62mm",
           "location": null,
-          "thumb": "assets/opt/people/people-061-DSC04109-thumb.webp"
+          "thumb": "assets/opt/people/people-061-DSC04109-thumb.webp",
+          "large": "assets/opt/people/people-061-DSC04109-large.webp",
+          "master": "assets/photos/people/people-061-DSC04109.jpg"
         },
         {
           "id": "people-62",
           "title": "DSC04902",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-062-DSC04902.jpg",
           "filename": "DSC04902.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3715,14 +3744,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "46mm",
           "location": null,
           "thumb": "assets/opt/people/people-062-DSC04902-thumb.webp",
-          "large": "assets/opt/people/people-062-DSC04902-large.webp"
+          "large": "assets/opt/people/people-062-DSC04902-large.webp",
+          "master": "assets/photos/people/people-062-DSC04902.jpg"
         },
         {
           "id": "people-63",
           "title": "DSC04998",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-063-DSC04998.jpg",
           "filename": "DSC04998.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3735,14 +3764,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-063-DSC04998-thumb.webp",
-          "large": "assets/opt/people/people-063-DSC04998-large.webp"
+          "large": "assets/opt/people/people-063-DSC04998-large.webp",
+          "master": "assets/photos/people/people-063-DSC04998.jpg"
         },
         {
           "id": "people-64",
           "title": "DSC05946",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-064-DSC05946.jpg",
           "filename": "DSC05946.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -3755,14 +3784,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "64mm",
           "location": null,
           "thumb": "assets/opt/people/people-064-DSC05946-thumb.webp",
-          "large": "assets/opt/people/people-064-DSC05946-large.webp"
+          "large": "assets/opt/people/people-064-DSC05946-large.webp",
+          "master": "assets/photos/people/people-064-DSC05946.jpg"
         },
         {
           "id": "people-65",
           "title": "DSC06241",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-065-DSC06241.jpg",
           "filename": "DSC06241.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3775,14 +3804,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-065-DSC06241-thumb.webp",
-          "large": "assets/opt/people/people-065-DSC06241-large.webp"
+          "large": "assets/opt/people/people-065-DSC06241-large.webp",
+          "master": "assets/photos/people/people-065-DSC06241.jpg"
         },
         {
           "id": "people-66",
           "title": "DSC06283",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-066-DSC06283.jpg",
           "filename": "DSC06283.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3795,14 +3824,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-066-DSC06283-thumb.webp",
-          "large": "assets/opt/people/people-066-DSC06283-large.webp"
+          "large": "assets/opt/people/people-066-DSC06283-large.webp",
+          "master": "assets/photos/people/people-066-DSC06283.jpg"
         },
         {
           "id": "people-67",
           "title": "DSC06448",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-067-DSC06448.jpg",
           "filename": "DSC06448.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3815,14 +3844,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-067-DSC06448-thumb.webp",
-          "large": "assets/opt/people/people-067-DSC06448-large.webp"
+          "large": "assets/opt/people/people-067-DSC06448-large.webp",
+          "master": "assets/photos/people/people-067-DSC06448.jpg"
         },
         {
           "id": "people-68",
           "title": "DSC06750",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-068-DSC06750.jpg",
           "filename": "DSC06750.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -3835,14 +3864,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/people/people-068-DSC06750-thumb.webp",
-          "large": "assets/opt/people/people-068-DSC06750-large.webp"
+          "large": "assets/opt/people/people-068-DSC06750-large.webp",
+          "master": "assets/photos/people/people-068-DSC06750.jpg"
         },
         {
           "id": "people-69",
           "title": "DSC06788",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-069-DSC06788.jpg",
           "filename": "DSC06788.jpg",
           "ratio": "wide",
           "width": 4323,
@@ -3855,14 +3884,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-069-DSC06788-thumb.webp",
-          "large": "assets/opt/people/people-069-DSC06788-large.webp"
+          "large": "assets/opt/people/people-069-DSC06788-large.webp",
+          "master": "assets/photos/people/people-069-DSC06788.jpg"
         },
         {
           "id": "people-70",
           "title": "DSC07046",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-070-DSC07046.jpg",
           "filename": "DSC07046.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -3875,14 +3904,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "40mm",
           "location": null,
           "thumb": "assets/opt/people/people-070-DSC07046-thumb.webp",
-          "large": "assets/opt/people/people-070-DSC07046-large.webp"
+          "large": "assets/opt/people/people-070-DSC07046-large.webp",
+          "master": "assets/photos/people/people-070-DSC07046.jpg"
         },
         {
           "id": "people-71",
           "title": "DSC07246",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-071-DSC07246.jpg",
           "filename": "DSC07246.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -3895,14 +3924,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-071-DSC07246-thumb.webp",
-          "large": "assets/opt/people/people-071-DSC07246-large.webp"
+          "large": "assets/opt/people/people-071-DSC07246-large.webp",
+          "master": "assets/photos/people/people-071-DSC07246.jpg"
         },
         {
           "id": "people-72",
           "title": "DSC07960",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-072-DSC07960.jpg",
           "filename": "DSC07960.jpg",
           "ratio": "tall",
           "width": 2624,
@@ -3914,14 +3943,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "56mm",
           "location": null,
-          "thumb": "assets/opt/people/people-072-DSC07960-thumb.webp"
+          "thumb": "assets/opt/people/people-072-DSC07960-thumb.webp",
+          "large": "assets/opt/people/people-072-DSC07960-large.webp",
+          "master": "assets/photos/people/people-072-DSC07960.jpg"
         },
         {
           "id": "people-73",
           "title": "DSC08562",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-073-DSC08562.jpg",
           "filename": "DSC08562.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -3933,14 +3963,15 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "47mm",
           "location": null,
-          "thumb": "assets/opt/people/people-073-DSC08562-thumb.webp"
+          "thumb": "assets/opt/people/people-073-DSC08562-thumb.webp",
+          "large": "assets/opt/people/people-073-DSC08562-large.webp",
+          "master": "assets/photos/people/people-073-DSC08562.jpg"
         },
         {
           "id": "people-74",
           "title": "DSC08922",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-074-DSC08922.jpg",
           "filename": "DSC08922.jpg",
           "ratio": "wide",
           "width": 5919,
@@ -3953,14 +3984,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "47mm",
           "location": null,
           "thumb": "assets/opt/people/people-074-DSC08922-thumb.webp",
-          "large": "assets/opt/people/people-074-DSC08922-large.webp"
+          "large": "assets/opt/people/people-074-DSC08922-large.webp",
+          "master": "assets/photos/people/people-074-DSC08922.jpg"
         },
         {
           "id": "people-75",
           "title": "DSC08956",
           "category": "people",
           "categoryLabel": "人像纪实",
-          "src": "assets/photos/people/people-075-DSC08956.jpg",
           "filename": "DSC08956.jpg",
           "ratio": "wide",
           "width": 3655,
@@ -3973,7 +4004,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/people/people-075-DSC08956-thumb.webp",
-          "large": "assets/opt/people/people-075-DSC08956-large.webp"
+          "large": "assets/opt/people/people-075-DSC08956-large.webp",
+          "master": "assets/photos/people/people-075-DSC08956.jpg"
         }
       ]
     },
@@ -3989,7 +4021,6 @@ window.PHOTO_LIBRARY = {
           "title": "_DSC6869",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-001-_DSC6869.jpg",
           "filename": "_DSC6869.jpg",
           "ratio": "wide",
           "width": 5319,
@@ -4002,14 +4033,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/events/events-001-_DSC6869-thumb.webp",
-          "large": "assets/opt/events/events-001-_DSC6869-large.webp"
+          "large": "assets/opt/events/events-001-_DSC6869-large.webp",
+          "master": "assets/photos/events/events-001-_DSC6869.jpg"
         },
         {
           "id": "events-2",
           "title": "_DSC6981",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-002-_DSC6981.jpg",
           "filename": "_DSC6981.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4022,14 +4053,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "39mm",
           "location": null,
           "thumb": "assets/opt/events/events-002-_DSC6981-thumb.webp",
-          "large": "assets/opt/events/events-002-_DSC6981-large.webp"
+          "large": "assets/opt/events/events-002-_DSC6981-large.webp",
+          "master": "assets/photos/events/events-002-_DSC6981.jpg"
         },
         {
           "id": "events-3",
           "title": "_DSC8552",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-003-_DSC8552.jpg",
           "filename": "_DSC8552.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4042,14 +4073,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/events/events-003-_DSC8552-thumb.webp",
-          "large": "assets/opt/events/events-003-_DSC8552-large.webp"
+          "large": "assets/opt/events/events-003-_DSC8552-large.webp",
+          "master": "assets/photos/events/events-003-_DSC8552.jpg"
         },
         {
           "id": "events-4",
           "title": "_DSC8557",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-004-_DSC8557.jpg",
           "filename": "_DSC8557.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4062,14 +4093,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/events/events-004-_DSC8557-thumb.webp",
-          "large": "assets/opt/events/events-004-_DSC8557-large.webp"
+          "large": "assets/opt/events/events-004-_DSC8557-large.webp",
+          "master": "assets/photos/events/events-004-_DSC8557.jpg"
         },
         {
           "id": "events-5",
           "title": "_DSC8664",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-005-_DSC8664.jpg",
           "filename": "_DSC8664.jpg",
           "ratio": "wide",
           "width": 3493,
@@ -4082,14 +4113,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/events/events-005-_DSC8664-thumb.webp",
-          "large": "assets/opt/events/events-005-_DSC8664-large.webp"
+          "large": "assets/opt/events/events-005-_DSC8664-large.webp",
+          "master": "assets/photos/events/events-005-_DSC8664.jpg"
         },
         {
           "id": "events-6",
           "title": "_DSC8692",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-006-_DSC8692.jpg",
           "filename": "_DSC8692.jpg",
           "ratio": "wide",
           "width": 5243,
@@ -4102,14 +4133,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/events/events-006-_DSC8692-thumb.webp",
-          "large": "assets/opt/events/events-006-_DSC8692-large.webp"
+          "large": "assets/opt/events/events-006-_DSC8692-large.webp",
+          "master": "assets/photos/events/events-006-_DSC8692.jpg"
         },
         {
           "id": "events-7",
           "title": "_DSC8770",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-007-_DSC8770.jpg",
           "filename": "_DSC8770.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4122,14 +4153,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/events/events-007-_DSC8770-thumb.webp",
-          "large": "assets/opt/events/events-007-_DSC8770-large.webp"
+          "large": "assets/opt/events/events-007-_DSC8770-large.webp",
+          "master": "assets/photos/events/events-007-_DSC8770.jpg"
         },
         {
           "id": "events-8",
           "title": "_DSC9493",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-008-_DSC9493.jpg",
           "filename": "_DSC9493.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4142,14 +4173,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "200mm",
           "location": null,
           "thumb": "assets/opt/events/events-008-_DSC9493-thumb.webp",
-          "large": "assets/opt/events/events-008-_DSC9493-large.webp"
+          "large": "assets/opt/events/events-008-_DSC9493-large.webp",
+          "master": "assets/photos/events/events-008-_DSC9493.jpg"
         },
         {
           "id": "events-9",
           "title": "_DSC9544",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-009-_DSC9544.jpg",
           "filename": "_DSC9544.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4162,14 +4193,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/events/events-009-_DSC9544-thumb.webp",
-          "large": "assets/opt/events/events-009-_DSC9544-large.webp"
+          "large": "assets/opt/events/events-009-_DSC9544-large.webp",
+          "master": "assets/photos/events/events-009-_DSC9544.jpg"
         },
         {
           "id": "events-10",
           "title": "_DSC9548",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-010-_DSC9548.jpg",
           "filename": "_DSC9548.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4182,14 +4213,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "30mm",
           "location": null,
           "thumb": "assets/opt/events/events-010-_DSC9548-thumb.webp",
-          "large": "assets/opt/events/events-010-_DSC9548-large.webp"
+          "large": "assets/opt/events/events-010-_DSC9548-large.webp",
+          "master": "assets/photos/events/events-010-_DSC9548.jpg"
         },
         {
           "id": "events-11",
           "title": "_DSC9574",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-011-_DSC9574.jpg",
           "filename": "_DSC9574.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4202,14 +4233,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "200mm",
           "location": null,
           "thumb": "assets/opt/events/events-011-_DSC9574-thumb.webp",
-          "large": "assets/opt/events/events-011-_DSC9574-large.webp"
+          "large": "assets/opt/events/events-011-_DSC9574-large.webp",
+          "master": "assets/photos/events/events-011-_DSC9574.jpg"
         },
         {
           "id": "events-12",
           "title": "_DSC9847",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-012-_DSC9847.jpg",
           "filename": "_DSC9847.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4222,14 +4253,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "200mm",
           "location": null,
           "thumb": "assets/opt/events/events-012-_DSC9847-thumb.webp",
-          "large": "assets/opt/events/events-012-_DSC9847-large.webp"
+          "large": "assets/opt/events/events-012-_DSC9847-large.webp",
+          "master": "assets/photos/events/events-012-_DSC9847.jpg"
         },
         {
           "id": "events-13",
           "title": "_DSC9920",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-013-_DSC9920.jpg",
           "filename": "_DSC9920.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4242,14 +4273,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/events/events-013-_DSC9920-thumb.webp",
-          "large": "assets/opt/events/events-013-_DSC9920-large.webp"
+          "large": "assets/opt/events/events-013-_DSC9920-large.webp",
+          "master": "assets/photos/events/events-013-_DSC9920.jpg"
         },
         {
           "id": "events-14",
           "title": "9309dc533f4a3b1af0091ecd44f65b6",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-014-9309dc533f4a3b1af0091ecd44f65b6.jpg",
           "filename": "9309dc533f4a3b1af0091ecd44f65b6.jpg",
           "ratio": "wide",
           "width": 4609,
@@ -4262,14 +4293,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": null,
           "location": null,
           "thumb": "assets/opt/events/events-014-9309dc533f4a3b1af0091ecd44f65b6-thumb.webp",
-          "large": "assets/opt/events/events-014-9309dc533f4a3b1af0091ecd44f65b6-large.webp"
+          "large": "assets/opt/events/events-014-9309dc533f4a3b1af0091ecd44f65b6-large.webp",
+          "master": "assets/photos/events/events-014-9309dc533f4a3b1af0091ecd44f65b6.jpg"
         },
         {
           "id": "events-15",
           "title": "DSC01531",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-015-DSC01531.jpg",
           "filename": "DSC01531.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -4282,14 +4313,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/events/events-015-DSC01531-thumb.webp",
-          "large": "assets/opt/events/events-015-DSC01531-large.webp"
+          "large": "assets/opt/events/events-015-DSC01531-large.webp",
+          "master": "assets/photos/events/events-015-DSC01531.jpg"
         },
         {
           "id": "events-16",
           "title": "DSC01669",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-016-DSC01669.jpg",
           "filename": "DSC01669.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -4302,14 +4333,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "52mm",
           "location": null,
           "thumb": "assets/opt/events/events-016-DSC01669-thumb.webp",
-          "large": "assets/opt/events/events-016-DSC01669-large.webp"
+          "large": "assets/opt/events/events-016-DSC01669-large.webp",
+          "master": "assets/photos/events/events-016-DSC01669.jpg"
         },
         {
           "id": "events-17",
           "title": "DSC01675",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-017-DSC01675.jpg",
           "filename": "DSC01675.jpg",
           "ratio": "wide",
           "width": 3240,
@@ -4322,14 +4353,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "52mm",
           "location": null,
           "thumb": "assets/opt/events/events-017-DSC01675-thumb.webp",
-          "large": "assets/opt/events/events-017-DSC01675-large.webp"
+          "large": "assets/opt/events/events-017-DSC01675-large.webp",
+          "master": "assets/photos/events/events-017-DSC01675.jpg"
         },
         {
           "id": "events-18",
           "title": "DSC07424",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-018-DSC07424.jpg",
           "filename": "DSC07424.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4342,14 +4373,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "45mm",
           "location": null,
           "thumb": "assets/opt/events/events-018-DSC07424-thumb.webp",
-          "large": "assets/opt/events/events-018-DSC07424-large.webp"
+          "large": "assets/opt/events/events-018-DSC07424-large.webp",
+          "master": "assets/photos/events/events-018-DSC07424.jpg"
         },
         {
           "id": "events-19",
           "title": "DSC07502",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-019-DSC07502.jpg",
           "filename": "DSC07502.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4362,14 +4393,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/events/events-019-DSC07502-thumb.webp",
-          "large": "assets/opt/events/events-019-DSC07502-large.webp"
+          "large": "assets/opt/events/events-019-DSC07502-large.webp",
+          "master": "assets/photos/events/events-019-DSC07502.jpg"
         },
         {
           "id": "events-20",
           "title": "DSC07521",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-020-DSC07521.jpg",
           "filename": "DSC07521.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4382,14 +4413,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/events/events-020-DSC07521-thumb.webp",
-          "large": "assets/opt/events/events-020-DSC07521-large.webp"
+          "large": "assets/opt/events/events-020-DSC07521-large.webp",
+          "master": "assets/photos/events/events-020-DSC07521.jpg"
         },
         {
           "id": "events-21",
           "title": "DSC07588",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-021-DSC07588.jpg",
           "filename": "DSC07588.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4402,14 +4433,14 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/events/events-021-DSC07588-thumb.webp",
-          "large": "assets/opt/events/events-021-DSC07588-large.webp"
+          "large": "assets/opt/events/events-021-DSC07588-large.webp",
+          "master": "assets/photos/events/events-021-DSC07588.jpg"
         },
         {
           "id": "events-22",
           "title": "DSC07675",
           "category": "events",
           "categoryLabel": "会议集会",
-          "src": "assets/photos/events/events-022-DSC07675.jpg",
           "filename": "DSC07675.jpg",
           "ratio": "wide",
           "width": 3936,
@@ -4422,7 +4453,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "64mm",
           "location": null,
           "thumb": "assets/opt/events/events-022-DSC07675-thumb.webp",
-          "large": "assets/opt/events/events-022-DSC07675-large.webp"
+          "large": "assets/opt/events/events-022-DSC07675-large.webp",
+          "master": "assets/photos/events/events-022-DSC07675.jpg"
         }
       ]
     }
@@ -4435,7 +4467,7 @@ window.PHOTO_LIBRARY = {
       "title": "与相机的冒险之旅",
       "intro": "把相机带上高海拔徒步路线，收录「贡嘎小环自组」与「长穿毕自组」两段行程中的光线、路况与同行者。",
       "count": 21,
-      "cover": "assets/photos/projects/project-01/project-01-001-_DSC2052.jpg",
+      "cover": "assets/opt/projects/project-01/project-01-001-_DSC2052-large.webp",
       "chapters": [
         "贡嘎小环自组",
         "长穿毕自组"
@@ -4449,7 +4481,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-001-_DSC2052.jpg",
           "filename": "_DSC2052.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4462,7 +4493,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "29mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-001-_DSC2052-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-001-_DSC2052-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-001-_DSC2052-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-001-_DSC2052.jpg"
         },
         {
           "id": "project-01-2",
@@ -4472,7 +4504,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-002-_DSC2083.jpg",
           "filename": "_DSC2083.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4485,7 +4516,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-002-_DSC2083-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-002-_DSC2083-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-002-_DSC2083-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-002-_DSC2083.jpg"
         },
         {
           "id": "project-01-3",
@@ -4495,7 +4527,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-003-_DSC2086.jpg",
           "filename": "_DSC2086.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4508,7 +4539,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-003-_DSC2086-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-003-_DSC2086-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-003-_DSC2086-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-003-_DSC2086.jpg"
         },
         {
           "id": "project-01-4",
@@ -4518,7 +4550,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-004-_DSC2092.jpg",
           "filename": "_DSC2092.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4531,7 +4562,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "42mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-004-_DSC2092-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-004-_DSC2092-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-004-_DSC2092-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-004-_DSC2092.jpg"
         },
         {
           "id": "project-01-5",
@@ -4541,7 +4573,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-005-_DSC2095.jpg",
           "filename": "_DSC2095.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4554,7 +4585,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-005-_DSC2095-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-005-_DSC2095-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-005-_DSC2095-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-005-_DSC2095.jpg"
         },
         {
           "id": "project-01-6",
@@ -4564,7 +4596,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-006-_DSC2101.jpg",
           "filename": "_DSC2101.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4577,7 +4608,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "31mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-006-_DSC2101-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-006-_DSC2101-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-006-_DSC2101-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-006-_DSC2101.jpg"
         },
         {
           "id": "project-01-7",
@@ -4587,7 +4619,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-007-_DSC2105.jpg",
           "filename": "_DSC2105.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4600,7 +4631,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "55mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-007-_DSC2105-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-007-_DSC2105-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-007-_DSC2105-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-007-_DSC2105.jpg"
         },
         {
           "id": "project-01-8",
@@ -4610,7 +4642,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-008-_DSC2230.jpg",
           "filename": "_DSC2230.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4623,7 +4654,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-008-_DSC2230-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-008-_DSC2230-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-008-_DSC2230-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-008-_DSC2230.jpg"
         },
         {
           "id": "project-01-9",
@@ -4633,7 +4665,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "贡嘎小环自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-009-_DSC2233.jpg",
           "filename": "_DSC2233.jpg",
           "ratio": "wide",
           "width": 5816,
@@ -4646,7 +4677,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "45mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-009-_DSC2233-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-009-_DSC2233-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-009-_DSC2233-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-009-_DSC2233.jpg"
         },
         {
           "id": "project-01-10",
@@ -4656,7 +4688,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-010-_DSC1604.jpg",
           "filename": "_DSC1604.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4669,7 +4700,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "22mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-010-_DSC1604-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-010-_DSC1604-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-010-_DSC1604-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-010-_DSC1604.jpg"
         },
         {
           "id": "project-01-11",
@@ -4679,7 +4711,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-011-_DSC1712.jpg",
           "filename": "_DSC1712.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4692,7 +4723,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "29mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-011-_DSC1712-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-011-_DSC1712-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-011-_DSC1712-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-011-_DSC1712.jpg"
         },
         {
           "id": "project-01-12",
@@ -4702,7 +4734,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-012-_DSC1726.jpg",
           "filename": "_DSC1726.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4715,7 +4746,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "18mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-012-_DSC1726-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-012-_DSC1726-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-012-_DSC1726-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-012-_DSC1726.jpg"
         },
         {
           "id": "project-01-13",
@@ -4725,7 +4757,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-013-_DSC1733.jpg",
           "filename": "_DSC1733.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4738,7 +4769,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-013-_DSC1733-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-013-_DSC1733-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-013-_DSC1733-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-013-_DSC1733.jpg"
         },
         {
           "id": "project-01-14",
@@ -4748,7 +4780,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-014-_DSC1776.jpg",
           "filename": "_DSC1776.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4761,7 +4792,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "26mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-014-_DSC1776-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-014-_DSC1776-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-014-_DSC1776-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-014-_DSC1776.jpg"
         },
         {
           "id": "project-01-15",
@@ -4771,7 +4803,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-015-_DSC1802.jpg",
           "filename": "_DSC1802.jpg",
           "ratio": "wide",
           "width": 5830,
@@ -4784,7 +4815,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "19mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-015-_DSC1802-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-015-_DSC1802-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-015-_DSC1802-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-015-_DSC1802.jpg"
         },
         {
           "id": "project-01-16",
@@ -4794,7 +4826,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-016-_DSC1818.jpg",
           "filename": "_DSC1818.jpg",
           "ratio": "wide",
           "width": 5728,
@@ -4807,7 +4838,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "20mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-016-_DSC1818-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-016-_DSC1818-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-016-_DSC1818-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-016-_DSC1818.jpg"
         },
         {
           "id": "project-01-17",
@@ -4817,7 +4849,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-017-_DSC1855.jpg",
           "filename": "_DSC1855.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4830,7 +4861,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "21mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-017-_DSC1855-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-017-_DSC1855-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-017-_DSC1855-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-017-_DSC1855.jpg"
         },
         {
           "id": "project-01-18",
@@ -4840,7 +4872,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-018-_DSC1883.jpg",
           "filename": "_DSC1883.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4853,7 +4884,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-018-_DSC1883-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-018-_DSC1883-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-018-_DSC1883-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-018-_DSC1883.jpg"
         },
         {
           "id": "project-01-19",
@@ -4863,7 +4895,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-019-_DSC1887.jpg",
           "filename": "_DSC1887.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4876,7 +4907,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-019-_DSC1887-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-019-_DSC1887-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-019-_DSC1887-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-019-_DSC1887.jpg"
         },
         {
           "id": "project-01-20",
@@ -4886,7 +4918,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-020-_DSC1891.jpg",
           "filename": "_DSC1891.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4899,7 +4930,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-020-_DSC1891-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-020-_DSC1891-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-020-_DSC1891-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-020-_DSC1891.jpg"
         },
         {
           "id": "project-01-21",
@@ -4909,7 +4941,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "长穿毕自组",
           "category": "project-01",
           "categoryLabel": "与相机的冒险之旅",
-          "src": "assets/photos/projects/project-01/project-01-021-_DSC1973.jpg",
           "filename": "_DSC1973.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4922,9 +4953,11 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/projects/project-01/project-01-021-_DSC1973-thumb.webp",
-          "large": "assets/opt/projects/project-01/project-01-021-_DSC1973-large.webp"
+          "large": "assets/opt/projects/project-01/project-01-021-_DSC1973-large.webp",
+          "master": "assets/photos/projects/project-01/project-01-021-_DSC1973.jpg"
         }
-      ]
+      ],
+      "coverId": "project-01-1"
     },
     "project-02": {
       "key": "project-02",
@@ -4933,7 +4966,7 @@ window.PHOTO_LIBRARY = {
       "title": "城墙下的秦人",
       "intro": "以西安城墙为线索，记录城门、顺城巷与城墙根下日常生活的秩序与表情。",
       "count": 64,
-      "cover": "assets/photos/projects/project-02/project-02-001-_DSC0019.jpg",
+      "cover": "assets/opt/projects/project-02/project-02-001-_DSC0019-large.webp",
       "chapters": [
         "城墙下的秦人"
       ],
@@ -4946,7 +4979,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-001-_DSC0019.jpg",
           "filename": "_DSC0019.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4959,7 +4991,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-001-_DSC0019-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-001-_DSC0019-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-001-_DSC0019-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-001-_DSC0019.jpg"
         },
         {
           "id": "project-02-2",
@@ -4969,7 +5002,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-002-_DSC0024.jpg",
           "filename": "_DSC0024.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -4982,7 +5014,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-002-_DSC0024-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-002-_DSC0024-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-002-_DSC0024-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-002-_DSC0024.jpg"
         },
         {
           "id": "project-02-3",
@@ -4992,7 +5025,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-003-_DSC1548.jpg",
           "filename": "_DSC1548.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5005,7 +5037,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "30mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-003-_DSC1548-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-003-_DSC1548-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-003-_DSC1548-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-003-_DSC1548.jpg"
         },
         {
           "id": "project-02-4",
@@ -5015,7 +5048,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-004-_DSC1565.jpg",
           "filename": "_DSC1565.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5028,7 +5060,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-004-_DSC1565-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-004-_DSC1565-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-004-_DSC1565-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-004-_DSC1565.jpg"
         },
         {
           "id": "project-02-5",
@@ -5038,7 +5071,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-005-_DSC1566.jpg",
           "filename": "_DSC1566.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5051,7 +5083,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "69mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-005-_DSC1566-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-005-_DSC1566-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-005-_DSC1566-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-005-_DSC1566.jpg"
         },
         {
           "id": "project-02-6",
@@ -5061,7 +5094,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-006-_DSC1582.jpg",
           "filename": "_DSC1582.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5074,7 +5106,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-006-_DSC1582-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-006-_DSC1582-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-006-_DSC1582-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-006-_DSC1582.jpg"
         },
         {
           "id": "project-02-7",
@@ -5084,7 +5117,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-007-_DSC1596.jpg",
           "filename": "_DSC1596.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5097,7 +5129,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "49mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-007-_DSC1596-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-007-_DSC1596-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-007-_DSC1596-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-007-_DSC1596.jpg"
         },
         {
           "id": "project-02-8",
@@ -5107,7 +5140,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-008-_DSC2491.jpg",
           "filename": "_DSC2491.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5120,7 +5152,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "52mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-008-_DSC2491-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-008-_DSC2491-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-008-_DSC2491-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-008-_DSC2491.jpg"
         },
         {
           "id": "project-02-9",
@@ -5130,7 +5163,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-009-_DSC2529.jpg",
           "filename": "_DSC2529.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -5142,7 +5174,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-009-_DSC2529-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-009-_DSC2529-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-009-_DSC2529-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-009-_DSC2529.jpg"
         },
         {
           "id": "project-02-10",
@@ -5152,7 +5186,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-010-_DSC2534.jpg",
           "filename": "_DSC2534.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5165,7 +5198,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "30mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-010-_DSC2534-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-010-_DSC2534-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-010-_DSC2534-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-010-_DSC2534.jpg"
         },
         {
           "id": "project-02-11",
@@ -5175,7 +5209,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-011-_DSC2546.jpg",
           "filename": "_DSC2546.jpg",
           "ratio": "wide",
           "width": 5627,
@@ -5188,7 +5221,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "50mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-011-_DSC2546-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-011-_DSC2546-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-011-_DSC2546-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-011-_DSC2546.jpg"
         },
         {
           "id": "project-02-12",
@@ -5198,7 +5232,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-012-_DSC2600.jpg",
           "filename": "_DSC2600.jpg",
           "ratio": "tall",
           "width": 3229,
@@ -5210,7 +5243,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "44mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-012-_DSC2600-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-012-_DSC2600-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-012-_DSC2600-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-012-_DSC2600.jpg"
         },
         {
           "id": "project-02-13",
@@ -5220,7 +5255,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-013-_DSC2689.jpg",
           "filename": "_DSC2689.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5233,7 +5267,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "64mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-013-_DSC2689-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-013-_DSC2689-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-013-_DSC2689-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-013-_DSC2689.jpg"
         },
         {
           "id": "project-02-14",
@@ -5243,7 +5278,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-014-_DSC2697.jpg",
           "filename": "_DSC2697.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5256,7 +5290,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "65mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-014-_DSC2697-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-014-_DSC2697-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-014-_DSC2697-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-014-_DSC2697.jpg"
         },
         {
           "id": "project-02-15",
@@ -5266,7 +5301,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-015-_DSC2706.jpg",
           "filename": "_DSC2706.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5279,7 +5313,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-015-_DSC2706-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-015-_DSC2706-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-015-_DSC2706-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-015-_DSC2706.jpg"
         },
         {
           "id": "project-02-16",
@@ -5289,7 +5324,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-016-_DSC2711.jpg",
           "filename": "_DSC2711.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5302,7 +5336,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-016-_DSC2711-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-016-_DSC2711-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-016-_DSC2711-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-016-_DSC2711.jpg"
         },
         {
           "id": "project-02-17",
@@ -5312,7 +5347,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-017-_DSC2719.jpg",
           "filename": "_DSC2719.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -5324,7 +5358,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "47mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-017-_DSC2719-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-017-_DSC2719-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-017-_DSC2719-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-017-_DSC2719.jpg"
         },
         {
           "id": "project-02-18",
@@ -5334,7 +5370,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-018-_DSC2734.jpg",
           "filename": "_DSC2734.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5347,7 +5382,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "50mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-018-_DSC2734-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-018-_DSC2734-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-018-_DSC2734-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-018-_DSC2734.jpg"
         },
         {
           "id": "project-02-19",
@@ -5357,7 +5393,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-019-_DSC2740.jpg",
           "filename": "_DSC2740.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -5369,7 +5404,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "46mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-019-_DSC2740-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-019-_DSC2740-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-019-_DSC2740-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-019-_DSC2740.jpg"
         },
         {
           "id": "project-02-20",
@@ -5379,7 +5416,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-020-_DSC2790.jpg",
           "filename": "_DSC2790.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -5391,7 +5427,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "66mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-020-_DSC2790-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-020-_DSC2790-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-020-_DSC2790-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-020-_DSC2790.jpg"
         },
         {
           "id": "project-02-21",
@@ -5401,7 +5439,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-021-_DSC2798.jpg",
           "filename": "_DSC2798.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5414,7 +5451,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "71mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-021-_DSC2798-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-021-_DSC2798-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-021-_DSC2798-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-021-_DSC2798.jpg"
         },
         {
           "id": "project-02-22",
@@ -5424,7 +5462,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-022-_DSC2801.jpg",
           "filename": "_DSC2801.jpg",
           "ratio": "wide",
           "width": 5853,
@@ -5437,7 +5474,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-022-_DSC2801-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-022-_DSC2801-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-022-_DSC2801-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-022-_DSC2801.jpg"
         },
         {
           "id": "project-02-23",
@@ -5447,7 +5485,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-023-_DSC2839.jpg",
           "filename": "_DSC2839.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5460,7 +5497,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "63mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-023-_DSC2839-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-023-_DSC2839-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-023-_DSC2839-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-023-_DSC2839.jpg"
         },
         {
           "id": "project-02-24",
@@ -5470,7 +5508,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-024-_DSC2849.jpg",
           "filename": "_DSC2849.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5483,7 +5520,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "63mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-024-_DSC2849-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-024-_DSC2849-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-024-_DSC2849-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-024-_DSC2849.jpg"
         },
         {
           "id": "project-02-25",
@@ -5493,7 +5531,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-025-_DSC2861.jpg",
           "filename": "_DSC2861.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5506,7 +5543,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "61mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-025-_DSC2861-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-025-_DSC2861-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-025-_DSC2861-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-025-_DSC2861.jpg"
         },
         {
           "id": "project-02-26",
@@ -5516,7 +5554,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-026-_DSC2868.jpg",
           "filename": "_DSC2868.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5529,7 +5566,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "48mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-026-_DSC2868-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-026-_DSC2868-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-026-_DSC2868-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-026-_DSC2868.jpg"
         },
         {
           "id": "project-02-27",
@@ -5539,7 +5577,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-027-_DSC2874.jpg",
           "filename": "_DSC2874.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5552,7 +5589,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "34mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-027-_DSC2874-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-027-_DSC2874-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-027-_DSC2874-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-027-_DSC2874.jpg"
         },
         {
           "id": "project-02-28",
@@ -5562,7 +5600,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-028-_DSC2877.jpg",
           "filename": "_DSC2877.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5575,7 +5612,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-028-_DSC2877-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-028-_DSC2877-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-028-_DSC2877-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-028-_DSC2877.jpg"
         },
         {
           "id": "project-02-29",
@@ -5585,7 +5623,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-029-_DSC2893.jpg",
           "filename": "_DSC2893.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5598,7 +5635,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "72mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-029-_DSC2893-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-029-_DSC2893-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-029-_DSC2893-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-029-_DSC2893.jpg"
         },
         {
           "id": "project-02-30",
@@ -5608,7 +5646,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-030-_DSC2901.jpg",
           "filename": "_DSC2901.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5621,7 +5658,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-030-_DSC2901-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-030-_DSC2901-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-030-_DSC2901-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-030-_DSC2901.jpg"
         },
         {
           "id": "project-02-31",
@@ -5631,7 +5669,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-031-_DSC2906.jpg",
           "filename": "_DSC2906.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5644,7 +5681,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "58mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-031-_DSC2906-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-031-_DSC2906-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-031-_DSC2906-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-031-_DSC2906.jpg"
         },
         {
           "id": "project-02-32",
@@ -5654,7 +5692,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-032-_DSC2909.jpg",
           "filename": "_DSC2909.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5667,7 +5704,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "36mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-032-_DSC2909-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-032-_DSC2909-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-032-_DSC2909-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-032-_DSC2909.jpg"
         },
         {
           "id": "project-02-33",
@@ -5677,7 +5715,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-033-_DSC2916.jpg",
           "filename": "_DSC2916.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -5689,7 +5726,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 400",
           "focalLength": "36mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-033-_DSC2916-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-033-_DSC2916-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-033-_DSC2916-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-033-_DSC2916.jpg"
         },
         {
           "id": "project-02-34",
@@ -5699,7 +5738,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-034-_DSC2928.jpg",
           "filename": "_DSC2928.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5712,7 +5750,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "34mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-034-_DSC2928-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-034-_DSC2928-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-034-_DSC2928-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-034-_DSC2928.jpg"
         },
         {
           "id": "project-02-35",
@@ -5722,7 +5761,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-035-_DSC2945.jpg",
           "filename": "_DSC2945.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5735,7 +5773,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-035-_DSC2945-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-035-_DSC2945-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-035-_DSC2945-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-035-_DSC2945.jpg"
         },
         {
           "id": "project-02-36",
@@ -5745,7 +5784,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-036-_DSC2948.jpg",
           "filename": "_DSC2948.jpg",
           "ratio": "wide",
           "width": 5787,
@@ -5758,7 +5796,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "47mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-036-_DSC2948-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-036-_DSC2948-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-036-_DSC2948-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-036-_DSC2948.jpg"
         },
         {
           "id": "project-02-37",
@@ -5768,7 +5807,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-037-_DSC2954.jpg",
           "filename": "_DSC2954.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5781,7 +5819,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-037-_DSC2954-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-037-_DSC2954-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-037-_DSC2954-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-037-_DSC2954.jpg"
         },
         {
           "id": "project-02-38",
@@ -5791,7 +5830,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-038-_DSC2960.jpg",
           "filename": "_DSC2960.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5804,7 +5842,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "57mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-038-_DSC2960-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-038-_DSC2960-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-038-_DSC2960-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-038-_DSC2960.jpg"
         },
         {
           "id": "project-02-39",
@@ -5814,7 +5853,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-039-_DSC2964.jpg",
           "filename": "_DSC2964.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5827,7 +5865,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "51mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-039-_DSC2964-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-039-_DSC2964-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-039-_DSC2964-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-039-_DSC2964.jpg"
         },
         {
           "id": "project-02-40",
@@ -5837,7 +5876,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-040-_DSC9751.jpg",
           "filename": "_DSC9751.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5850,7 +5888,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "29mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-040-_DSC9751-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-040-_DSC9751-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-040-_DSC9751-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-040-_DSC9751.jpg"
         },
         {
           "id": "project-02-41",
@@ -5860,7 +5899,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-041-_DSC9757.jpg",
           "filename": "_DSC9757.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5873,7 +5911,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-041-_DSC9757-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-041-_DSC9757-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-041-_DSC9757-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-041-_DSC9757.jpg"
         },
         {
           "id": "project-02-42",
@@ -5883,7 +5922,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-042-_DSC9760.jpg",
           "filename": "_DSC9760.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5896,7 +5934,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "70mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-042-_DSC9760-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-042-_DSC9760-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-042-_DSC9760-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-042-_DSC9760.jpg"
         },
         {
           "id": "project-02-43",
@@ -5906,7 +5945,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-043-_DSC9764.jpg",
           "filename": "_DSC9764.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5919,7 +5957,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "63mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-043-_DSC9764-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-043-_DSC9764-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-043-_DSC9764-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-043-_DSC9764.jpg"
         },
         {
           "id": "project-02-44",
@@ -5929,7 +5968,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-044-_DSC9790.jpg",
           "filename": "_DSC9790.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -5942,7 +5980,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "75mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-044-_DSC9790-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-044-_DSC9790-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-044-_DSC9790-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-044-_DSC9790.jpg"
         },
         {
           "id": "project-02-45",
@@ -5952,7 +5991,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-045-DSC00020.jpg",
           "filename": "DSC00020.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -5965,7 +6003,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "10mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-045-DSC00020-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-045-DSC00020-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-045-DSC00020-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-045-DSC00020.jpg"
         },
         {
           "id": "project-02-46",
@@ -5975,7 +6014,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-046-DSC00055.jpg",
           "filename": "DSC00055.jpg",
           "ratio": "wide",
           "width": 5333,
@@ -5988,7 +6026,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "10mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-046-DSC00055-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-046-DSC00055-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-046-DSC00055-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-046-DSC00055.jpg"
         },
         {
           "id": "project-02-47",
@@ -5998,7 +6037,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-047-DSC00255.jpg",
           "filename": "DSC00255.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6011,7 +6049,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-047-DSC00255-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-047-DSC00255-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-047-DSC00255-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-047-DSC00255.jpg"
         },
         {
           "id": "project-02-48",
@@ -6021,7 +6060,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-048-DSC00262.jpg",
           "filename": "DSC00262.jpg",
           "ratio": "tall",
           "width": 3648,
@@ -6033,7 +6071,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "15mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-048-DSC00262-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-048-DSC00262-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-048-DSC00262-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-048-DSC00262.jpg"
         },
         {
           "id": "project-02-49",
@@ -6043,7 +6083,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-049-DSC00287.jpg",
           "filename": "DSC00287.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6056,7 +6095,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-049-DSC00287-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-049-DSC00287-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-049-DSC00287-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-049-DSC00287.jpg"
         },
         {
           "id": "project-02-50",
@@ -6066,7 +6106,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-050-DSC00295.jpg",
           "filename": "DSC00295.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6079,7 +6118,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "12mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-050-DSC00295-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-050-DSC00295-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-050-DSC00295-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-050-DSC00295.jpg"
         },
         {
           "id": "project-02-51",
@@ -6089,7 +6129,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-051-DSC00378.jpg",
           "filename": "DSC00378.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6102,7 +6141,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-051-DSC00378-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-051-DSC00378-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-051-DSC00378-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-051-DSC00378.jpg"
         },
         {
           "id": "project-02-52",
@@ -6112,7 +6152,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-052-DSC00416.jpg",
           "filename": "DSC00416.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6125,7 +6164,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "13mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-052-DSC00416-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-052-DSC00416-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-052-DSC00416-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-052-DSC00416.jpg"
         },
         {
           "id": "project-02-53",
@@ -6135,7 +6175,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-053-DSC00433.jpg",
           "filename": "DSC00433.jpg",
           "ratio": "wide",
           "width": 5283,
@@ -6148,7 +6187,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "10mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-053-DSC00433-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-053-DSC00433-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-053-DSC00433-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-053-DSC00433.jpg"
         },
         {
           "id": "project-02-54",
@@ -6158,7 +6198,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-054-DSC00441.jpg",
           "filename": "DSC00441.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6171,7 +6210,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "26mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-054-DSC00441-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-054-DSC00441-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-054-DSC00441-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-054-DSC00441.jpg"
         },
         {
           "id": "project-02-55",
@@ -6181,7 +6221,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-055-DSC00462.jpg",
           "filename": "DSC00462.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6194,7 +6233,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-055-DSC00462-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-055-DSC00462-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-055-DSC00462-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-055-DSC00462.jpg"
         },
         {
           "id": "project-02-56",
@@ -6204,7 +6244,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-056-DSC00499.jpg",
           "filename": "DSC00499.jpg",
           "ratio": "tall",
           "width": 3648,
@@ -6216,7 +6255,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "9mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-02/project-02-056-DSC00499-thumb.webp"
+          "thumb": "assets/opt/projects/project-02/project-02-056-DSC00499-thumb.webp",
+          "large": "assets/opt/projects/project-02/project-02-056-DSC00499-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-056-DSC00499.jpg"
         },
         {
           "id": "project-02-57",
@@ -6226,7 +6267,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-057-DSC00503.jpg",
           "filename": "DSC00503.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6239,7 +6279,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-057-DSC00503-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-057-DSC00503-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-057-DSC00503-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-057-DSC00503.jpg"
         },
         {
           "id": "project-02-58",
@@ -6249,7 +6290,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-058-DSC03454.jpg",
           "filename": "DSC03454.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6262,7 +6302,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-058-DSC03454-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-058-DSC03454-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-058-DSC03454-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-058-DSC03454.jpg"
         },
         {
           "id": "project-02-59",
@@ -6272,7 +6313,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-059-DSC03458.jpg",
           "filename": "DSC03458.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6285,7 +6325,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "10mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-059-DSC03458-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-059-DSC03458-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-059-DSC03458-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-059-DSC03458.jpg"
         },
         {
           "id": "project-02-60",
@@ -6295,7 +6336,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-060-DSC03485.jpg",
           "filename": "DSC03485.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6308,7 +6348,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "26mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-060-DSC03485-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-060-DSC03485-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-060-DSC03485-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-060-DSC03485.jpg"
         },
         {
           "id": "project-02-61",
@@ -6318,7 +6359,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-061-DSC09943.jpg",
           "filename": "DSC09943.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6331,7 +6371,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-061-DSC09943-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-061-DSC09943-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-061-DSC09943-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-061-DSC09943.jpg"
         },
         {
           "id": "project-02-62",
@@ -6341,7 +6382,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-062-DSC09973.jpg",
           "filename": "DSC09973.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6354,7 +6394,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-062-DSC09973-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-062-DSC09973-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-062-DSC09973-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-062-DSC09973.jpg"
         },
         {
           "id": "project-02-63",
@@ -6364,7 +6405,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-063-DSC09989.jpg",
           "filename": "DSC09989.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6377,7 +6417,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "11mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-063-DSC09989-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-063-DSC09989-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-063-DSC09989-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-063-DSC09989.jpg"
         },
         {
           "id": "project-02-64",
@@ -6387,7 +6428,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "城墙下的秦人",
           "category": "project-02",
           "categoryLabel": "城墙下的秦人",
-          "src": "assets/photos/projects/project-02/project-02-064-DSC09992.jpg",
           "filename": "DSC09992.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6400,9 +6440,11 @@ window.PHOTO_LIBRARY = {
           "focalLength": "18mm",
           "location": null,
           "thumb": "assets/opt/projects/project-02/project-02-064-DSC09992-thumb.webp",
-          "large": "assets/opt/projects/project-02/project-02-064-DSC09992-large.webp"
+          "large": "assets/opt/projects/project-02/project-02-064-DSC09992-large.webp",
+          "master": "assets/photos/projects/project-02/project-02-064-DSC09992.jpg"
         }
-      ]
+      ],
+      "coverId": "project-02-1"
     },
     "project-03": {
       "key": "project-03",
@@ -6411,7 +6453,7 @@ window.PHOTO_LIBRARY = {
       "title": "大美秦岭",
       "intro": "沿秦岭十个峪口与山口行走，从北阳山到终南草甸，收录不同季节的植被、云海与山脊线。",
       "count": 41,
-      "cover": "assets/photos/projects/project-03/project-03-001-_DSC3832.jpg",
+      "cover": "assets/opt/projects/project-03/project-03-001-_DSC3832-large.webp",
       "chapters": [
         "北阳山",
         "冰晶顶",
@@ -6433,7 +6475,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "北阳山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-001-_DSC3832.jpg",
           "filename": "_DSC3832.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6446,7 +6487,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-001-_DSC3832-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-001-_DSC3832-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-001-_DSC3832-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-001-_DSC3832.jpg"
         },
         {
           "id": "project-03-2",
@@ -6456,7 +6498,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "北阳山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-002-_DSC3866.jpg",
           "filename": "_DSC3866.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6469,7 +6510,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-002-_DSC3866-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-002-_DSC3866-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-002-_DSC3866-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-002-_DSC3866.jpg"
         },
         {
           "id": "project-03-3",
@@ -6479,7 +6521,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "北阳山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-003-_DSC3882.jpg",
           "filename": "_DSC3882.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6492,7 +6533,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-003-_DSC3882-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-003-_DSC3882-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-003-_DSC3882-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-003-_DSC3882.jpg"
         },
         {
           "id": "project-03-4",
@@ -6502,7 +6544,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "北阳山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-004-_DSC3885.jpg",
           "filename": "_DSC3885.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6515,7 +6556,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "20mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-004-_DSC3885-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-004-_DSC3885-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-004-_DSC3885-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-004-_DSC3885.jpg"
         },
         {
           "id": "project-03-5",
@@ -6525,7 +6567,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "北阳山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-005-_DSC3891.jpg",
           "filename": "_DSC3891.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6538,7 +6579,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-005-_DSC3891-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-005-_DSC3891-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-005-_DSC3891-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-005-_DSC3891.jpg"
         },
         {
           "id": "project-03-6",
@@ -6548,7 +6590,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "冰晶顶",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-006-_DSC0127.jpg",
           "filename": "_DSC0127.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6561,7 +6602,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "29mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-006-_DSC0127-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-006-_DSC0127-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-006-_DSC0127-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-006-_DSC0127.jpg"
         },
         {
           "id": "project-03-7",
@@ -6571,7 +6613,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "冰晶顶",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-007-_DSC0175.jpg",
           "filename": "_DSC0175.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -6583,7 +6624,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "28mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-007-_DSC0175-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-007-_DSC0175-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-007-_DSC0175-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-007-_DSC0175.jpg"
         },
         {
           "id": "project-03-8",
@@ -6593,7 +6636,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "冰晶顶",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-008-_DSC0181.jpg",
           "filename": "_DSC0181.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6606,7 +6648,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "29mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-008-_DSC0181-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-008-_DSC0181-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-008-_DSC0181-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-008-_DSC0181.jpg"
         },
         {
           "id": "project-03-9",
@@ -6616,7 +6659,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "冰晶顶",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-009-DJI_0853-HDR.jpg",
           "filename": "DJI_0853-HDR.jpg",
           "ratio": "wide",
           "width": 5452,
@@ -6629,7 +6671,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-009-DJI_0853-HDR-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-009-DJI_0853-HDR-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-009-DJI_0853-HDR-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-009-DJI_0853-HDR.jpg"
         },
         {
           "id": "project-03-10",
@@ -6639,7 +6682,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "东梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-010-DSC03693.jpg",
           "filename": "DSC03693.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6652,7 +6694,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-010-DSC03693-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-010-DSC03693-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-010-DSC03693-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-010-DSC03693.jpg"
         },
         {
           "id": "project-03-11",
@@ -6662,7 +6705,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "东梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-011-DSC03720.jpg",
           "filename": "DSC03720.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6675,7 +6717,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "12mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-011-DSC03720-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-011-DSC03720-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-011-DSC03720-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-011-DSC03720.jpg"
         },
         {
           "id": "project-03-12",
@@ -6685,7 +6728,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "东梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-012-DSC03737.jpg",
           "filename": "DSC03737.jpg",
           "ratio": "wide",
           "width": 5327,
@@ -6698,7 +6740,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "26mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-012-DSC03737-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-012-DSC03737-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-012-DSC03737-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-012-DSC03737.jpg"
         },
         {
           "id": "project-03-13",
@@ -6708,7 +6751,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "东梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-013-DSC03754.jpg",
           "filename": "DSC03754.jpg",
           "ratio": "wide",
           "width": 4900,
@@ -6721,7 +6763,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "26mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-013-DSC03754-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-013-DSC03754-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-013-DSC03754-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-013-DSC03754.jpg"
         },
         {
           "id": "project-03-14",
@@ -6731,7 +6774,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "黑山岔瀑布",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-014-_DSC0010.jpg",
           "filename": "_DSC0010.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6744,7 +6786,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-014-_DSC0010-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-014-_DSC0010-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-014-_DSC0010-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-014-_DSC0010.jpg"
         },
         {
           "id": "project-03-15",
@@ -6754,7 +6797,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "黑山岔瀑布",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-015-_DSC9823.jpg",
           "filename": "_DSC9823.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -6766,7 +6808,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "32mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-015-_DSC9823-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-015-_DSC9823-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-015-_DSC9823-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-015-_DSC9823.jpg"
         },
         {
           "id": "project-03-16",
@@ -6776,7 +6820,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "黑山岔瀑布",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-016-_DSC9938.jpg",
           "filename": "_DSC9938.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -6788,7 +6831,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "52mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-016-_DSC9938-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-016-_DSC9938-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-016-_DSC9938-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-016-_DSC9938.jpg"
         },
         {
           "id": "project-03-17",
@@ -6798,7 +6843,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "嘉午台",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-017-_DSC2642.jpg",
           "filename": "_DSC2642.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6811,7 +6855,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "20mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-017-_DSC2642-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-017-_DSC2642-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-017-_DSC2642-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-017-_DSC2642.jpg"
         },
         {
           "id": "project-03-18",
@@ -6821,7 +6866,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "嘉午台",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-018-_DSC2659.jpg",
           "filename": "_DSC2659.jpg",
           "ratio": "wide",
           "width": 5684,
@@ -6834,7 +6878,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "31mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-018-_DSC2659-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-018-_DSC2659-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-018-_DSC2659-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-018-_DSC2659.jpg"
         },
         {
           "id": "project-03-19",
@@ -6844,7 +6889,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "嘉午台",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-019-DSC03514.jpg",
           "filename": "DSC03514.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6857,7 +6901,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "9mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-019-DSC03514-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-019-DSC03514-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-019-DSC03514-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-019-DSC03514.jpg"
         },
         {
           "id": "project-03-20",
@@ -6867,7 +6912,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "嘉午台",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-020-DSC03619.jpg",
           "filename": "DSC03619.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6880,7 +6924,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "10mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-020-DSC03619-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-020-DSC03619-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-020-DSC03619-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-020-DSC03619.jpg"
         },
         {
           "id": "project-03-21",
@@ -6890,7 +6935,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "嘉午台",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-021-DSC03628.jpg",
           "filename": "DSC03628.jpg",
           "ratio": "wide",
           "width": 5472,
@@ -6903,7 +6947,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "26mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-021-DSC03628-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-021-DSC03628-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-021-DSC03628-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-021-DSC03628.jpg"
         },
         {
           "id": "project-03-22",
@@ -6913,7 +6958,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "箭峪领",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-022-_DSC4036.jpg",
           "filename": "_DSC4036.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6926,7 +6970,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "36mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-022-_DSC4036-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-022-_DSC4036-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-022-_DSC4036-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-022-_DSC4036.jpg"
         },
         {
           "id": "project-03-23",
@@ -6936,7 +6981,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "箭峪领",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-023-_DSC4077.jpg",
           "filename": "_DSC4077.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6949,7 +6993,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "41mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-023-_DSC4077-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-023-_DSC4077-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-023-_DSC4077-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-023-_DSC4077.jpg"
         },
         {
           "id": "project-03-24",
@@ -6959,7 +7004,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "箭峪领",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-024-_DSC4096.jpg",
           "filename": "_DSC4096.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6972,7 +7016,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "44mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-024-_DSC4096-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-024-_DSC4096-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-024-_DSC4096-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-024-_DSC4096.jpg"
         },
         {
           "id": "project-03-25",
@@ -6982,7 +7027,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "箭峪领",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-025-_DSC9909.jpg",
           "filename": "_DSC9909.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -6995,7 +7039,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-025-_DSC9909-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-025-_DSC9909-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-025-_DSC9909-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-025-_DSC9909.jpg"
         },
         {
           "id": "project-03-26",
@@ -7005,7 +7050,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "九鼎万花山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-026-_DSC0182.jpg",
           "filename": "_DSC0182.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -7017,7 +7061,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "28mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-026-_DSC0182-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-026-_DSC0182-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-026-_DSC0182-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-026-_DSC0182.jpg"
         },
         {
           "id": "project-03-27",
@@ -7027,7 +7073,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "九鼎万花山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-027-_DSC0220.jpg",
           "filename": "_DSC0220.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7040,7 +7085,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "66mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-027-_DSC0220-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-027-_DSC0220-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-027-_DSC0220-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-027-_DSC0220.jpg"
         },
         {
           "id": "project-03-28",
@@ -7050,7 +7096,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "九鼎万花山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-028-_DSC0256.jpg",
           "filename": "_DSC0256.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -7062,7 +7107,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "75mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-028-_DSC0256-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-028-_DSC0256-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-028-_DSC0256-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-028-_DSC0256.jpg"
         },
         {
           "id": "project-03-29",
@@ -7072,7 +7119,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "九鼎万花山",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-029-_DSC0303.jpg",
           "filename": "_DSC0303.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -7084,7 +7130,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "33mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-029-_DSC0303-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-029-_DSC0303-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-029-_DSC0303-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-029-_DSC0303.jpg"
         },
         {
           "id": "project-03-30",
@@ -7094,7 +7142,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "鹿角梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-030-_DSC9936.jpg",
           "filename": "_DSC9936.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7107,7 +7154,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-030-_DSC9936-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-030-_DSC9936-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-030-_DSC9936-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-030-_DSC9936.jpg"
         },
         {
           "id": "project-03-31",
@@ -7117,7 +7165,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "鹿角梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-031-_DSC9940.jpg",
           "filename": "_DSC9940.jpg",
           "ratio": "wide",
           "width": 5111,
@@ -7130,7 +7177,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "35mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-031-_DSC9940-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-031-_DSC9940-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-031-_DSC9940-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-031-_DSC9940.jpg"
         },
         {
           "id": "project-03-32",
@@ -7140,7 +7188,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "鹿角梁",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-032-_DSC9998.jpg",
           "filename": "_DSC9998.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7153,7 +7200,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "16mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-032-_DSC9998-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-032-_DSC9998-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-032-_DSC9998-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-032-_DSC9998.jpg"
         },
         {
           "id": "project-03-33",
@@ -7163,7 +7211,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "万花云际寺",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-033-_DSC9795.jpg",
           "filename": "_DSC9795.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7176,7 +7223,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-033-_DSC9795-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-033-_DSC9795-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-033-_DSC9795-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-033-_DSC9795.jpg"
         },
         {
           "id": "project-03-34",
@@ -7186,7 +7234,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "万花云际寺",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-034-_DSC9857.jpg",
           "filename": "_DSC9857.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7199,7 +7246,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-034-_DSC9857-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-034-_DSC9857-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-034-_DSC9857-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-034-_DSC9857.jpg"
         },
         {
           "id": "project-03-35",
@@ -7209,7 +7257,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "万花云际寺",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-035-DJI_0780-HDR.jpg",
           "filename": "DJI_0780-HDR.jpg",
           "ratio": "wide",
           "width": 5444,
@@ -7222,7 +7269,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "8mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-035-DJI_0780-HDR-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-035-DJI_0780-HDR-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-035-DJI_0780-HDR-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-035-DJI_0780-HDR.jpg"
         },
         {
           "id": "project-03-36",
@@ -7232,7 +7280,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "终南草甸",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-036-_DSC0056.jpg",
           "filename": "_DSC0056.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7245,7 +7292,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-036-_DSC0056-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-036-_DSC0056-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-036-_DSC0056-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-036-_DSC0056.jpg"
         },
         {
           "id": "project-03-37",
@@ -7255,7 +7303,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "终南草甸",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-037-_DSC0059.jpg",
           "filename": "_DSC0059.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7268,7 +7315,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-037-_DSC0059-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-037-_DSC0059-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-037-_DSC0059-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-037-_DSC0059.jpg"
         },
         {
           "id": "project-03-38",
@@ -7278,7 +7326,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "终南草甸",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-038-_DSC0083.jpg",
           "filename": "_DSC0083.jpg",
           "ratio": "tall",
           "width": 3679,
@@ -7290,7 +7337,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "28mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-038-_DSC0083-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-038-_DSC0083-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-038-_DSC0083-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-038-_DSC0083.jpg"
         },
         {
           "id": "project-03-39",
@@ -7300,7 +7349,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "终南草甸",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-039-_DSC0085.jpg",
           "filename": "_DSC0085.jpg",
           "ratio": "wide",
           "width": 6000,
@@ -7313,7 +7361,8 @@ window.PHOTO_LIBRARY = {
           "focalLength": "28mm",
           "location": null,
           "thumb": "assets/opt/projects/project-03/project-03-039-_DSC0085-thumb.webp",
-          "large": "assets/opt/projects/project-03/project-03-039-_DSC0085-large.webp"
+          "large": "assets/opt/projects/project-03/project-03-039-_DSC0085-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-039-_DSC0085.jpg"
         },
         {
           "id": "project-03-40",
@@ -7323,7 +7372,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "终南草甸",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-040-SONY-ILCE-7M3_20240302_090904.jpg",
           "filename": "SONY ILCE-7M3_20240302_090904.jpg",
           "ratio": "tall",
           "width": 3829,
@@ -7335,7 +7383,9 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "35mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-040-SONY-ILCE-7M3_20240302_090904-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-040-SONY-ILCE-7M3_20240302_090904-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-040-SONY-ILCE-7M3_20240302_090904-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-040-SONY-ILCE-7M3_20240302_090904.jpg"
         },
         {
           "id": "project-03-41",
@@ -7345,7 +7395,6 @@ window.PHOTO_LIBRARY = {
           "chapter": "终南草甸",
           "category": "project-03",
           "categoryLabel": "大美秦岭",
-          "src": "assets/photos/projects/project-03/project-03-041-SONY-ILCE-7M3_20240302_100730.jpg",
           "filename": "SONY ILCE-7M3_20240302_100730.jpg",
           "ratio": "tall",
           "width": 4000,
@@ -7357,9 +7406,12 @@ window.PHOTO_LIBRARY = {
           "iso": "ISO 100",
           "focalLength": "30mm",
           "location": null,
-          "thumb": "assets/opt/projects/project-03/project-03-041-SONY-ILCE-7M3_20240302_100730-thumb.webp"
+          "thumb": "assets/opt/projects/project-03/project-03-041-SONY-ILCE-7M3_20240302_100730-thumb.webp",
+          "large": "assets/opt/projects/project-03/project-03-041-SONY-ILCE-7M3_20240302_100730-large.webp",
+          "master": "assets/photos/projects/project-03/project-03-041-SONY-ILCE-7M3_20240302_100730.jpg"
         }
-      ]
+      ],
+      "coverId": "project-03-1"
     }
   }
 };

@@ -502,8 +502,10 @@
   const WALL_PROJECT_ID = "project-02";
   let stripPhotos = [];
 
+  // `src` is deliberately not a fallback: masters are archive-only and are not
+  // part of the deployed site.
   function stripSource(photo) {
-    return { thumb: photo.thumb || photo.src, large: photo.large || photo.src };
+    return { thumb: photo.thumb || photo.large, large: photo.large || photo.thumb };
   }
 
   function initStrip() {
