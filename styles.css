@@ -1018,8 +1018,8 @@ h3 {
 
 .contact-card {
   display: grid;
-  grid-template-columns: minmax(320px, 1.08fr) minmax(260px, 0.95fr) minmax(220px, 0.78fr);
-  gap: clamp(30px, 4vw, 62px);
+  grid-template-columns: minmax(340px, 1.26fr) minmax(250px, 0.9fr) minmax(210px, 0.72fr);
+  gap: clamp(30px, 4vw, 58px);
   align-items: start;
   max-width: 1180px;
   margin: 0 auto;
@@ -1065,9 +1065,9 @@ h3 {
 }
 
 .bio-column p:not(.eyebrow) {
-  max-width: 300px;
+  max-width: 100%;
   font-size: 0.88rem;
-  line-height: 1.68;
+  line-height: 1.78;
 }
 
 .contact-column h2,
@@ -1150,6 +1150,16 @@ h3 {
   color: var(--sage-dark);
   font-weight: 800;
   line-height: 1.3;
+  text-decoration: underline;
+  text-decoration-color: rgba(59, 75, 65, 0.34);
+  text-underline-offset: 3px;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.direct-contact a:hover,
+.direct-contact a:focus-visible {
+  color: var(--brass);
+  text-decoration-color: currentColor;
 }
 
 .wechat-column {
@@ -1158,28 +1168,20 @@ h3 {
   align-content: start;
 }
 
-.qr-placeholder {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
-  width: 98px;
-  height: 98px;
-  padding: 11px;
+/* Real WeChat QR — keep it square and crisp, with a white quiet zone. */
+.wechat-qr {
+  width: 150px;
+  height: 150px;
+  padding: 8px;
   border: 1px solid var(--line);
-  background: #f8f6ef;
-}
-
-.qr-placeholder span {
-  background: var(--ink);
-}
-
-.qr-placeholder span:nth-child(2),
-.qr-placeholder span:nth-child(5) {
-  background: var(--sage);
+  border-radius: 8px;
+  background: #fff;
+  object-fit: contain;
 }
 
 .wechat-column small {
   color: var(--muted);
+  line-height: 1.55;
 }
 
 .portfolio-page {
@@ -1559,13 +1561,48 @@ h3 {
 
 .site-footer {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 18px;
+  gap: clamp(18px, 4vw, 56px);
   padding: 22px clamp(20px, 6vw, 78px);
   border-top: 1px solid rgba(45, 58, 49, 0.12);
   background: #f2efe8;
   color: var(--muted);
   font-size: 0.88rem;
+}
+
+.footer-meta {
+  display: grid;
+  flex: 0 0 auto;
+  gap: 4px;
+}
+
+.footer-meta small {
+  color: var(--stone);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.footer-credit {
+  max-width: 620px;
+  margin: 0;
+  color: var(--stone);
+  font-size: 0.8rem;
+  line-height: 1.78;
+  text-align: right;
+}
+
+/* Shown inside every lightbox, where a large image is on screen. */
+.lightbox-credit {
+  grid-column: 1 / -1;
+  display: block;
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 0.76rem;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .lightbox {
@@ -1853,6 +1890,10 @@ main > section,
   .site-footer {
     grid-template-columns: 1fr;
     flex-direction: column;
+  }
+
+  .footer-credit {
+    text-align: left;
   }
 
   .rating-panel {

@@ -201,8 +201,14 @@
     </main>
 
     <footer class="site-footer">
-      <span>© <span id="year"></span> 承瑀摄影 Thomas pics</span>
-      <span>Personal Photography Portfolio</span>
+      <div class="footer-meta">
+        <span>© <span id="year"></span> 承瑀摄影 Thomas pics</span>
+        <small>Personal Photography Portfolio</small>
+      </div>
+      <p class="footer-credit">
+        站内全部照片版权归承瑀摄影所有。未经书面授权，请勿转载、商用、二次修改，或用于训练数据集；
+        需要授权请通过邮件或微信联系我。
+      </p>
     </footer>
 
     <div class="idea-toast" id="ideaToast" role="status" aria-live="polite" hidden>
@@ -221,6 +227,7 @@
             <small id="lightboxMeta"></small>
           </div>
           <em id="lightboxStory"></em>
+          <small class="lightbox-credit">© 承瑀摄影 · 未经授权请勿转载或商用</small>
         </figcaption>
       </figure>
       <button class="icon-button lightbox-next" type="button" aria-label="下一张">›</button>

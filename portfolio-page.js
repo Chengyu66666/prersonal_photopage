@@ -374,6 +374,9 @@
   renderTabs();
   renderPage();
 
+  const yearNode = document.querySelector("#year");
+  if (yearNode) yearNode.textContent = new Date().getFullYear();
+
   gallery.addEventListener("click", (event) => {
     const card = event.target.closest(".masonry-photo");
     if (!card) return;

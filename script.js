@@ -585,7 +585,7 @@ function rebuildContactSection() {
         <div>
           <p class="eyebrow">Photographer</p>
           <h2>承瑀</h2>
-          <p>承瑀摄影 Thomas pics，关注自然光、城市生活和人物关系。作品覆盖山野、城市、人像与活动记录。</p>
+          <p>因为早年间留过学，成了对生活有点爱好和要求的小登。平时喜欢在与世隔绝的山里、无人问津的城墙角落溜达。人生的乐趣在于没苦硬吃。如果你能欣赏我的照片和理念，那我们也是一类人，欢迎来和我聊聊。</p>
         </div>
       </section>
       <section class="contact-column social-column" aria-label="社交媒体关注">
@@ -610,14 +610,18 @@ function rebuildContactSection() {
       </section>
       <section class="contact-column wechat-column" aria-label="预约方式">
         <p class="eyebrow">Booking</p>
-        <div class="qr-placeholder" aria-hidden="true">
-          <span></span><span></span><span></span><span></span><span></span><span></span>
-        </div>
+        <img
+          class="wechat-qr"
+          src="assets/wechat-qr.png"
+          alt="承瑀的微信预约二维码，用微信扫码添加"
+          width="594"
+          height="594"
+          loading="lazy"
+        />
         <strong>微信预约</strong>
-        <small>WeChat: chengyu_95</small>
+        <small>微信扫码添加，或搜索 WeChat: chengyu_95</small>
         <div class="direct-contact">
-          <a href="mailto:605710591@qq.com">605710591@qq.com</a>
-          <a href="tel:+8613319119096">13319119096</a>
+          <a class="mail-link" href="mailto:605710591@qq.com?subject=%E6%8B%8D%E6%91%84%E9%A2%84%E7%BA%A6">605710591@qq.com</a>
         </div>
       </section>
     </article>
