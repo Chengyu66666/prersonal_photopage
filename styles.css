@@ -957,23 +957,28 @@ h3 {
 
 .map-project-page {
   min-height: 100vh;
-  background: #27362f;
-  color: #fff;
+  background: var(--paper);
+  color: var(--ink);
 }
 
+/* The hero carries the photo; everything below it back to the light theme. */
 .map-project-shell {
   min-height: 100vh;
-  background:
-    linear-gradient(rgba(17, 25, 20, 0.56), rgba(17, 25, 20, 0.78)),
-    url("assets/photos/city/city-013-_DSC4018.jpg") center / cover;
+  background: transparent;
 }
 
 .map-project-hero {
+  position: relative;
   display: grid;
   align-content: end;
   gap: 22px;
-  min-height: 100vh;
+  min-height: 92vh;
   padding: 150px clamp(24px, 7vw, 96px) 76px;
+  background:
+    linear-gradient(180deg, rgba(17, 25, 20, 0.66), rgba(17, 25, 20, 0.9)),
+    url("assets/opt/city/city-013-_DSC4018-large.webp") center / cover,
+    #27362f;
+  color: #fff;
 }
 
 .map-project-hero h1 {
@@ -1867,5 +1872,571 @@ main > section,
   .js-motion .section-fade {
     opacity: 1;
     transform: none;
+  }
+}
+
+/* ==========================================================================
+   西安生活地图
+   ========================================================================== */
+
+/* Shown instead of invented content when photo-data.js is missing. */
+.library-missing {
+  grid-column: 1 / -1;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 26px 30px;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.library-missing code {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(98, 114, 101, 0.14);
+  color: var(--sage-dark);
+  font-size: 0.92em;
+}
+
+.map-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(20px, 4vw, 56px);
+  margin-top: 6px;
+}
+
+.map-hero-stats div {
+  display: grid;
+  gap: 4px;
+}
+
+.map-hero-stats strong {
+  color: #f1d295;
+  font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+  line-height: 1;
+}
+
+.map-hero-stats span {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+
+.map-panel,
+.route-section,
+.strip-section {
+  padding: clamp(60px, 8vw, 112px) clamp(20px, 5vw, 64px);
+}
+
+.map-panel,
+.strip-section {
+  background: var(--paper);
+}
+
+.route-section {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.map-panel .section-heading,
+.route-section .section-heading,
+.strip-section .section-heading {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.map-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.9fr);
+  gap: clamp(22px, 3.4vw, 46px);
+  align-items: start;
+  max-width: 1240px;
+  margin: 34px auto 0;
+}
+
+.map-figure {
+  margin: 0;
+  padding: clamp(12px, 2vw, 24px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 20px 50px rgba(21, 21, 21, 0.06);
+}
+
+.map-figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.map-figure figcaption {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: var(--stone);
+  font-size: 0.78rem;
+  line-height: 1.7;
+}
+
+/* --- SVG 底图 --- */
+.map-moat {
+  fill: none;
+  stroke: var(--stone);
+  stroke-width: 2;
+  stroke-dasharray: 7 7;
+  opacity: 0.5;
+}
+
+.map-wall-shadow {
+  fill: rgba(21, 21, 21, 0.07);
+  stroke: none;
+}
+
+.map-wall {
+  fill: var(--surface);
+  stroke: var(--charcoal);
+  stroke-width: 7;
+  stroke-linejoin: round;
+}
+
+.map-inner-lane {
+  fill: none;
+  stroke: var(--brass);
+  stroke-width: 1;
+  stroke-dasharray: 3 5;
+  opacity: 0.85;
+}
+
+.map-compass {
+  fill: var(--stone);
+  font-size: 15px;
+  letter-spacing: 0.12em;
+}
+
+.map-corner {
+  fill: var(--stone);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.map-inside-label {
+  fill: var(--stone);
+  font-size: 13px;
+  letter-spacing: 0.34em;
+}
+
+.map-gate-mark {
+  fill: var(--stone);
+}
+
+.map-gate-mark.is-major {
+  fill: var(--plum);
+}
+
+.map-gate-label {
+  fill: var(--charcoal);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+/* --- 点位标记 --- */
+.map-point {
+  cursor: pointer;
+}
+
+.map-point-halo {
+  fill: rgba(184, 148, 85, 0.16);
+  transition: fill 200ms ease, r 200ms ease;
+}
+
+.map-point-dot {
+  fill: var(--surface);
+  stroke: var(--brass);
+  stroke-width: 2;
+  transition: fill 200ms ease, stroke 200ms ease;
+}
+
+.map-point-no {
+  fill: var(--sage-dark);
+  font-size: 11px;
+  font-weight: 700;
+  pointer-events: none;
+  transition: fill 200ms ease;
+}
+
+.map-point:hover .map-point-halo,
+.map-point:focus-visible .map-point-halo {
+  fill: rgba(184, 148, 85, 0.34);
+}
+
+.map-point:focus-visible {
+  outline: none;
+}
+
+.map-point:hover .map-point-dot,
+.map-point:focus-visible .map-point-dot {
+  stroke: var(--ink);
+}
+
+.map-point.is-active .map-point-dot {
+  fill: var(--brass);
+  stroke: var(--ink);
+}
+
+.map-point.is-active .map-point-no {
+  fill: #fff;
+}
+
+.map-point.is-on-route .map-point-dot {
+  fill: var(--sage-dark);
+  stroke: var(--ink);
+}
+
+.map-point.is-on-route .map-point-no {
+  fill: #fff;
+}
+
+.map-point.is-dimmed {
+  opacity: 0.26;
+}
+
+/* --- 路线连线 --- */
+.map-route-line {
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 10 8;
+  opacity: 0.92;
+}
+
+.map-route-ring {
+  fill: none;
+  stroke-width: 1.5;
+  opacity: 0.75;
+}
+
+.map-route-line.tone-brass,
+.map-route-ring.tone-brass {
+  stroke: var(--brass);
+}
+
+.map-route-line.tone-sage,
+.map-route-ring.tone-sage {
+  stroke: var(--sage);
+}
+
+.map-route-line.tone-plum,
+.map-route-ring.tone-plum {
+  stroke: var(--plum);
+}
+
+.map-route-line.tone-ink,
+.map-route-ring.tone-ink {
+  stroke: var(--charcoal);
+}
+
+/* --- 右侧详情与清单 --- */
+.map-side {
+  display: grid;
+  gap: 18px;
+}
+
+.point-detail {
+  padding: clamp(20px, 2.4vw, 30px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 20px 50px rgba(21, 21, 21, 0.06);
+}
+
+.point-detail h3 {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0 18px;
+  font-size: clamp(1.4rem, 2.4vw, 1.85rem);
+  line-height: 1.2;
+}
+
+.point-detail h3 em {
+  color: var(--brass);
+  font-size: 0.74rem;
+  font-style: normal;
+  letter-spacing: 0.18em;
+}
+
+.detail-facts {
+  display: grid;
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.detail-facts div {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.detail-facts dt {
+  color: var(--stone);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+.detail-facts dd {
+  margin: 0;
+  color: var(--charcoal);
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+
+.detail-tip {
+  margin: 0 0 14px;
+  padding: 13px 16px;
+  border-left: 3px solid var(--brass);
+  border-radius: 0 8px 8px 0;
+  background: rgba(184, 148, 85, 0.1);
+  color: var(--charcoal);
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+.detail-routes {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.point-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.point-chip {
+  display: grid;
+  gap: 2px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 180ms ease, transform 180ms ease, background 180ms ease;
+}
+
+.point-chip span {
+  color: var(--stone);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+}
+
+.point-chip strong {
+  font-size: 0.92rem;
+}
+
+.point-chip em {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-style: normal;
+}
+
+.point-chip:hover {
+  border-color: var(--brass);
+  transform: translateY(-2px);
+}
+
+.point-chip.is-active {
+  border-color: var(--brass);
+  background: rgba(184, 148, 85, 0.14);
+}
+
+.gate-index {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1240px;
+  margin: 34px auto 0;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+}
+
+.gate-group span {
+  color: var(--brass);
+  font-size: 0.76rem;
+  letter-spacing: 0.2em;
+}
+
+.gate-group p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.9;
+}
+
+/* --- 路线卡片 --- */
+.route-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(16px, 2.2vw, 24px);
+  max-width: 1240px;
+  margin: 34px auto 0;
+}
+
+.route-card {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+  padding: clamp(20px, 2.4vw, 30px);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--stone);
+  border-radius: 12px;
+  background: var(--paper);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease;
+}
+
+.route-card.tone-brass {
+  border-top-color: var(--brass);
+}
+
+.route-card.tone-sage {
+  border-top-color: var(--sage);
+}
+
+.route-card.tone-plum {
+  border-top-color: var(--plum);
+}
+
+.route-card.tone-ink {
+  border-top-color: var(--charcoal);
+}
+
+.route-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 48px rgba(21, 21, 21, 0.1);
+}
+
+.route-card.is-active {
+  background: var(--surface);
+  box-shadow: 0 22px 48px rgba(184, 148, 85, 0.2);
+}
+
+.route-kicker {
+  color: var(--brass);
+  font-size: 0.76rem;
+  letter-spacing: 0.14em;
+}
+
+.route-card h3 {
+  margin: 0;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+.route-stops {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--charcoal);
+  font-size: 0.88rem;
+  line-height: 1.95;
+}
+
+.route-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+.route-card em {
+  color: var(--stone);
+  font-size: 0.76rem;
+  font-style: normal;
+  letter-spacing: 0.06em;
+}
+
+/* --- 样张条 --- */
+.strip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 1240px;
+  margin: 30px auto 0;
+}
+
+.strip-photo {
+  aspect-ratio: 4 / 3;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.strip-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 520ms ease;
+}
+
+.strip-photo:hover img {
+  transform: scale(1.05);
+}
+
+.strip-link {
+  display: flex;
+  width: fit-content;
+  max-width: 1240px;
+  margin: 26px auto 0;
+}
+
+@media (max-width: 1080px) {
+  .map-workspace {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gate-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .route-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .strip-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .map-hero-stats {
+    gap: 22px;
+  }
+
+  .point-list,
+  .gate-index {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .strip-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .map-figure {
+    padding: 8px;
+  }
+
+  .detail-facts div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
   }
 }

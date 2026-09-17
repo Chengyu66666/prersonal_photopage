@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>西安生活地图 | 承瑀摄影 Thomas pics</title>
+    <meta
+      name="description"
+      content="围绕西安明城墙展开的城市生活拍摄地图：城门、顺城巷、环城公园与市井街区的点位、光线时间、路线与样张。"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="map-project-page">
@@ -24,15 +28,115 @@
       <section class="map-project-hero">
         <p class="eyebrow">City Life Map</p>
         <h1>西安生活地图</h1>
-        <p>围绕西安城墙展开的城市生活观察：路线、点位、光线时间、样张与街区气质会在这里逐步汇集。</p>
-        <div class="map-route-preview" aria-label="计划路线">
+        <p>
+          围绕西安明城墙展开的城市生活观察。把城门、顺城巷、环城公园与城墙根下的市井街区整理成点位，
+          标注每个位置适合拍摄的光线时间，串成可以直接照着走的路线。
+        </p>
+        <div class="map-route-preview" aria-label="路线速览">
           <span>永宁门日落</span>
           <span>含光门街巷</span>
           <span>环城公园晨光</span>
           <span>顺城巷夜色</span>
         </div>
+        <div class="map-hero-stats" aria-label="地图数据">
+          <div><strong id="mapPointCount">—</strong><span>整理点位</span></div>
+          <div><strong id="mapRouteCount">—</strong><span>推荐路线</span></div>
+          <div><strong id="mapPhotoCount">—</strong><span>城墙样张</span></div>
+        </div>
         <a class="button primary" href="index.html#map">提交你的地点想法</a>
       </section>
+
+      <section class="map-panel" aria-label="城墙点位示意图">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Wall Points</p>
+            <h2>城墙点位与路线</h2>
+          </div>
+          <p class="section-lead">
+            点击地图上的编号或右侧清单，查看这个位置的拍摄窗口、光线特征与建议时段。
+            选择一条路线，地图会高亮它的全部点位并按顺序连线。
+          </p>
+        </div>
+
+        <div class="map-workspace">
+          <figure class="map-figure">
+            <svg
+              id="wallMap"
+              viewBox="0 0 680 560"
+              role="img"
+              aria-labelledby="wallMapTitle wallMapDesc"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <title id="wallMapTitle">西安明城墙点位示意图</title>
+              <desc id="wallMapDesc">
+                手绘示意：方形城墙轮廓、护城河、四座主城门与九座生活点位，仅表达相对位置关系。
+              </desc>
+              <g id="mapBase" aria-hidden="true"></g>
+              <g id="mapGates" aria-hidden="true"></g>
+              <g id="mapRoutes" aria-hidden="true"></g>
+              <g id="mapPoints" aria-hidden="true"></g>
+            </svg>
+            <figcaption>
+              手绘示意图，不按测绘比例，仅表示点位的相对方位与路线顺序。
+            </figcaption>
+          </figure>
+
+          <div class="map-side">
+            <article class="point-detail" id="pointDetail" aria-live="polite"></article>
+            <div class="point-list" id="pointList" aria-label="点位清单"></div>
+          </div>
+        </div>
+
+        <div class="gate-index" id="gateIndex" aria-label="城门索引"></div>
+      </section>
+
+      <section class="route-section" aria-label="推荐路线">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Routes</p>
+            <h2>四条可以照着走的路线</h2>
+          </div>
+          <p class="section-lead">按时间顺序串起点位，附上建议时长与换场提示。点击路线在地图上查看走向。</p>
+        </div>
+        <div class="route-grid" id="routeGrid"></div>
+      </section>
+
+      <section class="strip-section" aria-label="城墙样张">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">From the archive</p>
+            <h2>城墙样张</h2>
+          </div>
+          <p class="section-lead" id="stripLead">取自作品集《城墙下的秦人》，点击查看大图。</p>
+        </div>
+        <div class="strip-grid" id="stripGrid" aria-live="polite"></div>
+        <a class="text-link strip-link" id="stripLink" href="portfolio.html">查看《城墙下的秦人》全部作品 →</a>
+      </section>
+
+      <footer class="site-footer">
+        <span>© <span id="year"></span> 承瑀摄影 Thomas pics</span>
+        <span>Xi'an City Life Map</span>
+      </footer>
     </main>
+
+    <dialog class="portfolio-lightbox" id="mapLightbox" aria-label="样张大图预览">
+      <div class="lightbox-tools" aria-label="查看工具">
+        <button class="icon-button lightbox-fullscreen" id="mapFullscreen" type="button" aria-label="全屏观看" title="全屏观看">⛶</button>
+      </div>
+      <button class="icon-button close-lightbox" type="button" aria-label="关闭预览">×</button>
+      <div class="portfolio-image-stage" id="mapImageStage">
+        <img id="mapLightboxImage" alt="" />
+      </div>
+      <figcaption>
+        <div>
+          <strong id="mapLightboxTitle"></strong>
+          <small id="mapLightboxCounter"></small>
+        </div>
+        <span id="mapLightboxMeta"></span>
+      </figcaption>
+    </dialog>
+
+    <script src="photo-data.js"></script>
+    <script src="xian-map.js"></script>
   </body>
 </html>
