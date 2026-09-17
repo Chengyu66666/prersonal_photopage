@@ -1,13 +1,34 @@
 # Files excluded from the Cloudflare upload.
 #
-# The camera masters are archive copies: 4-33 MB each, and Cloudflare caps a
-# single asset at 25 MiB (one master is 31.8 MiB), so the build fails while any
-# of them are in the output directory. They are also not needed at runtime --
-# every photo is served from its WebP derivative under assets/opt/.
+# Cloudflare reads the "assets directory" literally: it is the repository root,
+# so anything left in here becomes a public asset by default. Each group below
+# has to be excluded explicitly.
+
+# --- Git metadata ---------------------------------------------------------
+# This is what broke the build on 2026-09-17.
+#
+# Pages used to skip .git on its own; Workers Static Assets does not -- it
+# uploads the whole .git directory verbatim. The packfile inside is 82.6 MiB,
+# well past the 25 MiB per-asset limit, so the build died during packaging:
+#   Asset too large. ... We found a file /opt/buildhome/repo/.git/objects/
+#   pack/pack-9bb9c06177198b6167aa254cec0e70c25e7f3512.pack with a size of 82.6 MiB.
+#
+# Pages' exclusions were implicit, Workers' are not, so migrating between the
+# two silently reintroduces this. Same line the migration guide recommends.
+**/.git
+
+# --- Camera masters -------------------------------------------------------
+# Archive copies, 4-33 MB each -- city-056-DSC07780.jpg is 31.8 MiB, also over
+# the 25 MiB cap. Nothing at runtime needs them: every photo is served from a
+# WebP derivative under assets/opt/, and `master` in photo-data.js is only a
+# record of where the file came from.
 #
 # Kept in this file as well as .gitignore so the deploy stays correct even if
 # the masters are ever committed again.
 assets/photos
 
-# Build tooling, not part of the site.
+# --- Build and dev leftovers ----------------------------------------------
+# The publish directory is the repository root, so none of these belong online.
 scripts
+**/node_modules
+**/.DS_Store
