@@ -104,7 +104,26 @@ python -m http.server 8899
 
 发布目录就是仓库根目录，所以**仓库里任何文件都会成为线上资源** —— 这也是母版必须移出仓库的原因之一。
 
-- **Cloudflare**：仓库根的 `.assetsignore` 会排除 `assets/photos` 与 `scripts`，即便母版哪天又被提交进去，也不会把构建搞失败。
+- **Cloudflare**：仓库根的 `.assetsignore` 会排除 `.git`、`assets/photos` 与 `scripts`，即便母版哪天又被提交进去，也不会把构建搞失败。
+
+  其中 `.git` 那一条不是可选项。Cloudflare Pages 过去会自动跳过 `.git`，**Workers Static Assets 不会** —— 它会把整个 `.git` 上传，而里面的 packfile 有 80 多 MiB（仓库本身有多大，pack 就有多大），构建必然在 25 MiB 的单文件上限处中止：
+
+  ```
+  ✘ [ERROR] Asset too large.
+  Cloudflare Workers supports assets with sizes of up to 25 MiB. We found a file
+  /opt/buildhome/repo/.git/objects/pack/pack-xxxx.pack with a size of 82.6 MiB.
+  ```
+
+  排除规则**只认 `.assetsignore`**，`.gitignore` 不参与上传判定 —— 两者语法相同，但前者管「上不上传」，后者管「进不进 git」。
+
+  想确认某个目录到底会上传什么，在本地对仓库根跑一次 dry-run：它会走完真实的资源校验，但不上传、也不需要登录。
+
+  ```bash
+  npx wrangler deploy --dry-run --assets=. --name=preflight --compatibility-date=2026-09-17
+  ```
+
+  > 改动排除规则后要**触发一次新的构建**。Cloudflare 上的「Retry deployment / 重试」会沿用原来那次构建的提交，重试旧的那次只会拿到一模一样的报错。
+
 - **Netlify**：`netlify.toml` 已配置发布目录与缓存策略 —— `/assets/opt/*`、`/assets/photos/*` 一年强缓存（派生图按文件名重新生成，不会就地改写），HTML 不缓存以便改动即时生效。
 
 **部署前自查**（两个平台都是 25 MiB / 单文件的硬上限）：
