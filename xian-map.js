@@ -502,8 +502,9 @@
   const WALL_PROJECT_ID = "project-02";
   let stripPhotos = [];
 
-  // `src` is deliberately not a fallback: masters are archive-only and are not
-  // part of the deployed site.
+  // Only `thumb` / `large` are read. `master` is skipped on purpose: on this
+  // site it names the very same original file, so falling back to it would add
+  // a third path to keep in sync with the manifest for no benefit.
   function stripSource(photo) {
     return { thumb: photo.thumb || photo.large, large: photo.large || photo.thumb };
   }
@@ -529,7 +530,7 @@
         const { thumb } = stripSource(photo);
         return `
           <button class="strip-photo" type="button" data-index="${index}">
-            <img src="${thumb}" alt="${photo.title || "城墙样张"}" loading="lazy">
+            <img src="${thumb}" alt="${photo.title || "城墙样张"}" loading="lazy" decoding="async">
           </button>
         `;
       })
@@ -564,6 +565,7 @@
     lightboxIndex = (index + stripPhotos.length) % stripPhotos.length;
     const photo = stripPhotos[lightboxIndex];
     const { large } = stripSource(photo);
+    lightboxImage.decoding = "async";
     lightboxImage.src = large;
     lightboxImage.alt = photo.title || "城墙样张";
     lightboxTitle.textContent = photo.title || "城墙样张";

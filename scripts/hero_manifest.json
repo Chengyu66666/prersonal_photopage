@@ -1,0 +1,81 @@
+{
+  "_readme": [
+    "首页拼贴（.collage）的预制图组清单。这里只描述『哪几张、分几组、什么顺序』，",
+    "实际的小尺寸图片由 scripts/build_hero_sets.py 生成到 assets/hero/，并产出 hero-sets.js。",
+    "",
+    "为什么首页要单独用派生小图：拼贴每格最多显示 456x257 CSS px，而原片是 6000x4000（24 MP），",
+    "像素多出约 51 倍。原实现每 2 秒换 6 张原图 ≈ 45 MB 下载 + 576 MB 位图解码，",
+    "首屏和每次切换都会卡。拼贴是装饰元素，用 960px 长边的小图在观感上无差别，",
+    "但把首屏预算从 45 MB 降到 1 MB 以内。作品集、灯箱、专题页仍然 100% 使用原片，一张都不换。",
+    "",
+    "【左风景、右城市】每组固定 6 张，顺序不能随意打乱：",
+    ".collage 是两列栅格 + 自动排布，所以数组下标 0/2/4 落在左列、1/3/5 落在右列。",
+    "按 [风景, 城市, 风景, 城市, 风景, 城市] 排列，就能得到『左列全是风景、右列全是城市』的稳定版式。",
+    "插满 6 张、不改变奇偶交替，这个版式才成立。",
+    "",
+    "改这个文件不会自动生效：改完必须重新运行",
+    "  python scripts/build_hero_sets.py --write",
+    "再用 python scripts/build_hero_sets.py 干跑确认（退出码 0 才算通过）。",
+    "",
+    "约束：每组必须 6 张；source 必须指向 assets/opt/ 下真实存在的原片；",
+    "不要手写 assets/hero/ 下的文件名，那是脚本按组序号生成的。"
+  ],
+
+  "output": {
+    "dir": "assets/hero",
+    "longSide": 960,
+    "quality": 82,
+    "format": "webp"
+  },
+
+  "sets": [
+    {
+      "id": "set-1",
+      "title": "山野与街巷",
+      "images": [
+        "assets/opt/topics/自然风光/_DSC0295.jpg",
+        "assets/opt/topics/城市脉动/_DSC1978.jpg",
+        "assets/opt/topics/自然风光/_DSC0504.jpg",
+        "assets/opt/topics/城市脉动/_DSC1984.jpg",
+        "assets/opt/topics/自然风光/_DSC0927.jpg",
+        "assets/opt/topics/城市脉动/_DSC2322.jpg"
+      ]
+    },
+    {
+      "id": "set-2",
+      "title": "水域与天际",
+      "images": [
+        "assets/opt/topics/自然风光/_DSC0680.jpg",
+        "assets/opt/topics/城市脉动/_DSC2325.jpg",
+        "assets/opt/topics/自然风光/_DSC6134.jpg",
+        "assets/opt/topics/城市脉动/DSC01245.jpg",
+        "assets/opt/topics/自然风光/DJI_0295-HDR.jpg",
+        "assets/opt/topics/城市脉动/DSC01816.jpg"
+      ]
+    },
+    {
+      "id": "set-3",
+      "title": "远行与俯瞰",
+      "images": [
+        "assets/opt/topics/自然风光/_DSC0432.jpg",
+        "assets/opt/topics/城市脉动/DJI_0128.jpg",
+        "assets/opt/topics/自然风光/_DSC1969.jpg",
+        "assets/opt/topics/城市脉动/DSC04747.jpg",
+        "assets/opt/topics/自然风光/_DSC9343.jpg",
+        "assets/opt/topics/城市脉动/DSC05895.jpg"
+      ]
+    },
+    {
+      "id": "set-4",
+      "title": "光线与秩序",
+      "images": [
+        "assets/opt/topics/自然风光/_DSC0704.jpg",
+        "assets/opt/topics/城市脉动/DSC00226.jpg",
+        "assets/opt/topics/自然风光/_DSC2083.jpg",
+        "assets/opt/topics/城市脉动/DSC06814.jpg",
+        "assets/opt/topics/自然风光/_DSC3911.jpg",
+        "assets/opt/topics/城市脉动/DSC09444.jpg"
+      ]
+    }
+  ]
+}

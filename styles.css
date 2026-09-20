@@ -37,6 +37,14 @@ body::selection {
 img {
   display: block;
   max-width: 100%;
+  /* 图片保存防护（提高门槛，不是绝对阻止 —— 边界见 README「图片保存防护，以及它的边界」）。
+     -webkit-user-drag      拖拽图片不会变成拖出一个文件
+     -webkit-touch-callout  移动端长按不弹「存储图像」菜单（WebKit 专有，Chrome 会丢弃该声明）
+     user-select            拖动时不选中图片内容 */
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 a {
@@ -193,8 +201,14 @@ textarea {
   opacity: 0.94;
 }
 
-.collage-image.is-swapping {
-  opacity: 0;
+/*
+ * 拼贴换图时的过渡。压暗到 0.35 而不是 0——旧图在被替换前始终可见，
+ * 不会出现「先空一格再出新图」的闪烁。图片在换上前已由 script.js 解码完，
+ * 所以这里的动画是真的在过渡，不是在等网络。
+ */
+.collage-image.is-fading {
+  opacity: 0.35;
+  transition-duration: 180ms;
 }
 
 .collage-a {
@@ -631,7 +645,7 @@ h3 {
 
 .map-section {
   display: grid;
-  grid-template-columns: 0.92fr 0.74fr 1fr;
+  grid-template-columns: 0.92fr 1fr;
   gap: 22px;
   align-items: stretch;
   background: #53635b;
@@ -733,7 +747,6 @@ h3 {
 }
 
 .project-form,
-.project-card,
 .price-card {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
@@ -840,49 +853,19 @@ h3 {
   line-height: 1.6;
 }
 
-.project-board {
-  display: grid;
-  gap: 14px;
+/* 提交失败态：文案里给了邮箱与微信号，访客要能选中复制，所以必须放开指针事件
+   （默认的 pointer-events: none 是为了让成功态不挡下面的内容）。 */
+.idea-toast.is-error {
+  pointer-events: auto;
+  border-color: rgba(216, 126, 96, 0.62);
 }
 
-.project-card {
-  position: relative;
-  overflow: hidden;
-  min-height: 150px;
-  padding: 18px;
+.idea-toast.is-error strong {
+  color: #f0a583;
 }
 
-.project-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(90deg, rgba(255, 255, 255, 0.13) 1px, transparent 1px),
-    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-size: 36px 36px;
-  opacity: 0.4;
-}
-
-.project-card > * {
-  position: relative;
-}
-
-.project-card span {
-  color: var(--brass);
-  font-size: 0.8rem;
-  font-weight: 850;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.project-card h3 {
-  margin: 12px 0 10px;
-}
-
-.project-card p {
-  margin: 0;
-  color: rgba(255, 255, 255, 0.68);
-  line-height: 1.7;
+.idea-toast.is-error span {
+  user-select: text;
 }
 
 .pricing-section {
@@ -976,7 +959,7 @@ h3 {
   padding: 150px clamp(24px, 7vw, 96px) 76px;
   background:
     linear-gradient(180deg, rgba(17, 25, 20, 0.66), rgba(17, 25, 20, 0.9)),
-    url("assets/opt/city/city-013-_DSC4018-large.webp") center / cover,
+    url("assets/opt/topics/城市脉动/_DSC4018-large.webp") center / cover,
     #27362f;
   color: #fff;
 }
@@ -1628,6 +1611,16 @@ h3 {
   max-height: 76vh;
   object-fit: contain;
   background: #111;
+}
+
+/* 看图模式的三张大图不接收指针事件 —— 右键菜单与长按菜单都拿不到图片对象，
+   「图片另存为 / 存储图像」因此不会出现在菜单里。
+   缩放、平移、全屏、翻页一律绑在父容器（figure / .portfolio-image-stage）与按钮上，
+   不依赖图片本身，所以关掉 pointer-events 不影响任何交互。 */
+#lightboxImage,
+#portfolioLightboxImage,
+#mapLightboxImage {
+  pointer-events: none;
 }
 
 .lightbox figcaption {

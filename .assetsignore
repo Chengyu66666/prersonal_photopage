@@ -17,14 +17,19 @@
 # two silently reintroduces this. Same line the migration guide recommends.
 **/.git
 
-# --- Camera masters -------------------------------------------------------
-# Archive copies, 4-33 MB each -- city-056-DSC07780.jpg is 31.8 MiB, also over
-# the 25 MiB cap. Nothing at runtime needs them: every photo is served from a
-# WebP derivative under assets/opt/, and `master` in photo-data.js is only a
-# record of where the file came from.
+# --- Legacy archive tree (absent from the current tree) -------------------
+# `assets/photos/` used to hold the camera masters, 4-33 MB each -- one of them
+# 31.8 MiB -- and it is still what .gitignore points at. Nothing uses it now:
+# the published photos ARE the originals, and they live under assets/opt/, which
+# photo-data.js references. The old tree stays retrievable from git history:
+#   git log --diff-filter=D -- assets/photos | head
 #
-# Kept in this file as well as .gitignore so the deploy stays correct even if
-# the masters are ever committed again.
+# Kept as a guard so restoring that tree cannot silently re-break a build.
+#
+# FOOTGUN: the deployed originals live in assets/opt/, NOT here. If the album
+# tree is ever moved or renamed under assets/photos/, every photo would be
+# excluded and the site would ship with no images. Re-check this rule before
+# renaming anything under assets/.
 assets/photos
 
 # --- Build and dev leftovers ----------------------------------------------
@@ -32,3 +37,9 @@ assets/photos
 scripts
 **/node_modules
 **/.DS_Store
+
+# Wrangler's own scratch directory. Running `wrangler deploy --dry-run` INSIDE
+# this folder (which is the documented workflow) creates `.wrangler/tmp/...`,
+# and the next real deploy would upload those as public assets. It is rebuilt
+# on every run, so deleting it by hand is not a fix.
+**/.wrangler
