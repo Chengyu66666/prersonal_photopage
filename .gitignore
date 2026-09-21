@@ -11,12 +11,10 @@ _verify_*.html
 
 # Legacy camera-master tree: archive only, never deployed.
 #
-# The site now publishes the originals directly, from assets/opt/ -- no
-# derivatives, nothing re-encoded. This entry guards the older layout, where
-# masters lived in assets/photos/ (4-33 MB each; one was 31.8 MiB, over the
-# 25 MiB per-asset cap that both Cloudflare and Netlify enforce).
-#
-# The tree is gone from the working copy but still retrievable from history:
+# Masters once lived in assets/photos/ (4-33 MB each; one was 31.8 MiB, over the
+# 25 MiB per-asset cap that both Cloudflare and Netlify enforce). The published
+# tree is assets/opt/ today. The directory is gone from the working copy but
+# still retrievable from history:
 #   git log --diff-filter=D -- assets/photos | head
 #   git checkout <sha>^ -- assets/photos
 /assets/photos/
@@ -25,18 +23,21 @@ _verify_*.html
 # 不属于站点内容，且每次运行都会重建 —— 靠 .assetsignore 排除上传，靠这里排除版本库。
 /.wrangler/
 
+# scripts/build_site.sh 的产物。Cloudflare Pages 从 dist/ 发布，它不进行版本库。
+/dist/
+
 # 本仓库只存 WebP 派生图，原图永不入库。
 #
-# 线上站点发布的是原图（2.1 GB，由部署目录直传 Cloudflare），但 git 处理不了
-# 这批已压缩的 JPEG：delta 无效、每次重导出都存全量副本、首次推送要搬约 2 GB。
-# 所以 `assets/opt/` 下同时存在两种文件，只有派生图进版本库：
+# Cloudflare Pages 从本仓库构建并发布，所以**仓库里的字节就是访客下载的字节**。
+# 原图不能进来：346 张共 2.1 GB，首次推送要搬约 2 GB，而 JPEG 已压缩、delta
+# 无收益，每次重导出都会再存一份全量副本，`.git` 只增不减。
 #
-#   <名字>.jpg            原图，2.1 GB，部署目录持有      -> 忽略
-#   <名字>-thumb.webp     800 px 派生图，网格用
-#   <名字>-large.webp    1600 px 派生图，灯箱用
+#   <名字>.jpg            原图，2.1 GB，只存在于本地部署目录      -> 忽略
+#   <名字>-thumb.webp     800 px 派生图，网格与卡片用
+#   <名字>-large.webp    2560 px 派生图，灯箱 / 全屏用
 #
 # 派生图由 scripts/build_webp_variants.py 从部署目录生成。
-# 别把这条删掉去「顺手提交一下原图」—— 那正是会打死构建的东西。
+# 别把这条删掉去「顺手提交一下原图」—— 那正是会把推送和构建一起打死的东西。
 /assets/opt/**/*.jpg
 /assets/opt/**/*.JPG
 /assets/opt/**/*.jpeg

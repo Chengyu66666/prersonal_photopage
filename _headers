@@ -1,0 +1,46 @@
+# Cloudflare Pages header rules. Read from the build output directory, so
+# scripts/build_site.sh copies this file into dist/.
+#
+# Syntax: a path pattern, then its indented header lines. A request that matches
+# several patterns inherits every matching block, and a header set twice is
+# joined with a comma -- so these patterns are deliberately disjoint.
+# Up to 100 rules, 2,000 characters per line.
+#
+# Pages does not read netlify.toml, which is why this file exists alongside it.
+
+# Photo files are named by role (`-thumb`, `-large`), not by content, and a
+# global re-encode rewrites those same names with different bytes. One year of
+# `immutable` would therefore pin the old resolution in every returning
+# visitor's cache with no way to purge it -- a browser cache cannot be busted
+# from the server. Thirty days keeps repeat visits fast while letting a
+# re-encode reach everyone within a month.
+#
+# If a re-encode ever needs to land *immediately*, change the file names in the
+# same commit (for example `-large2560.webp`) -- scripts/build_webp_variants.py
+# derives the name from its VARIANTS table, so that is a one-line change.
+/assets/opt/*
+  Cache-Control: public, max-age=2592000
+
+# The homepage collage is regenerated in place under stable names
+# (set<N>-<M>.webp), so it carries the same hazard in a worse form: regrouping
+# swaps the pictures behind an unchanged URL. Keep the window short.
+/assets/hero/*
+  Cache-Control: public, max-age=604800
+
+# Pages and scripts change on every deploy and must never be served stale.
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+# QR code and logo: the file names stay put across edits, so a long cache would
+# pin a stale image.
+/assets/*.png
+  Cache-Control: public, max-age=604800
+
+/assets/*.svg
+  Cache-Control: public, max-age=604800

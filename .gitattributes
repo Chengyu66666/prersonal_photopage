@@ -1,0 +1,14 @@
+# scripts/build_site.sh runs under bash inside the Cloudflare Pages build image.
+# A CRLF shebang there fails with a confusing error, and this repo is developed
+# on Windows where core.autocrlf=true rewrites working-copy line endings -- so
+# pin these to LF in the stored blob.
+#
+# Binary image formats are declared so git never attempts text handling on them.
+*.sh text eol=lf
+*.py text eol=lf
+*.cjs text eol=lf
+
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.png binary
